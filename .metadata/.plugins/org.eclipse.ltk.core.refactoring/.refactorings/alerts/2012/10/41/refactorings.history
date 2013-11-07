@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;SametimeNotifications/src/com.ibm.lnja.sametimenotifications.message.notification&apos;&#x0A;- Original project: &apos;alerts&apos;&#x0A;- Destination element: &apos;SametimeNotifications/src/com.ibm.lnja.sametimenotifications.message.notification&apos;&#x0A;- Original element: &apos;com.ibm.collaboration.realtime.sample.alerts.BasicAlert.java&apos;" description="Copy compilation unit" destination="=SametimeNotifications/src&lt;com.ibm.lnja.sametimenotifications.message.notification" element1="/src&lt;com.ibm.collaboration.realtime.sample.alerts{BasicAlert.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1349885189922" units="1" version="1.0"/>
+</session>

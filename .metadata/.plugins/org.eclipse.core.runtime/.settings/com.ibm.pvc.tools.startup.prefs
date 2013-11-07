@@ -1,0 +1,5 @@
+#Thu Sep 06 11:21:26 CDT 2012
+testenvSavedTarget1=/opt/ibm/lotus/Sametime/rcp/eclipse
+testenvSavedTarget0=/opt/ibm/lotus/notes/framework/rcp/eclipse
+eclipse.preferences.version=1
+CONFIGURE_SWITCH=configure_on

@@ -1,0 +1,132 @@
+package com.ibm.collaboration.realtime.sample.alerts;
+
+/*
+ * Licensed Materials - Property of IBM
+ *
+ * L-KBIM-82KJL8
+ *
+ * (C) Copyright IBM Corp. 2006, 2010. All rights reserved.
+ *
+ * US Government Users Restricted Rights- Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+
+import org.eclipse.jface.action.IAction;
+import org.eclipse.jface.action.ToolBarManager;
+
+import com.ibm.collaboration.realtime.im.community.Community;
+import com.ibm.collaboration.realtime.im.community.CommunityService;
+import com.ibm.collaboration.realtime.messages.AlertUserMessage;
+import com.ibm.collaboration.realtime.messages.DefaultMessageHandler;
+import com.ibm.collaboration.realtime.messages.Message;
+import com.ibm.collaboration.realtime.messages.MessageHandlerAdapter;
+import com.ibm.collaboration.realtime.messages.im.ImTextConnectionOpenMessage;
+import com.ibm.collaboration.realtime.messages.im.ImTextReceivedMessage;
+import com.ibm.collaboration.realtime.messages.im.ImTextSendMessage;
+import com.ibm.collaboration.realtime.people.PeopleService;
+import com.ibm.collaboration.realtime.people.Person;
+import com.ibm.collaboration.realtime.servicehub.ServiceException;
+import com.ibm.collaboration.realtime.servicehub.ServiceHub;
+import com.ibm.collaboration.realtime.ui.alert.AlertFactory;
+import com.ibm.collaboration.realtime.ui.alert.AlertOptions;
+import com.ibm.rcp.realtime.alerts.AlertButtonAction;
+
+/**
+ * Demonstrate a custom alert window, <code>MyAlertWindow</code>, launched
+ * as a response to new incoming instant messages, allowing the user the option of
+ * rejecting or accepting the chat.
+ */
+public class TextConnectionOpenHandler extends MessageHandlerAdapter {
+
+	public TextConnectionOpenHandler() {
+		super(new TextConnectionOpenMessageHandler());
+	}
+
+	private static class TextConnectionOpenMessageHandler extends DefaultMessageHandler {
+		public void handleDefaultMessage(Message message) {
+			if(message instanceof ImTextReceivedMessage){
+				String partnerId = message.getPartnerContactId();
+				String localId = getLocalPerson(message.getCommunityId()).getContactId();
+				if (!partnerId.equals(localId) && message.isIncomingMessage()) {
+					AlertOptions data = AlertFactory.createAlertOptions();
+					data.setTitle("STIG: Ping!");
+					data.setSenderId(message.getPartnerUniqueId());
+					data.setMessage("STIG: Ping received from "
+							+ message.getPartnerDisplayName() + "...");
+					// set the key so you use the custom alert settings
+					data.setKey(NewOneToOneChat.ALERT_SETTINGS_KEY);
+
+					ToolBarManager manager = new ToolBarManager();
+					manager.add(new AlertButtonAction("Reject",
+							IAction.AS_PUSH_BUTTON, true) {
+						public void run() {
+							closeAlert();
+							ImTextSendMessage msg = new ImTextSendMessage();
+							msg.setCommunityId(message.getCommunityId());
+							msg.setConversationId(message.getConversationId());
+							msg.setPartnerContactId(message.getPartnerContactId());
+							msg
+									.setText("I'm busy now, please send me a message later.");
+							msg.post();
+						}
+					});
+					data.setToolBarManager(manager);
+
+					AlertUserMessage msg = new AlertUserMessage();
+					msg.setAlertOptions(data);
+					msg.post();
+				}
+			}
+		}
+
+		public void handleMessage(final ImTextConnectionOpenMessage message) {
+			String partnerId = message.getPartnerContactId();
+			String localId = getLocalPerson(message.getCommunityId()).getContactId();
+			if (!partnerId.equals(localId) && message.isIncomingMessage()) {
+				AlertOptions data = AlertFactory.createAlertOptions();
+				data.setTitle("STIG: Ping!");
+				data.setSenderId(message.getPartnerUniqueId());
+				data.setMessage("STIG: Ping received from "
+						+ message.getPartnerDisplayName() + "...");
+				// set the key so you use the custom alert settings
+				data.setKey(NewOneToOneChat.ALERT_SETTINGS_KEY);
+
+				ToolBarManager manager = new ToolBarManager();
+				manager.add(new AlertButtonAction("Reject",
+						IAction.AS_PUSH_BUTTON, true) {
+					public void run() {
+						closeAlert();
+						ImTextSendMessage msg = new ImTextSendMessage();
+						msg.setCommunityId(message.getCommunityId());
+						msg.setConversationId(message.getConversationId());
+						msg.setPartnerContactId(message.getPartnerContactId());
+						msg
+								.setText("I'm busy now, please send me a message later.");
+						msg.post();
+					}
+				});
+				data.setToolBarManager(manager);
+
+				AlertUserMessage msg = new AlertUserMessage();
+				msg.setAlertOptions(data);
+				msg.post();
+			}
+		}
+
+		private Person getLocalPerson(String cid) {
+			Person person = null;
+			try {
+				PeopleService peopleSvc = (PeopleService) ServiceHub
+						.getService(PeopleService.SERVICE_TYPE);
+				CommunityService communityMgr = (CommunityService) ServiceHub
+						.getService(CommunityService.SERVICE_TYPE);
+				Community localCommunity = communityMgr.getCommunity(cid);
+				person = peopleSvc.getPerson(localCommunity.getUserId(),
+						localCommunity.getId(), null, false);
+			} catch (ServiceException e) {
+				e.printStackTrace();
+			}
+			return person;
+		}
+	}
+}

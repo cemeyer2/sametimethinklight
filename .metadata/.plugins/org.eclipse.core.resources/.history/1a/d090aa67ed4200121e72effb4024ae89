@@ -1,0 +1,376 @@
+package com.ibm.lnja.sametimethinklight.message;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.URL;
+
+import org.eclipse.core.runtime.FileLocator;
+import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.ui.PlatformUI;
+
+import com.ibm.collaboration.realtime.messages.DefaultMessageHandler;
+import com.ibm.collaboration.realtime.messages.FileReceivedMessage;
+import com.ibm.collaboration.realtime.messages.Message;
+import com.ibm.collaboration.realtime.messages.im.ImTextReceivedMessage;
+import com.ibm.collaboration.realtime.messages.im.ManyToManyTextReceivedMessage;
+import com.ibm.collaboration.realtime.people.PeopleUtil;
+import com.ibm.collaboration.realtime.people.Person;
+import com.ibm.lnja.sametimethinklight.activator.SametimeThinklightPlugin;
+import com.ibm.lnja.sametimethinklight.activator.SametimeThinklightPlugin.OperatingSystem;
+
+/**
+ * Handler that actually does the blinking of the ThinkLight
+ * @author Charlie Meyer <cemeyer@us.ibm.com>
+ * @version 2012.08.29
+ */
+public class ChatMessageHandler extends DefaultMessageHandler {
+
+	private static String windowsPath, linuxOnPath, linuxOffPath;
+	private static Person me;
+	private static boolean linuxHasPerms = false;
+	private static boolean linuxHasChecked = false;
+
+	public ChatMessageHandler(){
+		SametimeThinklightPlugin.getDefault().debug("Handler Created");
+		windowsPath = getPath("/resources/ThinkLight.exe");
+		linuxOnPath = getPath("/resources/ThinklightOn.sh");
+		linuxOffPath = getPath("/resources/ThinklightOff.sh");
+		if(SametimeThinklightPlugin.OS == OperatingSystem.LINUX){
+			runCommand("chmod +x "+linuxOnPath);
+			runCommand("chmod +x "+linuxOffPath);
+		}
+		if(me == null){
+			me = PeopleUtil.getLocalPerson(); 
+		}
+	}
+
+	private String getPath(String resourceName){
+		String path = "";
+		try{
+			URL bundleRoot = SametimeThinklightPlugin.getDefault().getBundle().getEntry(resourceName);  
+			URL fileURL = FileLocator.toFileURL(bundleRoot);  
+			File file = new File(fileURL.getFile());
+			SametimeThinklightPlugin.getDefault().debug(resourceName+" exists?: "+file.exists());
+			path = file.getCanonicalPath();
+			SametimeThinklightPlugin.getDefault().debug("path: "+path);
+		} catch(IOException ioe){
+			ioe.printStackTrace();
+			SametimeThinklightPlugin.getDefault().debug(ioe);
+			return null;
+		} catch (Exception e) {
+			SametimeThinklightPlugin.getDefault().debug(e);
+			return null;
+		}
+		return path;
+	}
+	
+	private static boolean hasKeyword(String text){
+		String rawKeywords = SametimeThinklightPlugin.getDefault().getRaw(SametimeThinklightPlugin.KEYWORDS_KEYWORDS);
+    	if(rawKeywords.length() == 0){
+    		return false;
+    	}
+    	String[] split = rawKeywords.split(SametimeThinklightPlugin.KEYWORDS_DELIMITER);
+    	for(String keyword : split){
+    		if(text.contains(keyword)){
+    			return true;
+    		}
+    	}
+    	return false;
+	}
+	
+	private static boolean isGarbage(String text){
+		if(text.contains("span/>")){
+			return true;
+		}
+	}
+
+	private static synchronized void blink(final int count, final int speed, String from, String text, boolean isFile, boolean isTest){	
+		if(SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.GLOBAL_ENABLED) > 0){
+			
+			if(SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.KEYWORDS_ENABLED) > 0 && !isTest){
+				if(!hasKeyword(text)){
+					SametimeThinklightPlugin.getDefault().debug("Not blinking due to no matching keywords found in message.");
+					return;
+				}
+			}
+			if(isGarbage(text)){
+				SametimeThinklightPlugin.getDefault().debug("not blinking due to garbage message");
+				return;
+			}
+			SametimeThinklightPlugin.getDefault().debug("Blinking for "+count+" flashes at "+speed+" flashes per second");
+			if(SametimeThinklightPlugin.OS == OperatingSystem.WINDOWS){
+				blinkWindows(count, speed);
+			} else if(SametimeThinklightPlugin.OS == OperatingSystem.LINUX){
+				blinkLinux(count, speed);
+			} else {
+				SametimeThinklightPlugin.getDefault().debug("Unsupported OS, cannot blink");
+			}
+		} else {
+			SametimeThinklightPlugin.getDefault().debug("Not blinking, global disabled");
+		}
+	}
+
+	private static void blinkWindows(final int count, final int speed){
+		Thread th = new Thread(new Runnable(){
+			public void run(){
+				String command = windowsPath+" blink "+count+" "+speed;
+				runCommand(command);
+			}
+		});
+		th.start();
+	}
+
+	private static void blinkLinux(final int count, final int speed){
+		
+		Display.getDefault().asyncExec(new Runnable(){
+			public void run() {
+				File light = new File("/proc/acpi/ibm/light");
+				if(!light.canRead() | !light.canWrite()){
+					tryEditPerms();
+				}
+				
+				long delay = (long)(1000d/(speed*2d));
+				for(int i = 0; i < count; i++){
+					toggleLinuxDirect(true);
+					try {
+						Thread.sleep(delay);
+					} catch (InterruptedException e) {
+						SametimeThinklightPlugin.getDefault().debug(e);
+					}
+					toggleLinuxDirect(false);
+					try {
+						Thread.sleep(delay);
+					} catch (InterruptedException e) {
+						SametimeThinklightPlugin.getDefault().debug(e);
+					}
+				}
+			}});
+	}
+
+
+
+	private static String runCommand(String command) {
+		StringBuilder builder = new StringBuilder();
+		try{
+			SametimeThinklightPlugin.getDefault().debug("executing: "+command);
+			Process p = Runtime.getRuntime().exec(command);
+			BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			String line = "";
+			while((line = in.readLine()) != null){
+				SametimeThinklightPlugin.getDefault().debug(line);
+				builder.append(line);
+				builder.append("\n");
+			}
+			in.close();
+			in = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+			while((line = in.readLine()) != null){
+				SametimeThinklightPlugin.getDefault().debug(line);
+				builder.append(line);
+				builder.append("\n");
+			}
+			in.close();
+			int rc = p.waitFor();
+			SametimeThinklightPlugin.getDefault().debug("rc="+rc);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			SametimeThinklightPlugin.getDefault().debug(e);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			SametimeThinklightPlugin.getDefault().debug(e);
+		}
+		return builder.toString().trim();
+	}
+
+	private static void toggleLinuxDirect(boolean on){
+		String toWrite = "on";
+		if(!on){
+			toWrite = "off";
+		}
+		File light = new File("/proc/acpi/ibm/light");
+		try {
+			PrintWriter out = new PrintWriter(light);
+			out.print(toWrite);
+			out.close();
+		} catch (FileNotFoundException e) {
+			SametimeThinklightPlugin.getDefault().debug(e);
+				tryEditPerms();
+		}
+	}
+	
+	private static void tryEditPerms(){
+		boolean hasGksu = false;
+		boolean hasBeesu = false;
+		boolean hasGnomeTerminal = false;
+		boolean hasXterm = false;
+		String infoChangeMsg =  "Sametime has detected that the access permissions for the ThinkLight\n"+
+								"device are not set correctly on your system. An external process will\n"+
+								"now be launched that will prompt you for your login password using a\n"+
+								"system facility and will modify the permissions for you.";
+		String infoChangeSuccessMsg = 	"File permissions were successfully changed. Your ThinkLight should\n"+
+										"now blink on new message receive.";
+		String infoChangeFailureMsg =	"File permissions were not successfully changed. Please change them\n"+
+										"manually by running the command:\n"+
+										"sudo chmod 777 /proc/acpi/ibm/light\n"+
+										"in a terminal window.";
+		File light = new File("/proc/acpi/ibm/light");
+		String gksuPath = runCommand("which gksu");
+		if(gksuPath.contains("bin")){
+			File gksu = new File(gksuPath);
+			if(gksu.exists()){
+				hasGksu = true;
+				MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+												"Change File Permissions", 
+												infoChangeMsg);
+				runCommand(gksuPath+" chmod 777 /proc/acpi/ibm/light");
+				if(light.canWrite() && light.canRead()){
+					linuxHasPerms = true;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeSuccessMsg);
+				} else {
+					linuxHasPerms = false;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeFailureMsg);
+				}
+				return;
+			}
+		}
+		String beesuPath = runCommand("which beesu");
+		if(beesuPath.contains("bin")){
+			File beesu = new File(beesuPath);
+			if(beesu.exists()){
+				hasBeesu = true;
+				MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+												"Change File Permissions", 
+												infoChangeMsg);
+				runCommand(beesuPath+" chmod 777 /proc/acpi/ibm/light");
+				if(light.canWrite() && light.canRead()){
+					linuxHasPerms = true;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeSuccessMsg);
+				} else {
+					linuxHasPerms = false;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeFailureMsg);
+				}
+				return;
+			}
+		}
+		String gnomeTerminalPath = runCommand("which gnome-terminal");
+		if(gnomeTerminalPath.contains("bin")){
+			File gnomeTerminal = new File(gnomeTerminalPath);
+			if(gnomeTerminal.exists()){
+				hasGnomeTerminal = true;
+				MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+												"Change File Permissions", 
+												infoChangeMsg);
+				runCommand(gnomeTerminalPath+" --command=\"sudo chmod 777 /proc/acpi/ibm/light\"");
+				if(light.canWrite() && light.canRead()){
+					linuxHasPerms = true;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeSuccessMsg);
+				} else {
+					linuxHasPerms = false;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeFailureMsg);
+				}
+				return;
+			}
+		}
+		String xtermPath = runCommand("which xterm");
+		if(xtermPath.contains("bin")){
+			File xterm = new File(xtermPath);
+			if(xterm.exists()){
+				hasXterm = true;
+				MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+												"Change File Permissions", 
+												infoChangeMsg);
+				runCommand(xtermPath+" -e \"sudo chmod 777 /proc/acpi/ibm/light\"");
+				if(light.canWrite() && light.canRead()){
+					linuxHasPerms = true;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeSuccessMsg);
+				} else {
+					linuxHasPerms = false;
+					MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+													"Change File Permissions", 
+													infoChangeFailureMsg);
+				}
+				return;
+			}
+		}
+		if((!hasGksu && !hasBeesu && !hasGnomeTerminal && !hasXterm)){
+			String msg = 	"One of the following programs must be installed on your system:\n" +
+							"* gksu\n" +
+							"* beesu\n" +
+							"* gnome-terminal\n"+
+							"* xterm\n"+
+							"None of the above were detected. Please install one of them using\n"+
+							"your distrobution's standard package manager so that Sametime can\n"+
+							"automatically change the ThinkLight permissions for you.";
+			if(!linuxHasChecked){
+				MessageDialog.openInformation(	PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell(), 
+												"Missing required software", 
+												msg);
+				linuxHasChecked = true;
+			}
+		}
+	}
+
+	public void handleMessage(FileReceivedMessage arg0) {
+		SametimeThinklightPlugin.getDefault().debug("FileReceivedMessage");
+		int enabled = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.FILE_ENABLED);
+		if(enabled > 0){
+			int count = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.FILE_COUNT);
+			int speed = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.FILE_SPEED);
+			blink(count, speed, arg0.getPartnerAlias(), "File "+arg0.getFileName()+" has been received", true, false);
+		}
+		super.handleMessage(arg0);
+	}
+
+	public void handleMessage(ImTextReceivedMessage arg0) {
+		SametimeThinklightPlugin.getDefault().debug("ImTextReceivedMessage");
+		int enabled = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.IM_TEXT_ENABLED);
+		if(enabled > 0){
+			int count = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.IM_TEXT_COUNT);
+			int speed = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.IM_TEXT_SPEED);
+			blink(count, speed, arg0.getPartnerDisplayName(), arg0.getText(), false, false);
+		}
+		super.handleMessage(arg0);
+	}
+
+	public void handleMessage(ManyToManyTextReceivedMessage arg0) {
+		SametimeThinklightPlugin.getDefault().debug("ManyToManyTextReceivedMessage");
+		int enabled = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.IM_TEXT_ENABLED);
+		if(enabled > 0){
+			int count = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.IM_TEXT_COUNT);
+			int speed = SametimeThinklightPlugin.getDefault().get(SametimeThinklightPlugin.IM_TEXT_SPEED);
+			if(!me.getId().equals(arg0.getPartnerUniqueId())){ //dont show notifications in group chats for messages you send
+				blink(count, speed, arg0.getPartnerDisplayName(), arg0.getText(), false, false);
+			}
+		}
+		super.handleMessage(arg0);
+	}
+
+	@Override
+	public void handleDefaultMessage(Message arg0) {
+		//dont do anything special
+	}
+
+	public static void testBlink(){
+		blink(4, 3, "test", "Hello, World!", false, true);
+	}
+}

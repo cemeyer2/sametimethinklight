@@ -1,0 +1,32 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+
+public class asdf {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		toggleLinuxDirect(true);
+	}
+	
+	private static void toggleLinuxDirect(boolean on){
+		String toWrite = "on";
+		if(!on){
+			toWrite = "off";
+		}
+		File light = new File("/proc/acpi/ibm/light");
+		try {
+			PrintWriter out = new PrintWriter(light);
+			out.print(toWrite);
+			out.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,93 @@
+package com.ibm.lnja.sametimegooglevoice.gvoice;
+
+import java.io.IOException;
+import java.util.Collection;
+
+import com.ibm.collaboration.realtime.im.community.Community;
+import com.ibm.collaboration.realtime.im.community.CommunityService;
+import com.ibm.collaboration.realtime.messages.im.ImTextSendMessage;
+import com.ibm.collaboration.realtime.servicehub.ServiceHub;
+import com.ibm.lnja.sametimegooglevoice.activator.SametimeGoogleVoicePlugin;
+import com.techventus.server.voice.Voice;
+import com.techventus.server.voice.datatypes.Contact;
+import com.techventus.server.voice.datatypes.records.SMS;
+import com.techventus.server.voice.datatypes.records.SMSThread;
+import com.techventus.server.voice.util.SMSParser;
+
+public class GoogleVoiceDaemon implements Runnable{
+	
+	private static GoogleVoiceDaemon instance;
+	private static Thread runningInstance;
+	
+	String username, password;
+	
+	private GoogleVoiceDaemon(String username, String password){
+		this.username= username;
+		this.password = password;
+	}
+	
+	public void run(){
+		while(true){
+			try{
+				daemonCron();
+			} catch (Throwable t){
+				SametimeGoogleVoicePlugin.getDefault().debug(t);
+			}
+			try {
+				Thread.sleep(60*1000);
+			} catch (InterruptedException e) {
+				SametimeGoogleVoicePlugin.getDefault().debug(t);
+			}
+		}
+	}
+	
+	private void daemonCron() throws IOException{
+		Voice voice = new Voice(this.username, this.password);
+		String unreadSMS = voice.getUnreadSMS();
+        String myNumber = voice.getPhoneNumber();
+        SMSParser parser = new SMSParser(unreadSMS, myNumber);
+        Collection<SMSThread> threads = parser.getSMSThreads();
+        for(SMSThread thread : threads){
+                if(thread.getRead() == false){
+                        Collection<SMS> messages = thread.getAllSMS();
+                        for(SMS sms : messages){
+                                String text = sms.getContent();
+                                Contact from = sms.getFrom();
+                                if(from.getNumber().equals(myNumber)){
+                                        continue;
+                                }
+                                String fromName = from.getName();
+                                System.out.println("SMS from "+fromName+" ("+from.getNumber()+"): "+text);
+                                break;
+                        }
+                }
+        }
+	}
+	
+	private void postST(int contactId, String fromName, String fromNumber, String text){
+		
+		CommunityService service = (CommunityService) ServiceHub.getService(CommunityService.SERVICE_TYPE);
+		Community defaultCommunity = service.getDefaultCommunity();
+		ImTextSendMessage msg = new ImTextSendMessage();
+		msg.setCommunityId(defaultCommunity.getId());
+		msg.setConversationId(message.getConversationId());
+		msg.setPartnerContactId(message.getPartnerContactId());
+		msg
+				.setText("I'm busy now, please send me a message later.");
+		msg.post();
+	}
+	
+	
+	public static GoogleVoiceDaemon getDaemon(String username, String password){
+		if(instance == null){
+			instance = new GoogleVoiceDaemon(username, password);
+			runningInstance = new Thread(instance);
+			runningInstance.start();
+		}
+		return instance;
+	}
+	
+	public static Thread getThread(){
+		return runningInstance;
+	}
+}

@@ -1,0 +1,32 @@
+package com.ibm.lnja.sametimegooglevoice.gvoice;
+
+public class GoogleVoiceDaemon implements Runnable{
+	
+	private static GoogleVoiceDaemon instance;
+	private static Thread runningInstance;
+	
+	String username, password;
+	
+	private GoogleVoiceDaemon(String username, String password){
+		this.username= username;
+		this.password = password;
+	}
+	
+	public void run(){
+		
+	}
+	
+	
+	public static GoogleVoiceDaemon getDaemon(String username, String password){
+		if(instance == null){
+			instance = new GoogleVoiceDaemon(username, password);
+			runningInstance = new Thread(instance);
+			runningInstance.start();
+		}
+		return instance;
+	}
+	
+	public static Thread getThread(){
+		return runningInstance;
+	}
+}

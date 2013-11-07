@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SametimeNotificationsFeature_1.1.0.jar" id="SametimeNotificationsFeature" version="1.1.0" os="linux,macosx,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.1.jar" id="SametimeThinklightFeature" version="1.2.1" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <category-def name="Notifications" label="Notifications"/>
+</site>

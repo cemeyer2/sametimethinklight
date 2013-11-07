@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension point="com.ibm.collaboration.realtime.messages.MessageHandlerListener">
+
+  <messageHandler
+      class="com.ibm.lnja.sametimethinklight.message.ChatMessageHandlerAdapter"
+      id="com.ibm.lnja.sametimethinklight.message.messagehandleradapter"/> 
+</extension>
+
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.ibm.lnja.sametimethinklight.preferences.SametimeThinklightPreferencesPage"
+            id="com.ibm.lnja.sametimethinklight.preferences.page1"
+            name="ThinkLight"/>
+   </extension>
+
+</plugin>

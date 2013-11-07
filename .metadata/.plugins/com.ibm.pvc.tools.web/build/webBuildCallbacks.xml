@@ -1,0 +1,31 @@
+<!--
+ Licensed Materials - Property of IBM 
+ 5724-R09
+ (C) Copyright IBM Corp. 2006, 2009  All Rights Reserved.
+-->
+<!-- ===================================================================== -->
+<!-- Custom targets called from a project's generated build.xml            -->
+<!-- Set customBuildCallbacks=<path/to/this/file> in your build.properties.-->
+<!-- ===================================================================== -->
+<project name="Build specific targets and properties" default="noDefault">
+
+	<!-- ===================================================================== -->
+	<!-- Default target                                                        -->
+	<!-- ===================================================================== -->
+	<target name="noDefault">
+		<echo message="This file must be called with explicit targets" />
+	</target>
+	
+	<!-- following tasks are called from a build.xml in a project with PDE build -->
+	<target name="pre.gather.bin.parts">
+			<web.preprocess projectPath="${basedir}" outputPath="${target.folder}"/>
+		</target>
+	
+	<target name="post.gather.bin.parts">
+			<web.postprocess projectPath="${basedir}" outputPath="${target.folder}"/>
+		</target>
+	
+	<target name="post.gather.sources">
+		<web.copyjsp projectPath="${basedir}" outputPath="${target.folder}"/>
+	</target>
+</project>

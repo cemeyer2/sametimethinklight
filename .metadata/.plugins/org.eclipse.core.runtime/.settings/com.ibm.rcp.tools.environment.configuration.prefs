@@ -1,0 +1,7 @@
+#Tue Dec 11 18:26:12 CST 2012
+testenvTarget=/opt/ibm/lotus/Sametime/rcp/eclipse
+testenvName=Lotus Sametime 8.5
+useTargetWS=true
+eclipse.preferences.version=1
+testenvCompiler=1.5
+testenvJRE=com.ibm.rcp.j2se.notes85.x86

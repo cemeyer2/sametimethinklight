@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="714" class="com.ibm.lnja.sametimenotifications.activator.SametimeNotificationsPlugin" name="SametimeNotifications Plug-in" project="SametimeNotifications" provider="IBM"/>
+	<bundle bundleID="715" class="com.ibm.lnja.sametimethinklight.activator.SametimeThinklightPlugin" name="SametimeThinklight Plug-in" project="SametimeThinklight" provider="IBM"/>
+	<bundle bundleID="716" class="com.ibm.collaboration.realtime.sample.alerts.Activator" localization="plugin" name="Alerts Sample Plug-in" project="alerts" provider="IBM"/>
+	<bundle bundleID="717" class="com.ibm.lnja.sametimegooglevoice.activator.SametimeGoogleVoicePlugin" name="SametimeGoogleVoice Plug-in" project="SametimeGoogleVoice" provider="IBM">
+		<library name="lib/dom4j-1.6.1.jar"/>
+		<library name="lib/google-voice-java-1.14-java6.jar"/>
+		<library name="lib/jaxen-1.1.3.jar"/>
+		<library name="lib/json.jar"/>
+		<library name="lib/jtidy.jar"/>
+		<library name="."/>
+	</bundle>
+</map>

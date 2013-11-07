@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Alerts Sample Plug-in
+Bundle-SymbolicName: com.ibm.collaboration.realtime.sample.alerts;singleton:=true
+Bundle-Version: 8.5.1
+Bundle-Activator: com.ibm.collaboration.realtime.sample.alerts.Activator
+Bundle-Vendor: IBM
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.ibm.collaboration.realtime.magiccarpet,
+ com.ibm.collaboration.realtime.messages,
+ com.ibm.collaboration.realtime.ui,
+ com.ibm.collaboration.realtime.alertmanager,
+ com.ibm.rcp.realtime.livenames,
+ com.ibm.collaboration.realtime.people,
+ com.ibm.collaboration.realtime.core,
+ com.ibm.collaboration.realtime.community,
+ com.ibm.rcp.swtex,
+ com.ibm.collaboration.realtime.directory
+Eclipse-LazyStart: true

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1355276278685" transient="true" version="3.0">
+<site enabled="true" list="workspace-sametimethinklight/SametimeGoogleVoice/" policy="USER-INCLUDE" updateable="true" url="file:/home/chuck/workspaces/">
+</site>
+<site enabled="true" list="plugins/org.eclipse.core.filesystem.linux.x86_1.2.0.v20080604-1400.jar,plugins/org.eclipse.update.core.linux_3.2.1.R34x_v20081024.jar" policy="USER-INCLUDE" updateable="true" url="file:/home/chuck/opt/eclipse-ganymede-delta/eclipse/">
+<feature id="org.eclipse.equinox.executable" url="features/org.eclipse.equinox.executable_3.3.101.R34x_v20081125-7H-ELfE8hXnkE15Wh9Tnyu/" version="3.3.101.R34x_v20081125-7H-ELfE8hXnkE15Wh9Tnyu">
+</feature>
+</site>
+<site enabled="true" list="plugins/com.ibm.autopd.core_1.3.1.100518,plugins/com.ibm.avatar_1.5.3.20110414-1652.jar,plugins/com.ibm.cds_2.0.4.200802251155.jar,plugins/com.ibm.collaboration.realtime.gwmigrutility_1.0.0.201108081212.jar,plugins/com.ibm.collaboration.realtime.gwmigrutility.people751_1.0.0.201108081212.jar,plugins/com.ibm.collaboration.realtime.gwmigrutility.people80x_1.0.0.201108031330.jar,plugins/com.ibm.css.parser_6.2.3.20110414-1652.jar,plugins/com.ibm.eclipse.ant.core.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.contenttype.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.databinding.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.expressions.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.filebuffers.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.filesystem.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.jobs.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.resources.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.runtime.compatibility.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.runtime.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.core.variables.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.app.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.common.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.event.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.log.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.preferences.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.registry.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.equinox.security.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.help.appserver.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.help.base.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.help.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.help.ui.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.jface.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.jface.text.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.osgi.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.swt.gtk.linux.x86.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.text.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.ui.forms.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.ui.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.ui.views.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.ui.workbench.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.ui.workbench.texteditor.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.update.configurator.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.update.core.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.update.scheduler.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.eclipse.update.ui.nl_6.2.3.20110411-1204.jar,plugins/com.ibm.esupport.autopd.core_4.1.1.100518.jar,plugins/com.ibm.esupport.autopd.core.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.autopd.ui_4.1.1.100518.jar,plugins/com.ibm.esupport.autopd.ui.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.autopd.wb_4.1.1.090921.jar,plugins/com.ibm.esupport.client.product.SHARED_4.1.1.100316,plugins/com.ibm.esupport.client.product.SSC4TNF_4.1.1.20120330-1930.jar,plugins/com.ibm.esupport.client.product.SSC4TNF.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.esupport.client.product.SSKTXQ85_8.5.2.20110516-1528,plugins/com.ibm.esupport.client.product.System_4.0.1.090505,plugins/com.ibm.esupport.client.product.System.nl_4.1.0.090505,plugins/com.ibm.esupport.filexfer.core_4.1.1.090921.jar,plugins/com.ibm.esupport.managers.artifact_4.1.0.090505.jar,plugins/com.ibm.esupport.managers.casemgr_4.1.0.090505.jar,plugins/com.ibm.esupport.managers.extensions.ui_4.1.0.090505.jar,plugins/com.ibm.esupport.managers.topology_4.1.0.090505.jar,plugins/com.ibm.esupport.prodinfo.core_4.1.0.090505.jar,plugins/com.ibm.esupport.prodinfo.core.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.prodinfo.ui_4.1.0.090505.jar,plugins/com.ibm.esupport.prodinfo.ui.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.product.core_4.0.1.090505.jar,plugins/com.ibm.esupport.product.core.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.product.workbench.XPD_4.1.0.090505.jar,plugins/com.ibm.esupport.resourcemanager.core_4.1.1.090921.jar,plugins/com.ibm.esupport.search.core_4.1.1.100518.jar,plugins/com.ibm.esupport.search.core.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.search.ibmtargets_4.1.0.090505.jar,plugins/com.ibm.esupport.search.ibmtargets.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.search.ui_4.1.1.100518.jar,plugins/com.ibm.esupport.search.ui.nl_4.1.0.100518.jar,plugins/com.ibm.esupport.search.webtargets_4.1.0.090505.jar,plugins/com.ibm.esupport.sec.accounts.core_4.1.1.090921.jar,plugins/com.ibm.esupport.sec.core_4.1.1.090921.jar,plugins/com.ibm.esupport.service.core_4.1.0.090505.jar,plugins/com.ibm.esupport.service.core.nl_4.1.0.090505.jar,plugins/com.ibm.esupport.usagedata.recorder_4.1.0.100518.jar,plugins/com.ibm.etools.xsdbeans_1.0.0.jar,plugins/com.ibm.icu_3.8.1.v20100525.jar,plugins/com.ibm.icu.base_3.8.1.v20080530.jar,plugins/com.ibm.icu38.data.update_3.8.1.v20120307_2012b,plugins/com.ibm.iopes.annotation_1.5.3.20110414-1652.jar,plugins/com.ibm.iopes.annotation.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.iopes.annotation.systemt_1.5.3.20110414-1652,plugins/com.ibm.json4j_6.2.3.20110414-1652.jar,plugins/com.ibm.langware.core.runtime_7.2.0.201103220539.jar,plugins/com.ibm.langware.v27_2.7.1.201103220539.jar,plugins/com.ibm.langware.v27.engine_2.7.1.201103220539.jar,plugins/com.ibm.langware.v27.linux.x86_2.7.1.201103220539,plugins/com.ibm.langware.v27.nl_2.7.1.201103220539.jar,plugins/com.ibm.langware.v5_7.2.0.201103220539.jar,plugins/com.ibm.langware.v5.dic.en_US_7.2.0.201103220539,plugins/com.ibm.langware.v5.dic.en_US_IBMTerms_7.2.0.201103220539,plugins/com.ibm.langware.v5.engine_7.2.0.201103220539.jar,plugins/com.ibm.langware.v5.nl_7.2.0.201103220539.jar,plugins/com.ibm.magnolia.rss_1.5.3.20110414-1652,plugins/com.ibm.micro_3.0.3.0-20110321.jar,plugins/com.ibm.micro.admin_3.0.3.0-20110321.jar,plugins/com.ibm.micro.nl_3.0.3.0-20110321.jar,plugins/com.ibm.micro.utils_3.0.3.0-20110321.jar,plugins/com.ibm.micro.utils.extended_3.0.3.0-20110321.jar,plugins/com.ibm.micro.utils.nl_3.0.3.0-20110321.jar,plugins/com.ibm.mqttclient_3.0.3.0-20110321.jar,plugins/com.ibm.mqttclient.nl_3.0.3.0-20110321.jar,plugins/com.ibm.osg.service.osgiagent_6.2.3.20110414-1652.jar,plugins/com.ibm.osg.service.osgiagent.NativeInstallWatchDog_6.2.3.20110414-1652.jar,plugins/com.ibm.osg.service.osgiagent.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.osgiagent.extension_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.osgiagent.extension.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.osgiagent.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.osgiagent.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.servlet_2.5.0.20110414-1652.jar,plugins/com.ibm.pvc.servlet.jsp_2.1.0.20110414-1652.jar,plugins/com.ibm.pvc.sharedbundle_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.sharedbundle.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.pvc.webcontainer_6.2.3.20110414-1652,plugins/com.ibm.pvc.webcontainer.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.accounts_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.accounts.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.accounts.samlprovider_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.accounts.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.accounts.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.accounts.wedadapter_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.annotation_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.annotation.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.annotation.regex_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.applauncher.gtk.linux.x86_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.base_6.2.3.20110414-1652,plugins/com.ibm.rcp.bizcard_1.0.3.20110414-1652.jar,plugins/com.ibm.rcp.browser.service_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.browser.service.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.browser.xulrunner_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.content_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.content.actions_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.content.actions.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.context.service_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.core.daemon_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.daemon.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.logger_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.logger.frameworkhook_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.logger.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.logger.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.logger.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.pd.manager_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.core.pd.manager.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.dombrowser_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.dombrowser.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.dombrowser.swt.linux_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.dynamic.extensions_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.dynamic.extensions.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.esupport.client_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.esupport.client.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.core_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.core.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.eclipse.ui_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.eclipse.ui.dnd_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.eclipse.ui.dnd.linux_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.eclipse.ui.dnd.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.eclipse.ui.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.extended.ui_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.extended.ui.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.modeladapter_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.modeladapter.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.providers_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.providers.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.ui_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.feedreader.ui.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.help.appserver_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.help.appserver.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.help.webapp_6.2.3.RCP20110414-1652.jar,plugins/com.ibm.rcp.help.webapp.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.installhandler_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.installhandler.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.j2se.linux.x86_1.6.0.20110208a-201104111204,plugins/com.ibm.rcp.jfaceex_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.jfaceex.launcherex_6.2.3.20110414-1652,plugins/com.ibm.rcp.jfaceex.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.lapinvoker_6.2.3.20110414-1652,plugins/com.ibm.rcp.lapinvoker.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.lifecycle.application_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.lifecycle.application.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.lifecycle.platform_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.lifecycle.platform.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.managedsettings_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.managedsettings.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.net.defaults_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.net.faults_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.net.http_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.net.http.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.net.status_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.offline_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.os_6.2.3.20120330-1930.jar,plugins/com.ibm.rcp.os.linux_6.2.3.20110414-1652,plugins/com.ibm.rcp.os.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.os.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.os.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.osgiagent.accounts_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.osgiagent.scheduler_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.osgiagent.scheduler.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.osgiagent.servlet.notify_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.osgiagent.servlet.notify.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.personality.framework_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.personality.framework.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.platform.personality_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.platform.personality.branding.help_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.platform.personality.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.prefs.eclipse.dm_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.prefs.eclipse.dm.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.props.dm_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.props.dm.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.provisioning_6.2.3.20120330-1930.jar,plugins/com.ibm.rcp.provisioning.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.provisioning.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.provisioning.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.auth_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.auth.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.auth.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.auth.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.jceproxy_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.jceproxy.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.ui.X509CertificateViewer_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.ui.X509CertificateViewer.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.update_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.security.update.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.sharedbundle.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.swtex_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.swtex.gtk_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.textanalyzer_6.2.3.201103220539.jar,plugins/com.ibm.rcp.textanalyzer.nl_6.2.3.201103220539.jar,plugins/com.ibm.rcp.threading.monitor_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.admin_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.admin.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.builder_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.builder.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.config_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.config.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.dashboard_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.dashboard.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.feeds_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.feeds.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.google.provider_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.google.provider.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.management_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.management.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.prov.provider_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.prov.provider.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.web.admin_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.web.admin.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.web.provider_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.toolbox.web.provider.nl_1.5.3.20110414-1652.jar,plugins/com.ibm.rcp.ui_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.browser_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.browser.launcher_6.2.3.20110414-1652,plugins/com.ibm.rcp.ui.browser.launcher.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.browser.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.css_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.css.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.launcher.handlers_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.launcher.handlers.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.ui.widgets_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.webcontainer.utils_6.2.3.20110414-1652.jar,plugins/com.ibm.rcp.xulrunner.runtime.linux.x86_6.2.3.20110414-1652,plugins/com.ibm.rcp.xulrunner.runtime.nl_6.2.3.20110414-1652,plugins/com.ibm.rds_1.0.0.20110411-1204.jar,plugins/com.ibm.syncml4j_6.2.3.20110414-1652.jar,plugins/com.ibm.syncml4j.dm_6.2.3.20110414-1652.jar,plugins/com.ibm.syncml4j.ds_6.2.3.20110414-1652.jar,plugins/com.ibm.tivoli.agentext.core_6.2.3.20110414-1652.jar,plugins/com.ibm.tivoli.agentext.core.nl_6.2.3.20110414-1652.jar,plugins/com.ibm.tivoli.agentext.osgiagentext_6.2.3.20110414-1652.jar,plugins/org.apache.axis_1.4.0.20110414-1652,plugins/org.apache.commons.beanutils_1.6.0.20110414-1652.jar,plugins/org.apache.commons.codec_1.3.0.20110414-1652.jar,plugins/org.apache.commons.collections_3.1.0.20110414-1652.jar,plugins/org.apache.commons.digester_1.5.0.20110414-1652.jar,plugins/org.apache.commons.discovery_0.2.0.20110414-1652.jar,plugins/org.apache.commons.el_2.0.0.20110414-1652.jar,plugins/org.apache.commons.httpclient_3.0.0.20110414-1652.jar,plugins/org.apache.commons.lang_2.2.0.20110414-1652.jar,plugins/org.apache.commons.logging_1.0.4.20110414-1652.jar,plugins/org.apache.jakarta.oro_2.0.7.090505,plugins/org.apache.lucene_1.9.1.v20080530-1600.jar,plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar,plugins/org.eclipse.ant.core_3.2.0.v20091110_r342.jar,plugins/org.eclipse.core.boot_3.1.100.v20080218.jar,plugins/org.eclipse.core.commands_3.4.0.I20080509-2000.jar,plugins/org.eclipse.core.contenttype_3.3.0.v20080604-1400.jar,plugins/org.eclipse.core.databinding_1.1.1.M20080827-0800b.jar,plugins/org.eclipse.core.databinding.beans_1.1.1.M20080827-0800a.jar,plugins/org.eclipse.core.expressions_3.4.1.r342_v20081203-0800.jar,plugins/org.eclipse.core.filebuffers_3.4.0.v20080603-2000.jar,plugins/org.eclipse.core.filesystem_1.2.0.v20080604-1400.jar,plugins/org.eclipse.core.filesystem.linux.x86_1.2.0.v20080604-1400,plugins/org.eclipse.core.jobs_3.4.1.R34x_v20081128.jar,plugins/org.eclipse.core.net_1.1.0.I20080604.jar,plugins/org.eclipse.core.resources_3.4.2.R34x_v20090126.jar,plugins/org.eclipse.core.runtime_3.4.0.v20080512.jar,plugins/org.eclipse.core.runtime.compatibility_3.2.0.v20071008.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.v20080610,plugins/org.eclipse.core.variables_3.2.100.v20080529-1300.jar,plugins/org.eclipse.equinox.app_1.1.0.v20080421-2006.jar,plugins/org.eclipse.equinox.common_3.4.0.v20080421-2006.jar,plugins/org.eclipse.equinox.event_1.1.0.v20080225.jar,plugins/org.eclipse.equinox.log_1.1.0.v20080414.jar,plugins/org.eclipse.equinox.preferences_3.2.201.R34x_v20080709-RCP20110411-1204.jar,plugins/org.eclipse.equinox.registry_3.4.0.v20080516-0950.jar,plugins/org.eclipse.equinox.security_1.0.1.R34x_v20080721.jar,plugins/org.eclipse.help_3.3.102.v20081014_34x.jar,plugins/org.eclipse.help.appserver_3.1.300.v20080507.jar,plugins/org.eclipse.help.base_3.3.105.r34x_20100823-RCP20110411-1204.jar,plugins/org.eclipse.help.ui_3.3.103.v20100422_34x-RCP20110411-1204.jar,plugins/org.eclipse.jface_3.4.2.M20090107-0800-RCP20110411-1204.jar,plugins/org.eclipse.jface.databinding_1.2.1.M20080827-0800a.jar,plugins/org.eclipse.jface.text_3.4.2.r342_v20081119-0800.jar,plugins/org.eclipse.osgi_3.4.3.R34x_v20081215-1030-RCP20110411-1204.jar,plugins/org.eclipse.osgi.services_3.1.200.v20071203.jar,plugins/org.eclipse.osgi.util_3.1.300.v20080303.jar,plugins/org.eclipse.swt_3.6.2.v3659c-RCP20120317-0200.jar,plugins/org.eclipse.swt.gtk.linux.x86_3.6.2.v3659b-RCP20120317-0200.jar,plugins/org.eclipse.text_3.4.0.v20080605-1800.jar,plugins/org.eclipse.ui_3.4.2.M20090204-0800.jar,plugins/org.eclipse.ui.forms_3.3.104.v20090423_34x.jar,plugins/org.eclipse.ui.views_3.3.1.M20081112-0800.jar,plugins/org.eclipse.ui.workbench_3.4.2.M20090127-1700-RCP20120317-0200.jar,plugins/org.eclipse.ui.workbench.compatibility_3.2.0.I20080509-2000,plugins/org.eclipse.ui.workbench.texteditor_3.4.1.r341_v20080827-1100.jar,plugins/org.eclipse.update.configurator_3.4.2.M20090103-1001-RCP20110411-1204.jar,plugins/org.eclipse.update.core_3.4.2.M20090103-1001-RCP20120317-0200.jar,plugins/org.eclipse.update.core.linux_3.2.1.R34x_v20081024,plugins/org.eclipse.update.scheduler_3.2.100.v20080404.jar,plugins/org.eclipse.update.ui_3.4.2.M20090103-1001-RCP20110411-1204.jar,plugins/org.osgi.service.webapplication_1.0.0.20110414-1652.jar" policy="USER-INCLUDE" updateable="true" url="file:/opt/ibm/lotus/Sametime/rcp/eclipse/">
+<feature id="com.ibm.langware.core.runtime.feature" url="features/com.ibm.langware.core.runtime.feature_7.2.0.201103220539/" version="7.2.0.201103220539">
+</feature>
+<feature id="com.ibm.rcp.ui.browser.feature" url="features/com.ibm.rcp.ui.browser.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.platform.feature" url="features/com.ibm.rcp.platform.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_US_IBMTerms.feature" url="features/com.ibm.langware.v5.dic.en_US_IBMTerms.feature_7.2.0.201103220539/" version="7.2.0.201103220539">
+</feature>
+<feature id="com.ibm.rcp.toolbox.google.provider.feature" url="features/com.ibm.rcp.toolbox.google.provider.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.syncml4j.feature" url="features/com.ibm.syncml4j.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.toolbox.web.provider.feature" url="features/com.ibm.rcp.toolbox.web.provider.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.micro.feature" url="features/com.ibm.micro.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.eclipse.platform.help.feature" url="features/com.ibm.rcp.eclipse.platform.help.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.eclipse.rcp.ui.feature" url="features/com.ibm.rcp.eclipse.rcp.ui.feature_6.2.3.20110411-1204/" version="6.2.3.20110411-1204">
+</feature>
+<feature id="com.ibm.pvc.wct.osgiagent.ui.feature" url="features/com.ibm.pvc.wct.osgiagent.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.feeds.parser.feature" url="features/com.ibm.rcp.feeds.parser.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.osgiagent.servlet.notify.feature" url="features/com.ibm.rcp.osgiagent.servlet.notify.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.accounts.ui.feature" url="features/com.ibm.rcp.accounts.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.esupport.client.product.sametime.feature" url="features/com.ibm.esupport.client.product.sametime.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.pvc.wct.osgiagent.feature" url="features/com.ibm.pvc.wct.osgiagent.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.toolbox.feature" url="features/com.ibm.rcp.toolbox.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.threading.monitor.feature" url="features/com.ibm.rcp.threading.monitor.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_US.feature" url="features/com.ibm.langware.v5.dic.en_US.feature_7.2.0.201103220539/" version="7.2.0.201103220539">
+</feature>
+<feature id="com.ibm.rcp.xulrunner.runtime.feature.patch.st" url="features/com.ibm.rcp.xulrunner.runtime.feature.patch.st_6.2.3.20120426-0828/" version="6.2.3.20120426-0828">
+</feature>
+<feature id="com.ibm.mqttclient.feature" url="features/com.ibm.mqttclient.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="org.apache.axis.feature" url="features/org.apache.axis.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.pvc.servlet.feature" url="features/com.ibm.pvc.servlet.feature_2.5.0.20110414-1652/" version="2.5.0.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.dombrowser.feature" url="features/com.ibm.rcp.dombrowser.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.jvm.feature" url="features/com.ibm.rcp.jvm.feature_2.1.6.0-201104111204/" version="2.1.6.0-201104111204">
+</feature>
+<feature id="com.ibm.rcp.icu.update.feature" url="features/com.ibm.rcp.icu.update.feature_6.2.3.20110411-1204/" version="6.2.3.20110411-1204">
+</feature>
+<feature id="com.ibm.rcp.net.feature" url="features/com.ibm.rcp.net.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.os.ui.feature" url="features/com.ibm.rcp.os.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.toolbox.web.admin.feature" url="features/com.ibm.rcp.toolbox.web.admin.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.toolbox.feeds.provider.feature" url="features/com.ibm.rcp.toolbox.feeds.provider.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.icu.feature" url="features/com.ibm.rcp.icu.feature_6.2.3.20110411-1204/" version="6.2.3.20110411-1204">
+</feature>
+<feature id="com.ibm.rcp.textanalyzer.feature" url="features/com.ibm.rcp.textanalyzer.feature_6.2.3.201103220539/" version="6.2.3.201103220539">
+</feature>
+<feature id="org.apache.commons.feature" url="features/org.apache.commons.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.platform.feature.patch.st" url="features/com.ibm.rcp.platform.feature.patch.st_6.2.3.20120426-0828/" version="6.2.3.20120426-0828">
+</feature>
+<feature id="com.ibm.rcp.ui.widgets.feature" url="features/com.ibm.rcp.ui.widgets.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.langware.v27.feature" url="features/com.ibm.langware.v27.feature_2.7.2.201103220539/" version="2.7.2.201103220539">
+</feature>
+<feature id="com.ibm.rcp.sharedbundle.ui.feature" url="features/com.ibm.rcp.sharedbundle.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.personality.framework.feature" url="features/com.ibm.rcp.personality.framework.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.micro.admin.feature" url="features/com.ibm.micro.admin.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.livetext.feature" url="features/com.ibm.rcp.livetext.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.toolbox.prov.provider.feature" url="features/com.ibm.rcp.toolbox.prov.provider.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.icu.update.feature.patch.st" url="features/com.ibm.rcp.icu.update.feature.patch.st_6.2.2.20120426-0828/" version="6.2.2.20120426-0828">
+</feature>
+<feature id="com.ibm.rcp.dynamic.extension.feature" url="features/com.ibm.rcp.dynamic.extension.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.pvc.webcontainer.feature" url="features/com.ibm.pvc.webcontainer.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.esupport.client.product.SSC4TNF.feature.patch.st" url="features/com.ibm.esupport.client.product.SSC4TNF.feature.patch.st_6.2.3.20120426-0828/" version="6.2.3.20120426-0828">
+</feature>
+<feature id="com.ibm.pvc.wct.osgiagent.ext.generic.feature" url="features/com.ibm.pvc.wct.osgiagent.ext.generic.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.ui.browser.launcher.feature" url="features/com.ibm.rcp.ui.browser.launcher.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.accounts.feature" url="features/com.ibm.rcp.accounts.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.managedsettings.feature" url="features/com.ibm.rcp.managedsettings.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.esupport.client.product.SSC4TNF.feature" url="features/com.ibm.esupport.client.product.SSC4TNF.feature_4.1.1.20110414-1652/" version="4.1.1.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.esupport.client.feature" url="features/com.ibm.rcp.esupport.client.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.pvc.servlet.jsp.feature" url="features/com.ibm.pvc.servlet.jsp.feature_2.1.0.20110414-1652/" version="2.1.0.20110414-1652">
+</feature>
+<feature id="org.osgi.service.webapplication.feature" url="features/org.osgi.service.webapplication.feature_1.0.1.20110414-1652/" version="1.0.1.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.eclipse.rcp.ui.feature.patch.st" url="features/com.ibm.rcp.eclipse.rcp.ui.feature.patch.st_6.2.3.20120426-0828/" version="6.2.3.20120426-0828">
+</feature>
+<feature id="com.ibm.rcp.feedreader.feature" url="features/com.ibm.rcp.feedreader.feature_1.5.3.20110414-1652/" version="1.5.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.core.logger.ui.feature" url="features/com.ibm.rcp.core.logger.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.security.feature" url="features/com.ibm.rcp.security.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.lapinvoker.feature" url="features/com.ibm.rcp.lapinvoker.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.eclipse.platform.feature" url="features/com.ibm.rcp.eclipse.platform.feature_6.2.3.20110411-1204/" version="6.2.3.20110411-1204">
+</feature>
+<feature id="com.ibm.langware.v5.feature" url="features/com.ibm.langware.v5.feature_7.2.0.201103220539/" version="7.2.0.201103220539">
+</feature>
+<feature id="com.ibm.collaboration.realtime.gwmigrutility.feature" url="features/com.ibm.collaboration.realtime.gwmigrutility.feature_1.0.0.201108081212/" version="1.0.0.201108081212">
+</feature>
+<feature id="com.ibm.rcp.personality.default.feature" plugin-identifier="com.ibm.rcp.platform.personality.branding.help" url="features/com.ibm.rcp.personality.default.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.xulrunner.runtime.feature" url="features/com.ibm.rcp.xulrunner.runtime.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.provisioning.ui.feature" url="features/com.ibm.rcp.provisioning.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.esupport.client.ui.feature" url="features/com.ibm.rcp.esupport.client.ui.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.browser.service.feature" url="features/com.ibm.rcp.browser.service.feature_6.2.3.20110414-1652/" version="6.2.3.20110414-1652">
+</feature>
+<feature id="com.ibm.rcp.j2se.linux.x86.feature" url="features/com.ibm.rcp.j2se.linux.x86.feature_1.6.0.20110208a-201104111204/" version="1.6.0.20110208a-201104111204">
+</feature>
+</site>
+<site enabled="true" list="plugins/com.ibm.collaboration.realtime.accessibility_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.accessibility.standalone_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.accountstore_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.activitymonitor_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.activitymonitor.gtk.linux.x86_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.adv.help_8.5.2.20110513-2256,plugins/com.ibm.collaboration.realtime.alertmanager_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.alertmanager.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.annotate_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.application_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.application.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.appshare_8.5.2.20110502-0430,plugins/com.ibm.collaboration.realtime.appshare.linux_8.5.2.20110502-0430.jar,plugins/com.ibm.collaboration.realtime.appshare85tk_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.appsharetk_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.bcs_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.bcs.application.freejam_8.5.2.20110513-2256.jar,plugins/com.ibm.collaboration.realtime.bcs.application.instantpoll_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.bcs.application.skilltap_8.5.2.20110513-2256.jar,plugins/com.ibm.collaboration.realtime.bcs.application.w3alert_8.5.2.20110513-2256.jar,plugins/com.ibm.collaboration.realtime.bcs.ext80_8.5.2.20110513-2256.jar,plugins/com.ibm.collaboration.realtime.bcs.standalone_8.5.2.20110513-2256.jar,plugins/com.ibm.collaboration.realtime.branding_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.brokerbridge_8.5.2.20110510-1632.jar,plugins/com.ibm.collaboration.realtime.brokerbridge.constants_8.5.2.20110510-1632.jar,plugins/com.ibm.collaboration.realtime.browser_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.browser.swt_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.browser.xulrunner_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.calendar_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.calendar.common_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.calendar.notes_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.calendar.notes.connector_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.calendar.notes.connector.standalone_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.chat.logging_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.chat.logging.impl_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.chat.logging.impl.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.chat.logging.ui_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.chat.logging.ui.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.chatwindow_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.chatwindow.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.community_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.community.impl_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.community.impl.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.community.sametime_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.community.sametime.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.contact.storage_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.core_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.core.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.directory_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.directory.bluepages_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.directory.bluepages.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.directory.ldap_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.directory.sametime_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.dms.agent.setup_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.filetransfer_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.filetransfer.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.filteredbuddies_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.help_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.imhub_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.imhub.personality_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.imhub.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.installhandler_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.instantshare_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.invitations_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.issi_8.5.1.20100709-1657.jar,plugins/com.ibm.collaboration.realtime.jsthelper_8.5.2.20110510-1632.jar,plugins/com.ibm.collaboration.realtime.livetext_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.location_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.location.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.login_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.login.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.magiccarpet_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.meetings_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.meetings.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.messages_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.migration_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.multimedia.phonegrid_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.multimedia.phonegrid.native.linux_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.netstatus_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.notifications_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.orgtree_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.palettes_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.palettes.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.people_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.people.impl_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.persistentchat_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.platform_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.platform.linux_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.policy_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.policy.sametime_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.prefmigrator_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.prefs_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.primarybuddies_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.privacy_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.pubsub.eventbroker_8.5.2.20110513-2256,plugins/com.ibm.collaboration.realtime.quickfind_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.rtc.core_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.rtc.protocols.sametime_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.rtcadapter_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.rules_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.service.activitymonitor_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.spellchecker_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.spellchecker.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.status.ext_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.stjavatk_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.storage_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.storage.sametime_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.tap_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.tap.news_1.0.0.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.telephony.core_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.policy_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.softphone_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.status_8.5.2.20110516-1242,plugins/com.ibm.collaboration.realtime.telephony.sti_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.sti.blue_8.5.2.20110516-1242.jar,plugins/com.ibm.collaboration.realtime.telephony.sut.callhistory_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.sut.help_8.5.2.20110516-1242,plugins/com.ibm.collaboration.realtime.telephony.sut.help.nl1_8.5.2.20110516-1242,plugins/com.ibm.collaboration.realtime.telephony.sut.phonebook_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.tcspi_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.ui_8.5.2.20120426-0828,plugins/com.ibm.collaboration.realtime.telephony.ui.standalone_8.5.2.20110516-1242.jar,plugins/com.ibm.collaboration.realtime.ui_8.5.2.20120426-0828.jar,plugins/com.ibm.collaboration.realtime.ui.gtk.linux.x86_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.ui.standalone_8.5.2.20110516-1528.jar,plugins/com.ibm.collaboration.realtime.update_8.5.2.20110516-1528,plugins/com.ibm.collaboration.realtime.webapi_8.5.2.20120426-0828,plugins/com.ibm.content.operations.eclipse_3.5.0.20080715-1445,plugins/com.ibm.content.operations.registry_3.0.0.20080616-1815,plugins/com.ibm.csi_1.0.1.200808151821.jar,plugins/com.ibm.langware.v5.dic.ar_XX_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.ca_CT_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.cs_CZ_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.da_DK_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.de_CH_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.de_DE_Reform_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.el_GR_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.en_AU_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.en_GB_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.es_ES_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.fi_FI_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.fr_CA_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.fr_FR_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.it_IT_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.nb_NO_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.nl_NL_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.nn_NO_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.pl_PL_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.pt_BR_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.pt_PT_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.ru_RU_7.1.1.201006221804,plugins/com.ibm.langware.v5.dic.sv_SE_7.1.1.201006221804,plugins/com.ibm.meetings.shelf_8.5.2.20110502-0430.jar,plugins/com.ibm.rcp.csiactions_1.0.1.200808151821.jar,plugins/com.ibm.rcp.csiviews_1.0.1.200808151821.jar,plugins/com.ibm.rcp.csiviews.util_1.0.1.200805221943.jar,plugins/com.ibm.rcp.pim.ui.widgets_1.0.1.200808151821.jar,plugins/com.ibm.rcp.realtime.livenames_8.5.2.20110516-1528.jar,plugins/com.ibm.rcp.ui.viewers_1.0.1.200808151821.jar,plugins/com.ibm.rtc.fliteredbuddies_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.imhub_8.5.2.20110516-1528.jar,plugins/com.ibm.rtc.meetings.application_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.application.personality_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.appshare_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.appshare.linux.base_8.5.2.20110502-0430,plugins/com.ibm.rtc.meetings.core_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.documents_8.5.2.20120426-0828,plugins/com.ibm.rtc.meetings.help_8.5.2.20110502-0430,plugins/com.ibm.rtc.meetings.library_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.messages_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.participants_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.participants.ui_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.permissions_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.policy_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.policy.impl_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.polling_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.projector_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.quickr.integration_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.recording_8.5.2.20120426-0828,plugins/com.ibm.rtc.meetings.recording.linux_8.5.2.20120426-0828,plugins/com.ibm.rtc.meetings.sharedurls_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.shelf_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.shelf.standalone_8.5.2.20110502-0430.jar,plugins/com.ibm.rtc.meetings.summaries_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.telephony.ui_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.ui_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.meetings.utils_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.primarybuddies_8.5.2.20120426-0828.jar,plugins/com.ibm.rtc.web.core_8.5.2.20120426-0828,plugins/com.ibm.rtc.web.utils_8.5.2.20120426-0828,plugins/com.ibm.sametime.advanced.ui.bcs_8.5.2.20110513-2256.jar,plugins/com.ibm.sametime.advanced.ui.bcs.standalone_8.5.2.20110513-2256,plugins/com.ibm.sametime.advanced.ui.instantshare_8.5.2.20110513-2256.jar,plugins/com.ibm.sametime.advanced.ui.instantshare.standalone_8.5.2.20110513-2256,plugins/com.ibm.sametime.advanced.ui.persistentchat_8.5.2.20120426-0828.jar,plugins/com.ibm.sametime.orgtree_8.5.2.20120426-0828.jar,plugins/com.ibm.sametime.siptrunk.help_8.5.2.20110516-1242,plugins/com.ibm.sametime.siptrunk.help.nl1_8.5.2.20110516-1242,plugins/com.ibm.sametime.sut.ui_8.5.2.20110516-1242.jar,plugins/com.ibm.sametime.sut.ui.callhistory_8.5.2.20110516-1242.jar,plugins/com.ibm.sametime.sut.ui.phonebook_8.5.2.20110516-1242.jar,plugins/com.voicerite.vc3.backend.vcb_3.7.39.ST030735,plugins/com.voicerite.vc3.backend.vcb.voicerite.oem_3.7.0.ST030735,plugins/com.voicerite.vc3.callMonitor_3.7.35.ST030735.jar,plugins/com.voicerite.vc3.callMonitor.sametime_3.7.0.ST030735.jar,plugins/com.voicerite.vc3.desktop.preferences_3.7.14.ST030735.jar,plugins/com.voicerite.vc3.desktop.preferences.oem_3.7.4.ST030735.jar,plugins/com.voicerite.vc3.desktop.ui_3.7.90.ST030735,plugins/com.voicerite.vc3.desktop.ui.oem_1.0.0.ST030735.jar,plugins/com.voicerite.vc3.ibm.sdc.preferences_3.7.30.ST030735.jar,plugins/com.voicerite.vc3.ibm.watson.preferences_1.0.8.ST030735.jar,plugins/com.voicerite.vc3.library_2.0.0.ST030735,plugins/com.voicerite.vc3.location_3.7.5.ST030735.jar,plugins/com.voicerite.vc3.mci.registrationProxy_3.7.12.ST030735,plugins/com.voicerite.vc3.mediaplayer_3.7.12.ST030735.jar,plugins/com.voicerite.vc3.mediaplayer.linux_1.0.13.ST030735.jar,plugins/com.voicerite.vc3.mediaplayer.wmm_3.7.5.ST030735.jar,plugins/com.voicerite.vc3.nameResolution_3.7.22.ST030735,plugins/com.voicerite.vc3.notes_3.7.36.ST030735,plugins/com.voicerite.vc3.notesEmbedded_3.7.2.ST030735.jar,plugins/com.voicerite.vc3.outlook_3.7.6.ST030735.jar,plugins/com.voicerite.vc3.preferences_3.7.54.ST030735.jar,plugins/com.voicerite.vc3.preferences.voicerite.oem_3.7.17.ST030735.jar,plugins/com.voicerite.vc3.resources_3.7.65.ST030735,plugins/com.voicerite.vc3.resources.oem_3.7.3.ST030735,plugins/com.voicerite.vc3.sametime.core_3.7.27.ST030735.jar,plugins/com.voicerite.vc3.sametime.help_3.7.88.ST030735,plugins/com.voicerite.vc3.sametime.preferences.oem_3.7.4.ST030735.jar,plugins/com.voicerite.vc3.sametime.ui_3.7.17.ST030735.jar,plugins/com.voicerite.vc3.sametime.ui.oem_3.7.18.ST030735.jar,plugins/com.voicerite.vc3.voiceMessages_3.7.28.ST030735.jar,plugins/com.voicerite.vc3.voiceMessages.voicerite.oem_3.7.0.ST030735.jar,plugins/com.voicerite.vc3.vzb.preferences_3.7.2.ST030735" policy="USER-INCLUDE" updateable="true" url="file:/opt/ibm/lotus/Sametime/shared/eclipse/">
+<feature id="com.ibm.collaboration.realtime.chat.feature" url="features/com.ibm.collaboration.realtime.chat.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.application.feature" plugin-identifier="com.ibm.collaboration.realtime.application" url="features/com.ibm.collaboration.realtime.application.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.status.ext.feature.patch" url="features/com.ibm.collaboration.realtime.status.ext.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contact.storage.feature" url="features/com.ibm.collaboration.realtime.contact.storage.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.migration.feature" url="features/com.ibm.collaboration.realtime.migration.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.annotate.feature.patch" url="features/com.ibm.collaboration.realtime.annotate.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.help.feature" url="features/com.ibm.collaboration.realtime.help.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.jsthelper.creator.feature" url="features/com.ibm.collaboration.realtime.jsthelper.creator.feature_8.5.2.20110510-1632/" version="8.5.2.20110510-1632">
+</feature>
+<feature id="com.ibm.collaboration.realtime.livetext.feature" url="features/com.ibm.collaboration.realtime.livetext.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.people.impl.feature.patch" url="features/com.ibm.collaboration.realtime.people.impl.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.messages.feature" url="features/com.ibm.collaboration.realtime.messages.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.rtc.web.utils.feature.patch" url="features/com.ibm.rtc.web.utils.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.base.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.base.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.ui.feature.patch" url="features/com.ibm.collaboration.realtime.chat.logging.ui.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.messages.feature.patch" url="features/com.ibm.collaboration.realtime.messages.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.feature.patch" url="features/com.ibm.collaboration.realtime.chat.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.core.feature.patch" url="features/com.ibm.collaboration.realtime.core.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.adv.help.feature" url="features/com.ibm.collaboration.realtime.adv.help.feature_8.5.2.20110513-2256/" version="8.5.2.20110513-2256">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.feature" url="features/com.ibm.collaboration.realtime.chat.logging.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.tap.feature" url="features/com.ibm.collaboration.realtime.tap.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.bluepages.standalone.feature" url="features/com.ibm.collaboration.realtime.bluepages.standalone.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.annotate.feature" url="features/com.ibm.collaboration.realtime.annotate.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.browser.xul.feature" url="features/com.ibm.collaboration.realtime.browser.xul.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.dms.agent.setup.feature" url="features/com.ibm.collaboration.realtime.dms.agent.setup.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.primarybuddies.feature.patch" url="features/com.ibm.collaboration.realtime.primarybuddies.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contact.storage.feature.patch" url="features/com.ibm.collaboration.realtime.contact.storage.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.community.st.feature.patch" url="features/com.ibm.collaboration.realtime.community.st.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.rtc.meetings.standalone.feature" url="features/com.ibm.rtc.meetings.standalone.feature_8.5.2.20110502-0430/" version="8.5.2.20110502-0430">
+</feature>
+<feature id="com.ibm.collaboration.realtime.community.st.feature" url="features/com.ibm.collaboration.realtime.community.st.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.calendar.common.feature" url="features/com.ibm.collaboration.realtime.calendar.common.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.installhandler.feature" url="features/com.ibm.collaboration.realtime.installhandler.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chatrooms.feature" url="features/com.ibm.collaboration.realtime.chatrooms.feature_8.5.2.20110513-2256/" version="8.5.2.20110513-2256">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.personality.feature" url="features/com.ibm.collaboration.realtime.im.personality.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.people.feature.patch" url="features/com.ibm.collaboration.realtime.people.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.softphone.feature.patch" url="features/com.ibm.collaboration.realtime.telephony.softphone.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.rcp.csiviews.feature" url="features/com.ibm.rcp.csiviews.feature_1.0.0.200808151821/" version="1.0.0.200808151821">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contactlist.feature" url="features/com.ibm.collaboration.realtime.contactlist.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.callhistory.feature.patch" url="features/com.ibm.collaboration.realtime.telephony.sut.callhistory.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.webapi.feature" url="features/com.ibm.collaboration.realtime.webapi.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.filetransfer.feature.patch" url="features/com.ibm.collaboration.realtime.filetransfer.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.spellchecker.feature.patch" url="features/com.ibm.collaboration.realtime.spellchecker.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.base.feature.patch" url="features/com.ibm.collaboration.realtime.telephony.sut.base.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.callhistory.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.callhistory.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contactlist.feature.patch" url="features/com.ibm.collaboration.realtime.contactlist.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.filteredbuddies.feature" url="features/com.ibm.collaboration.realtime.filteredbuddies.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.community.impl.feature.patch" url="features/com.ibm.collaboration.realtime.im.community.impl.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.core.feature" url="features/com.ibm.collaboration.realtime.core.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.advanced.standalone.feature" url="features/com.ibm.collaboration.realtime.advanced.standalone.feature_8.5.2.20110513-2256/" version="8.5.2.20110513-2256">
+</feature>
+<feature id="com.ibm.collaboration.realtime.palettes.feature" url="features/com.ibm.collaboration.realtime.palettes.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.instantshare.feature" url="features/com.ibm.collaboration.realtime.instantshare.feature_8.5.2.20110513-2256/" version="8.5.2.20110513-2256">
+</feature>
+<feature id="com.ibm.collaboration.realtime.ui.feature" url="features/com.ibm.collaboration.realtime.ui.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.community.feature" url="features/com.ibm.collaboration.realtime.im.community.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notifications.feature" url="features/com.ibm.collaboration.realtime.notifications.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.filetransfer.feature" url="features/com.ibm.collaboration.realtime.filetransfer.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.meetings.feature" url="features/com.ibm.collaboration.realtime.meetings.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.login.feature" url="features/com.ibm.collaboration.realtime.login.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.adminupdate.feature" url="features/com.ibm.collaboration.realtime.adminupdate.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.activitymonitor.feature" url="features/com.ibm.collaboration.realtime.activitymonitor.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.help.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.help.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.spellchecker.feature" url="features/com.ibm.collaboration.realtime.spellchecker.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.people.impl.feature" url="features/com.ibm.collaboration.realtime.people.impl.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.webapi.feature.patch" url="features/com.ibm.collaboration.realtime.webapi.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.people.feature" url="features/com.ibm.collaboration.realtime.people.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.core.advanced.feature" url="features/com.ibm.collaboration.realtime.core.advanced.feature_8.5.2.20110513-2256/" version="8.5.2.20110513-2256">
+</feature>
+<feature id="com.ibm.collaboration.realtime.location.feature" url="features/com.ibm.collaboration.realtime.location.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.rtc.meetings.feature.patch" url="features/com.ibm.rtc.meetings.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.primarybuddies.feature" url="features/com.ibm.collaboration.realtime.primarybuddies.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.impl.feature" url="features/com.ibm.collaboration.realtime.chat.logging.impl.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.base.feature.patch" url="features/com.ibm.collaboration.realtime.telephony.base.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.credentialstore.feature" url="features/com.ibm.collaboration.realtime.credentialstore.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.app.services.feature.patch" url="features/com.ibm.collaboration.realtime.app.services.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.login.feature.patch" url="features/com.ibm.collaboration.realtime.login.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.voicerite.vc3.sametime" url="features/com.voicerite.vc3.sametime_3.7.35/" version="3.7.35">
+</feature>
+<feature id="com.ibm.collaboration.realtime.hotfix.install.artifacts.feature" url="features/com.ibm.collaboration.realtime.hotfix.install.artifacts.feature_8.5.2.20120426-1300/" version="8.5.2.20120426-1300">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtc.core.feature.patch" url="features/com.ibm.collaboration.realtime.rtc.core.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.branding.feature.patch" url="features/com.ibm.collaboration.realtime.branding.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.phonebook.feature.patch" url="features/com.ibm.collaboration.realtime.telephony.sut.phonebook.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.calendar.feature" url="features/com.ibm.collaboration.realtime.calendar.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.broadcast.feature.patch" url="features/com.ibm.collaboration.realtime.broadcast.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.palettes.feature.patch" url="features/com.ibm.collaboration.realtime.palettes.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.stjavatk.feature" url="features/com.ibm.collaboration.realtime.stjavatk.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtc.core.feature" url="features/com.ibm.collaboration.realtime.rtc.core.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.quickfind.feature.patch" url="features/com.ibm.collaboration.realtime.quickfind.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.community.impl.feature" url="features/com.ibm.collaboration.realtime.im.community.impl.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.accessibility.feature" url="features/com.ibm.collaboration.realtime.accessibility.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtcadapter.feature.patch" url="features/com.ibm.collaboration.realtime.rtcadapter.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.location.feature.patch" url="features/com.ibm.collaboration.realtime.location.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.base.feature" url="features/com.ibm.collaboration.realtime.telephony.base.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.install.artifacts.feature" url="features/com.ibm.collaboration.realtime.install.artifacts.feature_8.5.2.20110516-1716/" version="8.5.2.20110516-1716">
+</feature>
+<feature id="com.ibm.collaboration.realtime.browser.feature" url="features/com.ibm.collaboration.realtime.browser.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.product.standalone.feature" url="features/com.ibm.collaboration.realtime.product.standalone.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.broadcast.feature" url="features/com.ibm.collaboration.realtime.broadcast.feature_8.5.2.20110513-2256/" version="8.5.2.20110513-2256">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.softphone.feature" url="features/com.ibm.collaboration.realtime.telephony.softphone.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.prefs.feature" url="features/com.ibm.collaboration.realtime.prefs.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notes.connector.standalone.feature" url="features/com.ibm.collaboration.realtime.notes.connector.standalone.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.orgtree.feature" url="features/com.ibm.collaboration.realtime.orgtree.feature_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtc.st.feature" url="features/com.ibm.collaboration.realtime.rtc.st.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.blue.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.blue.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.quickfind.feature" url="features/com.ibm.collaboration.realtime.quickfind.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.instantshare.feature.patch" url="features/com.ibm.collaboration.realtime.instantshare.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.status.ext.feature" url="features/com.ibm.collaboration.realtime.status.ext.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.prod.feature" url="features/com.ibm.collaboration.realtime.telephony.prod.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.standalone.feature" url="features/com.ibm.collaboration.realtime.telephony.standalone.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.app.services.feature" url="features/com.ibm.collaboration.realtime.app.services.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.branding.feature" url="features/com.ibm.collaboration.realtime.branding.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.feature.patch" url="features/com.ibm.collaboration.realtime.chat.logging.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.stjavatk.feature.patch" url="features/com.ibm.collaboration.realtime.stjavatk.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.credentialstore.feature.patch" url="features/com.ibm.collaboration.realtime.credentialstore.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.bluepages.feature" url="features/com.ibm.collaboration.realtime.bluepages.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.meetings.feature.patch" url="features/com.ibm.collaboration.realtime.meetings.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.tap.news.feature" url="features/com.ibm.collaboration.realtime.tap.news.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.community.feature.patch" url="features/com.ibm.collaboration.realtime.im.community.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.prod.feature.patch" url="features/com.ibm.collaboration.realtime.telephony.prod.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.rtc.web.utils.feature" url="features/com.ibm.rtc.web.utils.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.issi.feature" url="features/com.ibm.collaboration.realtime.issi.feature_8.5.1.20100709-1657/" version="8.5.1.20100709-1657">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chatrooms.feature.patch" url="features/com.ibm.collaboration.realtime.chatrooms.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.status.feature" url="features/com.ibm.collaboration.realtime.telephony.status.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.phonebook.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.phonebook.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.ui.feature" url="features/com.ibm.collaboration.realtime.chat.logging.ui.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.rtc.meetings.help.feature" url="features/com.ibm.rtc.meetings.help.feature_8.5.2.20110502-0430/" version="8.5.2.20110502-0430">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtcadapter.feature" url="features/com.ibm.collaboration.realtime.rtcadapter.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.rtc.meetings.feature" url="features/com.ibm.rtc.meetings.feature_8.5.2.20110502-0430/" version="8.5.2.20110502-0430">
+</feature>
+<feature id="com.ibm.collaboration.realtime.brokerbridge.feature" url="features/com.ibm.collaboration.realtime.brokerbridge.feature_8.5.2.20110510-1632/" version="8.5.2.20110510-1632">
+</feature>
+<feature id="com.ibm.collaboration.realtime.application.feature.patch" url="features/com.ibm.collaboration.realtime.application.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.rcp.realtime.livenames.feature" url="features/com.ibm.rcp.realtime.livenames.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.rcp.site.anchor.shared.feature" url="features/com.ibm.rcp.site.anchor.shared.feature_6.1.1/" version="6.1.1">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.impl.feature.patch" url="features/com.ibm.collaboration.realtime.chat.logging.impl.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.ui.feature.patch" url="features/com.ibm.collaboration.realtime.ui.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.filteredbuddies.feature.patch" url="features/com.ibm.collaboration.realtime.filteredbuddies.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notes.connector.feature" url="features/com.ibm.collaboration.realtime.notes.connector.feature_8.5.2.20110516-1528/" version="8.5.2.20110516-1528">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.siptrunk.help.feature" url="features/com.ibm.collaboration.realtime.telephony.siptrunk.help.feature_8.5.2.20110516-1242/" version="8.5.2.20110516-1242">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtc.st.feature.patch" url="features/com.ibm.collaboration.realtime.rtc.st.feature.patch_8.5.2.20120426-0828/" version="8.5.2.20120426-0828">
+</feature>
+</site>
+</config>

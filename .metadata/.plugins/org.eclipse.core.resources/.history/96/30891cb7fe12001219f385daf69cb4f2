@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SametimeThinklightFeature_1.1.0.jar" id="SametimeThinklightFeature" version="1.1.0" os="win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.1.1.jar" id="SametimeThinklightFeature" version="1.1.1" os="win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.1.2.jar" id="SametimeThinklightFeature" version="1.1.2" os="win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.1.3.jar" id="SametimeThinklightFeature" version="1.1.3">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.1.4.jar" id="SametimeThinklightFeature" version="1.1.4">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.0.jar" id="SametimeThinklightFeature" version="1.2.0" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.0.0.jar" id="SametimeNotificationsFeature" version="1.0.0" os="linux,macosx,win32">
+      <category name="Notifications"/>
+   </feature>
+   <category-def name="Notifications" label="Notifications"/>
+</site>

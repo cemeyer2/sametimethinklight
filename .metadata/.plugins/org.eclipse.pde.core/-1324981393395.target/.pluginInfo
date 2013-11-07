@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="338" name="Help Web Application" provider="IBM">
+		<library name="WEB-INF/classes/"/>
+	</bundle>
+	<bundle bundleID="339" localization="plugin" name="Directory Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="332" class="org.eclipse.update.internal.core.UpdateCore" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="333" name="Platform Lifecycle Language Pack" provider="IBM"/>
+	<bundle bundleID="330" localization="plugin" name="IBM Shared Classes Support" provider="IBM"/>
+	<bundle bundleID="159" localization="plugin" name="XSD Beans plugin" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="331" name="IBM LanguageWare V2.7 Engine Fragment" provider="IBM"/>
+	<bundle bundleID="158" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="336" localization="plugin" name="Activity Monitor Service Plug-in" provider="IBM"/>
+	<bundle bundleID="157" name="French(French) Dictionary" provider="IBM"/>
+	<bundle bundleID="337" name="Dynamic Extensions Plug-in" provider="IBM"/>
+	<bundle bundleID="156" class="com.voicerite.vc3.desktop.preferences.DesktopPreferencesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="155" localization="fragment" name="%fragment.name" provider="%provider.name"/>
+	<bundle bundleID="334" class="org.eclipse.equinox.internal.event.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="154" name="RCP Toolbox Google Provider Localization" provider="IBM"/>
+	<bundle bundleID="335" class="com.ibm.rcp.feedreader.eclipse.ui.plugin.FeedReaderUIPlugin" localization="plugin" name="Feed Reader Eclipse UI plugin" provider="IBM"/>
+	<bundle bundleID="601" class="com.ibm.rtc.meetings.policy.impl.Activator" name="Impl Plug-in" provider="IBM"/>
+	<bundle bundleID="531" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="152" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="600" class="com.ibm.rtc.meetings.ui.MeetingsUIPlugin" localization="plugin" name="UI Plug-in" provider="IBM"/>
+	<bundle bundleID="530" class="com.ibm.collaboration.realtime.policy.PolicyPlugin" localization="plugin" name="Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="153" class="com.ibm.collaboration.realtime.chatwindow.ImChatPlugin" localization="plugin" name="IMChatWindow" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="150" class="com.ibm.rtc.meetings.participants.ui.Activator" localization="plugin" name="Meeting Participants UI plugin" provider="IBM"/>
+	<bundle bundleID="151" class="com.ibm.collaboration.realtime.locationawareness.LocationPlugin" localization="plugin" name="Locationawareness Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="535" class="com.ibm.collaboration.realtime.telephony.sti.Activator" localization="plugin" name="Unified Telephony plug-in" provider="IBM">
+		<library name="lib/sut-presence-8.0.jar"/>
+		<library name="lib/sut-comm-8.0.jar"/>
+		<library name="stiplugin.jar"/>
+	</bundle>
+	<bundle bundleID="534" name="Event Admin Language Pack" provider="IBM"/>
+	<bundle bundleID="533" name="Servlet API" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="532" class="com.ibm.collaboration.realtime.primarybuddies.ExtPrimaryBuddiesPlugin" localization="plugin" name="Primarybuddies Plug-in" provider="IBM"/>
+	<bundle bundleID="539" class="com.ibm.micro.osgi.MicrobrokerActivator" name="MicroBroker" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="609" localization="plugin" name="Sametime Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="538" class="com.ibm.esupport.client.product.SSC4TNF.utils.CollectorActivator" name="Lotus Expeditor ISA Base Utilities" provider="IBM">
+		<library name="core/"/>
+		<library name="standalone/validator/"/>
+	</bundle>
+	<bundle bundleID="608" name="Sametime Telephony Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="537" localization="plugin" name="Instantshare UI Plug-in" provider="IBM"/>
+	<bundle bundleID="607" class="com.ibm.collaboration.realtime.brokerbridge.BridgeActivator" localization="plugin" name="Microbroker Bridge Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="536" name="MicroBrokerUtilities Localization Pack" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="606" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="605" class="org.eclipse.core.internal.jobs.JobActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="604" class="com.ibm.collaboration.realtime.bcs.BroadcastSuitePlugIn" localization="plugin" name="Broadcast Suite Plug-in" provider="IBM">
+		<library name="."/>
+		<library name="lib/com.ibm.jse.util.jar"/>
+	</bundle>
+	<bundle bundleID="603" name="Iopes Annotation Localization" provider="IBM"/>
+	<bundle bundleID="602" localization="plugin" name="IBM Lotus Sametime Unified Telephony Lite Help Plug-in" provider="IBM"/>
+	<bundle bundleID="349" class="org.eclipse.update.internal.ui.UpdateUI" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="202" localization="plugin" name="Branding Plug-in" provider="IBM"/>
+	<bundle bundleID="203" name="Platform Personality Language Pack" provider="IBM"/>
+	<bundle bundleID="204" name="Apache Axis" provider="IBM">
+		<library name="axispatch.jar"/>
+		<library name="axis.jar"/>
+		<library name="jaxrpc.jar"/>
+		<library name="saaj.jar"/>
+		<library name="wsdl4j-1.5.1.jar"/>
+	</bundle>
+	<bundle bundleID="205" class="com.ibm.rcp.internal.util.Activator" name="Shared Bundle Packages" provider="IBM"/>
+	<bundle bundleID="200" name="Alternate Views Plug-in" provider="IBM"/>
+	<bundle bundleID="201" class="com.ibm.rcp.lifecycle.internal.platform.PlatformStartup" localization="plugin" name="Platform Lifecycle" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="341" class="com.voicerite.vc3.sametime.ui.Activator" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="169" class="com.ibm.collaboration.realtime.imhub.ImHub" localization="plugin" name="IM Hub" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="342" class="com.voicerite.vc3.voicerite.oem.preferences.PreferencesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="343" localization="fragment-icu-data" name="%fragmentName" patch="true" provider="%providerName">
+		<library name="icu-data.jar"/>
+	</bundle>
+	<bundle bundleID="344" name="IBM LanguageWare Library Runtime" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="166" name="Log Service Language Pack" provider="IBM"/>
+	<bundle bundleID="206" localization="plugin" name="Embedded Browser Plug-in" provider="IBM"/>
+	<bundle bundleID="345" name="Feed Reader Eclipse UI Plug-in Localization Pack" provider="IBM"/>
+	<bundle bundleID="165" class="com.ibm.rtc.meetings.sharedurls.SharedUrlsActivator" name="Sharedurls Plug-in" provider="IBM"/>
+	<bundle bundleID="207" name="MQTT Client Localization Pack" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="346" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="168" localization="plugin" name="Sametime Unified Telephony Call History UI Plug-in" provider="IBM"/>
+	<bundle bundleID="208" name="System Plug-in" provider="IBM"/>
+	<bundle bundleID="347" class="com.ibm.collaboration.realtime.persistentchat.ExtPersistentChatPlugin" localization="plugin" name="Persistentchat Plug-in" provider="IBM">
+		<library name="persistentchat.jar"/>
+		<library name="filedownloader.jar"/>
+	</bundle>
+	<bundle bundleID="167" class="com.ibm.rtc.meetings.messages.Activator" localization="plugin" name="Messages Plug-in" provider="IBM"/>
+	<bundle bundleID="209" localization="plugin" name="%plugin.name" provider="%Bundle-Vendor.0">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="348" name="Help System Base Language Pack" provider="IBM"/>
+	<bundle bundleID="540" class="com.ibm.rcp.managedsettings.internal.ManagedSettingsPlugin" localization="plugin" name="ManagedSettings Plug-in" provider="IBM"/>
+	<bundle bundleID="409" localization="plugin" name="%plugin.name" provider="IBM"/>
+	<bundle bundleID="161" name="Primary Buddies Side shelf Plug-in" provider="IBM"/>
+	<bundle bundleID="3" class="com.ibm.collaboration.realtime.filetransfer.FiletransferPlugin" localization="plugin" name="Filetransfer Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="408" name="Permissions Plug-in" provider="IBM"/>
+	<bundle bundleID="162" class="org.eclipse.core.internal.filesystem.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="2" class="com.ibm.collaboration.realtime.palettes.ExPalettesPlugin" localization="plugin" name="Palettes Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="542" class="com.ibm.rcp.core.internal.pd.manager.Activator" name="Problem Determination Monitor" provider="IBM"/>
+	<bundle bundleID="163" class="com.ibm.rcp.os.internal.OS" name="Operating System Service" provider="IBM"/>
+	<bundle bundleID="1" name="Core Loggier Language Pack" provider="IBM"/>
+	<bundle bundleID="541" class="com.voicerite.vc3.sametime.core.Activator" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="164" class="com.ibm.collaboration.realtime.imhub.ImHub" localization="plugin" name="IM Hub" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="544" localization="plugin" name="%plugin.name" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="405" class="com.ibm.rcp.feedreader.extended.ui.Activator" localization="plugin" name="Extendable Feed Reader UI plugin" provider="IBM"/>
+	<bundle bundleID="7" class="org.eclipse.core.internal.filebuffers.FileBuffersPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="543" class="com.ibm.collaboration.realtime.policy.PolicyPlugin" localization="plugin" name="Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="404" name="Shared Bundle Packages Language Pack" provider="IBM"/>
+	<bundle bundleID="6" class="com.ibm.osg.service.deviceagent.nativeinstall.watchdog.BundleWatchDog" name="NativeInstallWatchDog" provider="IBM"/>
+	<bundle bundleID="546" class="com.ibm.collaboration.realtime.im.community.CommunityApiPlugin" localization="plugin" name="Community Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="407" name="Help Application Server Language Pack" provider="IBM"/>
+	<bundle bundleID="5" class="com.ibm.collaboration.realtime.calendar.CalendarPlugin" localization="plugin" name="Calendar API Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="340" name="IBM LanguageWare V2.7 Engine Linux x86 Fragment" provider="IBM"/>
+	<bundle bundleID="545" class="com.ibm.rtc.meetings.util.UtilsActivator" name="Utils Plug-in" provider="IBM"/>
+	<bundle bundleID="406" class="com.ibm.rcp.provisioning.internal.requirements.RequirementsPlugin" localization="plugin" name="Provisioning" provider="IBM"/>
+	<bundle bundleID="160" class="com.ibm.rcp.bizcard.Activator" localization="plugin" name="Core Business Card" provider="IBM"/>
+	<bundle bundleID="4" name="English(Australia) Dictionary" provider="IBM"/>
+	<bundle bundleID="548" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="401" class="org.eclipse.ui.internal.UIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="547" name="LapInvoker Application Language Pack" provider="IBM"/>
+	<bundle bundleID="400" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="403" localization="plugin" name="Sametime TCSPI Adapter" provider="IBM">
+		<library name="tcspi.jar"/>
+	</bundle>
+	<bundle bundleID="9" localization="plugin" name="RTC Adapter Plugin" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="8" name="French(Canada) Dictionary" provider="IBM"/>
+	<bundle bundleID="402" name="SyncML4J DS" provider="IBM"/>
+	<bundle bundleID="549" name="Operating System Service UI Language Pack" provider="IBM"/>
+	<bundle bundleID="211" name="JFace Data Binding Language Pack" provider="IBM"/>
+	<bundle bundleID="212" name="J2SE for Linux x86" provider="IBM"/>
+	<bundle bundleID="210" class="com.voicerite.vc3.notesembedded.NotesPlugin" localization="plugin" name="Notes Embedded Plug-in" provider="VoiceRite">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="318" localization="plugin" name="Sametime Unified Telephony Phone Book UI Plug-in" provider="IBM"/>
+	<bundle bundleID="215" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="319" name="RCP Toolbox Dashboard Localization" provider="IBM"/>
+	<bundle bundleID="216" name="com.ibm.rcp.ui.css Language Pack" provider="IBM"/>
+	<bundle bundleID="316" class="com.ibm.esupport.client.product.SSC4TNF.utils.CollectorActivator" name="Lotus Expeditor ISA Base Utilities" provider="IBM">
+		<library name="core/"/>
+		<library name="standalone/validator/"/>
+	</bundle>
+	<bundle bundleID="213" localization="plugin" name="SWT Browser Based Implementation" provider="IBM"/>
+	<bundle bundleID="317" name="Operating System Service Linux Library" provider="IBM"/>
+	<bundle bundleID="214" name="Web Application Service" provider="IBM"/>
+	<bundle bundleID="314" class="com.ibm.collaboration.realtime.chat.logging.ChatLoggingApiPlugin" localization="plugin" name="Chat Storage" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="219" class="com.ibm.sametime.advanced.ui.bsc.BCSUIPlugin" localization="plugin" name="Broadcast Suite UI Plug-in" provider="IBM"/>
+	<bundle bundleID="179" localization="plugin" name="Accounts Ui Plug-in" provider="IBM"/>
+	<bundle bundleID="315" class="com.ibm.rcp.toolbox.internal.Toolbox" localization="plugin" name="Widgets Plug-in" provider="IBM"/>
+	<bundle bundleID="178" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="312" class="com.ibm.rtc.meetings.policy.Activator" name="Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="217" name="Product Core Runtime (ISA)" provider="IBM"/>
+	<bundle bundleID="177" name="IBM Tivoli Agent Ext Core Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="313" name="JSR47 LoggerHook Fragment" provider="IBM"/>
+	<bundle bundleID="218" name="Feed Reader Eclipse UI Plug-in Localization Pack" provider="IBM"/>
+	<bundle bundleID="176" class="com.ibm.collaboration.realtime.bcs.application.instantpoll.InstantPollPlugIn" localization="plugin" name="InstantPoll" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="310" localization="plugin" name="IBM Internal Gateway Migration Utility" provider="IBM"/>
+	<bundle bundleID="311" name="HTTP Network Support Language Pack" provider="IBM"/>
+	<bundle bundleID="170" class="com.ibm.collaboration.realtime.filetransfer.FiletransferPlugin" localization="plugin" name="Filetransfer Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="418" class="com.ibm.collaboration.realtime.bcs.application.freejam.FreeJamPlugIn" localization="plugin" name="Freejam" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="513" name="Update Core Language Pack" provider="IBM"/>
+	<bundle bundleID="171" class="com.ibm.collaboration.realtime.telephony.status.Activator" localization="plugin" name="Telephony Status Plug-in" provider="IBM"/>
+	<bundle bundleID="417" name="Portuguese(Brazilian) Dictionary" provider="IBM"/>
+	<bundle bundleID="512" class="com.voicerite.vc3.sametime.prefs.oem.PreferencesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="416" localization="fragment" name="%fragment.name" provider="%provider.name"/>
+	<bundle bundleID="511" name="Feeds url transfer type" provider="IBM"/>
+	<bundle bundleID="415" name="Application Lifecycle Language Pack" provider="IBM"/>
+	<bundle bundleID="510" class="com.ibm.esupport.managers.topology.impl.Activator" name="TopologyManager" provider="IBM"/>
+	<bundle bundleID="174" localization="plugin" name="RTC UI Fragment for GTK Linux" provider="IBM">
+		<library name="uigtkx86.jar"/>
+	</bundle>
+	<bundle bundleID="623" class="com.voicerite.vc3.ibm.sdc.preferences.PreferencesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="175" class="com.ibm.collaboration.realtime.chat.logging.ui.ChatHistoryPlugin" localization="plugin" name="Chat History Viewer Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="622" name="JavaServer Pages (JSP)" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="172" name="Eclipse Jobs Mechanism Language Pack" provider="IBM"/>
+	<bundle bundleID="621" class="com.ibm.collaboration.realtime.notifications.Activator" localization="plugin" name="Notifications Plug-in" provider="IBM"/>
+	<bundle bundleID="173" class="com.ibm.collaboration.realtime.status.ext.Activator" localization="plugin" name="Extended Status Plug-in" provider="IBM"/>
+	<bundle bundleID="419" name="Arabic(Arabic) Dictionary" provider="IBM"/>
+	<bundle bundleID="620" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="410" class="com.ibm.collaboration.realtime.primarybuddies.ExtPrimaryBuddiesPlugin" localization="plugin" name="Primarybuddies Plug-in" provider="IBM"/>
+	<bundle bundleID="627" class="com.ibm.rcp.toolbox.prov.provider.Activator" localization="plugin" name="Widgets Provisioning Plug-in" provider="IBM"/>
+	<bundle bundleID="626" name="Nl Fragment for Product Information Core" provider="IBM"/>
+	<bundle bundleID="519" name="Web Utils Plug-in" provider="IBM">
+		<library name="webutils.jar"/>
+	</bundle>
+	<bundle bundleID="625" class="org.eclipse.ui.internal.WorkbenchPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="518" class="com.ibm.rtc.primarybuddies.Activator" localization="plugin" name="Primary Buddies Side shelf Plug-in" provider="IBM"/>
+	<bundle bundleID="624" name="IBM Resource Caching Support" provider="IBM"/>
+	<bundle bundleID="414" localization="plugin" name="Linux Plug-in" provider="IBM"/>
+	<bundle bundleID="517" name="Standard Widget Toolkit for GTK 2.0 Language Pack" provider="IBM"/>
+	<bundle bundleID="413" class="com.ibm.collaboration.realtime.instantshare.InstantSharePlugin" localization="plugin" name="com.ibm.collaboration.realtime.instantshare" provider="IBM">
+		<library name="instantshare.jar"/>
+	</bundle>
+	<bundle bundleID="516" localization="plugin" name="Linux Fragment" provider="IBM">
+		<library name="PhoneGridNativeLinux.jar"/>
+	</bundle>
+	<bundle bundleID="412" localization="plugin" name="AutoPD Core Translations" provider="IBM"/>
+	<bundle bundleID="515" name="Czech(Czech Republic) Dictionary" provider="IBM"/>
+	<bundle bundleID="629" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="411" class="com.ibm.collaboration.realtime.platform.Activator" name="Platform Plug-in" provider="IBM"/>
+	<bundle bundleID="514" class="org.eclipse.core.internal.plugins.CompatibilityActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="628" class="com.ibm.collaboration.realtime.community.internal.CommunityPlugin" localization="plugin" name="Community Impl Plug-in" provider="IBM"/>
+	<bundle bundleID="220" localization="plugin" name="Linux Fragment" provider="IBM">
+		<library name="PhoneGridNativeLinux.jar"/>
+	</bundle>
+	<bundle bundleID="221" name="Product Information Core (ISA)" provider="IBM"/>
+	<bundle bundleID="222" name="Personality Framework Language Pack" provider="IBM"/>
+	<bundle bundleID="223" name="RCP Toolbox Localization" provider="IBM"/>
+	<bundle bundleID="327" localization="plugin" name="RTC Adapter Plugin" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="224" name="SWT XULRunner Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="328" localization="plugin" name="Product Information UI (ISA)" provider="IBM"/>
+	<bundle bundleID="225" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="329" class="com.ibm.rcp.ui.launcher.handlers.internal.Activator" name="Web and ERCP application handler" provider="IBM"/>
+	<bundle bundleID="226" name="File Buffers Language Pack" provider="IBM"/>
+	<bundle bundleID="227" name="RCP Toolbox Builder Localization" provider="IBM"/>
+	<bundle bundleID="323" class="com.ibm.rtc.meetings.core.SharedMapsPlugin" name="Meetings Core Plug-in"/>
+	<bundle bundleID="228" class="com.ibm.collaboration.realtime.locationawareness.LocationPlugin" localization="plugin" name="Locationawareness Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="188" name="Provisioning UI Language Pack" provider="IBM"/>
+	<bundle bundleID="324" name="Model Adapter Plug-in Localization Pack" provider="IBM"/>
+	<bundle bundleID="229" name="LapInvoker Application" provider="IBM">
+		<library name="lapinvoker.jar"/>
+	</bundle>
+	<bundle bundleID="187" class="com.ibm.collaboration.realtime.multimedia.phonegrid.PhonegridPlugin" name="Phonegrid Plug-in" provider="IBM">
+		<library name="PhoneGrid.jar"/>
+		<library name="lib/IBMToolkitForMpeg4AudioSDK.jar"/>
+		<library name="lib/IceSDK.jar"/>
+		<library name="lib/ICECommon.jar"/>
+	</bundle>
+	<bundle bundleID="325" class="com.ibm.collaboration.realtime.telephony.sti.Activator" localization="plugin" name="Unified Telephony plug-in" provider="IBM">
+		<library name="lib/sut-presence-8.0.jar"/>
+		<library name="lib/sut-comm-8.0.jar"/>
+		<library name="stiplugin.jar"/>
+	</bundle>
+	<bundle bundleID="326" localization="plugin" name="Directory Plug-in" provider="IBM">
+		<library name="."/>
+		<library name="lib/orgtree.svc.api.jar"/>
+	</bundle>
+	<bundle bundleID="189" class="com.ibm.rtc.meetings.messages.Activator" localization="plugin" name="Messages Plug-in" provider="IBM"/>
+	<bundle bundleID="709" bundleSource="org.eclipse.swt.gtk.linux.ppc;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="320" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="321" class="com.ibm.collaboration.realtime.telephony.softphone.Activator" localization="plugin" name="Softphone Plug-in" provider="IBM">
+		<library name="softphone.jar"/>
+		<library name="lib/jsip_api_v1.2.jar"/>
+		<library name="lib/sipstack.jar"/>
+		<library name="lib/siputil.jar"/>
+		<library name="lib/sipstackext.jar"/>
+	</bundle>
+	<bundle bundleID="322" class="com.ibm.collaboration.realtime.meetings.MeetingsPlugin" localization="plugin" name="Meetings Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="427" name="Types Plug-in" provider="IBM"/>
+	<bundle bundleID="522" localization="plugin" name="Core Plug-in" provider="IBM">
+		<library name="core.jar"/>
+		<library name="JSON4J.jar"/>
+	</bundle>
+	<bundle bundleID="180" class="org.eclipse.update.internal.core.UpdateCore" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="426" class="com.ibm.rtc.meetings.projector.Activator" name="Projector Plug-in" provider="IBM"/>
+	<bundle bundleID="521" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="181" name="X509 Certificate Viewer" provider="IBM"/>
+	<bundle bundleID="429" class="com.ibm.collaboration.realtime.chat.logging.ui.ChatHistoryPlugin" localization="plugin" name="Chat History Viewer Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="524" class="com.ibm.collaboration.realtime.directory.ldap.LdapPlugin" localization="plugin" name="Ldap Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="182" name="Core File Systems Language Pack" provider="IBM"/>
+	<bundle bundleID="428" localization="plugin" name="Security Accounts Management" provider="IBM"/>
+	<bundle bundleID="523" localization="plugin" name="IBM Lotus Sametime Unified Telephony Help Plug-in" provider="IBM"/>
+	<bundle bundleID="713" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="610" class="com.ibm.esupport.search.ui.SearchUIPlugin" localization="plugin" name="%plugin.name" provider="IBM"/>
+	<bundle bundleID="183" name="X509 Certificate Viewer Language Pack" provider="IBM"/>
+	<bundle bundleID="712" localization="plugin" name="%fragmentNameLinux" provider="%providerName"/>
+	<bundle bundleID="184" class="com.ibm.collaboration.realtime.people.internal.PeoplePlugin" localization="plugin" name="Person Implementation Plug-in" provider="IBM"/>
+	<bundle bundleID="612" name="Spanish(Spain) Dictionary" provider="IBM"/>
+	<bundle bundleID="520" name="Finnish(Finland) Dictionary" provider="IBM"/>
+	<bundle bundleID="185" class="com.ibm.rcp.toolbox.google.provider.Activator" localization="plugin" name="Widgets Gadgets Plug-in" provider="IBM"/>
+	<bundle bundleID="611" name="Operating System Service Language Pack" provider="IBM"/>
+	<bundle bundleID="186" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="614" name="RCP Toolbox Config Localization" provider="IBM"/>
+	<bundle bundleID="613" class="com.ibm.rcp.toolbox.web.provider.Activator" localization="plugin" name="Widgets Web Plug-in" provider="IBM"/>
+	<bundle bundleID="529" name="Text Editor Framework Language Pack" provider="IBM"/>
+	<bundle bundleID="711" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="616" class="com.ibm.rtc.meetings.shelf.MeetingsPlugin" localization="plugin" name="Sametime Meetings Plugin" provider="IBM"/>
+	<bundle bundleID="421" name="Java Authentication and Authorization Service (JAAS) Plugin Language Pack" provider="IBM"/>
+	<bundle bundleID="710" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="615" localization="fragment-icu-data" name="%fragmentName" patch="true" provider="%providerName">
+		<library name="icu-data.jar"/>
+	</bundle>
+	<bundle bundleID="420" class="org.eclipse.core.internal.runtime.PlatformActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="618" class="com.ibm.collaboration.realtime.community.internal.CommunityPlugin" localization="plugin" name="Community Impl Plug-in" provider="IBM"/>
+	<bundle bundleID="526" name="Apache Commons HTTP Client" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="423" name="Launcherex Fragment" provider="IBM">
+		<library name="launcherex.jar"/>
+	</bundle>
+	<bundle bundleID="617" name="MicroBroker Localization Pack" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="525" class="com.ibm.rtc.meetings.ui.MeetingsUIPlugin" localization="plugin" name="UI Plug-in" provider="IBM"/>
+	<bundle bundleID="422" class="com.ibm.rtc.meetings.summaries.Activator" localization="plugin" name="Meeting Report Summaries Plug-in" provider="IBM">
+		<library name="summaries.jar"/>
+	</bundle>
+	<bundle bundleID="528" class="com.ibm.rtc.meetings.policy.impl.Activator" name="Impl Plug-in" provider="IBM"/>
+	<bundle bundleID="425" name="Security Update Policy Engine Language Pack" provider="IBM"/>
+	<bundle bundleID="619" name="Web Utils Plug-in" provider="IBM">
+		<library name="webutils.jar"/>
+	</bundle>
+	<bundle bundleID="527" class="com.ibm.collaboration.realtime.tap.news.TapNewsPlugin" name="Sametime TAP News" provider="IBM"/>
+	<bundle bundleID="424" localization="plugin" name="Status Plug-in" provider="IBM"/>
+	<bundle bundleID="116" name="Web Container Language Pack" provider="IBM"/>
+	<bundle bundleID="117" class="com.ibm.rtc.meetings.shelf.MeetingsPlugin" localization="plugin" name="Sametime Meetings Plugin" provider="IBM"/>
+	<bundle bundleID="114" class="org.eclipse.update.internal.scheduler.UpdateSchedulerPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="115" name="German(Swiss) Dictionary" provider="IBM"/>
+	<bundle bundleID="571" class="com.ibm.collaboration.realtime.people.PeopleApiPlugin" localization="plugin" name="Person Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="112" localization="plugin" name="Sametime Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="570" class="com.ibm.collaboration.realtime.telephony.ui.TelephonyUIPlugin" localization="plugin" name="Sametime Connect Telephony UI Plug-in" provider="IBM">
+		<library name="telephony.ui.jar"/>
+	</bundle>
+	<bundle bundleID="113" name="Enterprise Management Agent Preferences UI Language Pack" provider="IBM"/>
+	<bundle bundleID="110" class="com.ibm.collaboration.realtime.contacts.storage.Activator" localization="plugin" name="Contact Storage Plug-in" provider="IBM"/>
+	<bundle bundleID="111" name="Utils Plug-in" provider="IBM"/>
+	<bundle bundleID="118" name="Untrusted Certificate Dialog Language Pack" provider="IBM"/>
+	<bundle bundleID="119" name="JFaceEx Language Pack" provider="IBM"/>
+	<bundle bundleID="435" class="org.eclipse.core.internal.expressions.ExpressionPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="436" class="org.eclipse.help.internal.appserver.AppserverPlugin" localization="plugin" name="%appserver_plugin_name" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="433" name="SWT XULRunner Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="434" class="com.ibm.collaboration.realtime.notes.LotusNotesPlugin" localization="plugin" name="Lotus Notes Tasks Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="431" class="com.voicerite.vc3.callMonitor.CallMonitorPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="700" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="432" class="com.ibm.collaboration.realtime.persistentchat.ExtPersistentChatPlugin" localization="plugin" name="Persistentchat Plug-in" provider="IBM">
+		<library name="persistentchat.jar"/>
+		<library name="filedownloader.jar"/>
+	</bundle>
+	<bundle bundleID="430" class="com.ibm.esupport.managers.casemgr.CaseManagerActivator" name="CaseManager" provider="IBM"/>
+	<bundle bundleID="703" bundleSource="org.eclipse.swt.gtk.linux.x86_64;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="574" name="Linux Recording Fragment" provider="IBM"/>
+	<bundle bundleID="704" bundleSource="org.eclipse.swt.motif.aix.ppc;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="575" class="com.ibm.rtc.meetings.application.Activator" name="Core application plug-in" provider="IBM"/>
+	<bundle bundleID="701" localization="launcher.motif.aix.ppc" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="572" localization="plugin" name="CredentialStore" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="702" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="573" name="Network Default config" provider="IBM"/>
+	<bundle bundleID="707" localization="launcher.gtk.solaris.sparc" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="578" name="Install/Update Configurator Language Pack" provider="IBM"/>
+	<bundle bundleID="439" class="com.ibm.collaboration.realtime.im.community.CommunityApiPlugin" localization="plugin" name="Community Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="708" localization="launcher.gtk.linux.x86_64" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="579" localization="plugin" name="com.ibm.collaboration.realtime.appshare85tk" provider="IBM">
+		<library name="Appshare85Toolkit.jar"/>
+	</bundle>
+	<bundle bundleID="705" bundleSource="org.eclipse.equinox.security.win32.x86;version=&quot;1.0.0.v20080529-1600&quot;;roots:=&quot;.&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="576" class="com.ibm.collaboration.realtime.ui.UiPlugin" localization="plugin" name="Sametime UI" provider="IBM">
+		<library name="."/>
+		<library name="lib/acf-2.2.0-11.jar"/>
+		<library name="lib/html-parser-2.2.0-11.jar"/>
+	</bundle>
+	<bundle bundleID="437" name="Rtc4web Core Plug-in" provider="IBM">
+		<library name="rtc4webcore.jar"/>
+	</bundle>
+	<bundle bundleID="706" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="577" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="438" name="English(United States) IBM Terms Dictionary" provider="IBM"/>
+	<bundle bundleID="125" name="Integrated Browser Application Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="126" localization="plugin" name="%Bundle-Name.config" provider="%Bundle-Vendor.IBM"/>
+	<bundle bundleID="127" localization="plugin" name="%plugin.name" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="300" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="128" class="com.ibm.collaboration.realtime.application.RTCMainPlugin" localization="plugin" name="Sametime Application" provider="IBM">
+		<library name="application.jar"/>
+	</bundle>
+	<bundle bundleID="580" class="com.ibm.rcp.ui.internal.RCPUIPlugin" localization="plugin" name="com.ibm.rcp.ui" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="121" localization="plugin" name="Livenames Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="302" class="com.ibm.collaboration.realtime.chat.logging.internal.ChatLoggingPlugin" localization="plugin" name="Chat Storage Impl Plug-in" provider="IBM"/>
+	<bundle bundleID="122" localization="plugin" name="com.ibm.collaboration.realtime.appshare85tk" provider="IBM">
+		<library name="Appshare85Toolkit.jar"/>
+	</bundle>
+	<bundle bundleID="301" class="com.ibm.collaboration.realtime.telephony.sut.callhistory.CallHistoryActivator" name="Sametime Unified Telephony Call History Plug-in" provider="IBM"/>
+	<bundle bundleID="582" name="Expressions Language Pack" provider="IBM"/>
+	<bundle bundleID="123" localization="plugin" name="com.ibm.collaboration.realtime.appsharetk">
+		<library name="AppshareToolkit.jar"/>
+		<library name="STMRCNativeLin-852_20110117.1830.jar"/>
+		<library name="STMRCNativeWin-852_20110117.1830.jar"/>
+	</bundle>
+	<bundle bundleID="304" name="Norwegian(Bokmal) Dictionary" provider="IBM"/>
+	<bundle bundleID="581" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="icu-jse4.jar"/>
+		<library name="icu-data.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="124" class="com.voicerite.vc3.voiceMessages.VoiceMessagesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="303" class="com.ibm.collaboration.realtime.filteredbuddies.FilteredBuddiesPlugin" localization="plugin" name="Filteredbuddies Plug-in" provider="IBM"/>
+	<bundle bundleID="306" name="Parser Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="305" class="org.eclipse.core.internal.preferences.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="308" name="JFace Language Pack" provider="IBM"/>
+	<bundle bundleID="307" localization="plugin" name="Calendar Interface Plug-in" provider="IBM"/>
+	<bundle bundleID="129" name="Enterprise Management Agent Configuration Language Pack" provider="IBM"/>
+	<bundle bundleID="309" class="com.ibm.collaboration.realtime.people.PeopleApiPlugin" localization="plugin" name="Person Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="444" localization="plugin" name="Base Plug-in" provider="IBM">
+		<library name="lib/appsharelinux.jar"/>
+	</bundle>
+	<bundle bundleID="445" name="Accounts UI Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="446" class="com.ibm.rtc.meetings.recording.Activator" localization="plugin" name="Recording Plug-in" provider="IBM">
+		<library name="meetingRecordings.jar"/>
+		<library name="lib/StreamingEngineJNI.jar"/>
+		<library name="lib/commons_io_1_4.jar"/>
+	</bundle>
+	<bundle bundleID="447" localization="plugin" name="%plugin.name" provider="IBM"/>
+	<bundle bundleID="440" class="com.ibm.meetings.shelf.Activator" localization="plugin" name="Meeting Shelf Plug-in" provider="IBM"/>
+	<bundle bundleID="441" name="Apache Jakarta Commons Lang Library" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="442" class="com.voicerite.vc3.resources.ResourcesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="443" class="com.ibm.collaboration.realtime.quickfind.QuickfindPlugin" localization="plugin" name="Quickfind Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="583" name="Help Plug-in" provider="IBM"/>
+	<bundle bundleID="584" name="Extension Registry Support Language Pack" provider="IBM"/>
+	<bundle bundleID="585" localization="plugin" name="Invitation Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="120" localization="plugin" name="Platform Global Installhandler" provider="IBM"/>
+	<bundle bundleID="586" localization="plugin" name="Sametime Unified Telephony UI Plug-in" provider="IBM"/>
+	<bundle bundleID="587" class="com.ibm.collaboration.realtime.palettes.ExPalettesPlugin" localization="plugin" name="Palettes Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="448" name="Workbench Language Pack" provider="IBM"/>
+	<bundle bundleID="588" name="Apache Commons Collections" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="449" localization="plugin" name="Sametime RTC plugin" provider="IBM">
+		<library name="lib/rtcsametime.jar"/>
+		<library name="sametimeEclipse.jar"/>
+	</bundle>
+	<bundle bundleID="589" name="com.ibm.rcp.ui Language Pack" provider="IBM"/>
+	<bundle bundleID="134" class="com.ibm.collaboration.realtime.alertmanager.AlertManagerPlugin" localization="plugin" name="Alert Manager" provider="IBM">
+		<library name="alertmgr.jar"/>
+	</bundle>
+	<bundle bundleID="135" class="org.eclipse.help.internal.base.HelpBasePlugin" localization="plugin" name="%help_base_plugin_name" provider="%providerName"/>
+	<bundle bundleID="132" class="com.ibm.rcp.jface.JfaceexPlugin" name="JFaceEx" provider="IBM">
+		<library name="grid.jar"/>
+		<library name="launcherex.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="133" class="com.ibm.rcp.core.internal.logger.LogRedirectorBundle" name="Core Logging Framework" provider="IBM"/>
+	<bundle bundleID="138" class="com.ibm.collaboration.realtime.filteredbuddies.FilteredBuddiesPlugin" localization="plugin" name="Filteredbuddies Plug-in" provider="IBM"/>
+	<bundle bundleID="139" class="com.ibm.esupport.filexfer.manager.Activator" name="FileTransferService" provider="IBM Support Assistant"/>
+	<bundle bundleID="136" class="com.ibm.collaboration.realtime.people.internal.PeoplePlugin" localization="plugin" name="Person Implementation Plug-in" provider="IBM"/>
+	<bundle bundleID="137" class="com.ibm.collaboration.realtime.community.sametime.SametimePlugin" localization="plugin" name="Sametime Community Provider" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="450" localization="plugin" name="IBM Lotus Sametime Unified Telephony Help Nl1 Fragment" provider="IBM"/>
+	<bundle bundleID="453" class="com.ibm.collaboration.realtime.directory.bluepages.BluePagesPlugin" localization="plugin" name="IBM BluePages Plug-in" provider="IBM">
+		<library name="bluepages.jar"/>
+		<library name="cwa2.jar"/>
+	</bundle>
+	<bundle bundleID="454" class="org.eclipse.ui.internal.views.ViewsPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="451" name="Notes feed reader providers Plug-in Localization Pack" provider="IBM"/>
+	<bundle bundleID="452" localization="plugin" name="IBM Common Services API" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="457" name="Problem Determination Manager Language Pack" provider="IBM"/>
+	<bundle bundleID="458" name="RCP Browser implementation for Mozilla XULRunner" provider="IBM"/>
+	<bundle bundleID="558" localization="plugin" name="Search UI Translations" provider="IBM"/>
+	<bundle bundleID="455" class="com.ibm.collaboration.realtime.installhandler.Activator" localization="plugin" name="Installhandler Plug-in" provider="IBM"/>
+	<bundle bundleID="559" name="Resource Language Pack" provider="IBM"/>
+	<bundle bundleID="456" name="Threading Violation Monitor Plug-in" provider="IBM"/>
+	<bundle bundleID="556" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="557" localization="plugin" name="%osgiUtil" provider="%eclipse.org"/>
+	<bundle bundleID="554" class="com.ibm.rcp.core.internal.daemon.DaemonPlugin" name="RCP Daemon" provider="IBM"/>
+	<bundle bundleID="459" localization="plugin" name="%Bundle.Name" provider="%Bundle.Vendor"/>
+	<bundle bundleID="555" class="com.ibm.collaboration.realtime.bcs.application.instantpoll.InstantPollPlugIn" localization="plugin" name="InstantPoll" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="552" class="com.ibm.rcp.ui.internal.browser.launcher.BrowserActivator" localization="plugin" name="Integrated Browser Application Plug-in" provider="IBM">
+		<library name="launcher.jar"/>
+	</bundle>
+	<bundle bundleID="131" name="Text Analyzer Framework" provider="IBM"/>
+	<bundle bundleID="553" localization="plugin" name="Core RTC API Plug-in" provider="IBM">
+		<library name="core.jar"/>
+		<library name="lib/rtcapi.jar"/>
+	</bundle>
+	<bundle bundleID="130" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="550" localization="plugin" name="Core Plug-in" provider="IBM">
+		<library name="core.jar"/>
+		<library name="JSON4J.jar"/>
+	</bundle>
+	<bundle bundleID="551" localization="plugin" name="Core Plug-in" provider="IBM">
+		<library name="telephonycore.jar"/>
+		<library name="lib/packetswitchvideo.jar"/>
+	</bundle>
+	<bundle bundleID="143" class="com.ibm.collaboration.realtime.chat.logging.ChatLoggingApiPlugin" localization="plugin" name="Chat Storage" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="144" localization="plugin" name="Search IBM Targets Translations" provider="IBM"/>
+	<bundle bundleID="560" name="RCP Dynamic Extensions Localization" provider="IBM"/>
+	<bundle bundleID="145" class="com.ibm.rtc.meetings.appshare.AppsharePlugin" localization="plugin" name="Appshare Plug-in" provider="IBM"/>
+	<bundle bundleID="146" name="Network Faults Framework" provider="IBM"/>
+	<bundle bundleID="147" class="com.ibm.rcp.toolbox.admin.Activator" localization="plugin" name="Widgets Admin Plug-in" provider="IBM"/>
+	<bundle bundleID="148" localization="plugin" name="Sametime Plug-in" provider="IBM">
+		<library name="."/>
+		<library name="lib/orgtree.svc.impl.jar"/>
+	</bundle>
+	<bundle bundleID="149" class="com.ibm.collaboration.realtime.application.RTCMainPlugin" localization="plugin" name="Sametime Application" provider="IBM">
+		<library name="application.jar"/>
+	</bundle>
+	<bundle bundleID="461" localization="plugin" name="Sametime TCSPI Adapter" provider="IBM">
+		<library name="tcspi.jar"/>
+	</bundle>
+	<bundle bundleID="460" class="com.ibm.rcp.props.internal.dm.Activator" name="Properties File Management Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="462" class="com.ibm.rtc.meetings.appshare.AppsharePlugin" localization="plugin" name="Appshare Plug-in" provider="IBM"/>
+	<bundle bundleID="463" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="464" name="com.ibm.rcp.ui.widgets" provider="IBM"/>
+	<bundle bundleID="465" name="Java Authentication and Authorization Service (JAAS) UI Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="569" localization="plugin" name="%fragmentNameLinux" provider="%providerName"/>
+	<bundle bundleID="466" name="Content Actions Localization" provider="IBM"/>
+	<bundle bundleID="467" localization="fragment" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="468" name="RCP Toolbox Feeds Localization" provider="IBM"/>
+	<bundle bundleID="469" name="SWT XULRunner Linux Fragment" provider="IBM"/>
+	<bundle bundleID="565" localization="plugin" name="com.ibm.content.operations.registry_3.0.0" provider="%plugin.provider">
+		<library name="com.ibm.content.operations.registry_3.0.0.20080616-1815.jar"/>
+	</bundle>
+	<bundle bundleID="566" class="com.ibm.collaboration.realtime.pubsub.eventbroker.EventBrokerPlugin" localization="plugin" name="Eventbroker" provider="IBM">
+		<library name="EventBroker.jar"/>
+	</bundle>
+	<bundle bundleID="567" class="com.ibm.collaboration.realtime.quickfind.QuickfindPlugin" localization="plugin" name="Quickfind Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="568" localization="plugin" name="Sametime RTC plugin" provider="IBM">
+		<library name="lib/rtcsametime.jar"/>
+		<library name="sametimeEclipse.jar"/>
+	</bundle>
+	<bundle bundleID="561" class="com.ibm.rtc.meetings.core.SharedMapsPlugin" name="Meetings Core Plug-in"/>
+	<bundle bundleID="140" class="com.voicerite.vc3.preferences.PreferencesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name">
+		<library name="lib/commons-lang-2.2.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="562" class="com.voicerite.vc3.mediaplayer.wmm.WmmPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="563" name="Apache Commons Beanutils" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="142" name="Constants for Microbroker Bridge Plug-in" provider="IBM Research (Collaborative User Experience)"/>
+	<bundle bundleID="564" name="Content Mechanism Language Pack" provider="IBM"/>
+	<bundle bundleID="141" name="Integration Plug-in" provider="IBM"/>
+	<bundle bundleID="687" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="686" bundleSource="org.eclipse.update.core.win32;version=&quot;3.2.100.v20080107&quot;" localization="plugin" name="%fragmentNameWin" provider="%providerName"/>
+	<bundle bundleID="689" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="688" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="683" bundleSource="org.eclipse.swt.win32.win32.x86_64;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="682" localization="launcher.motif.hpux.ia64_32" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="685" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="684" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="680" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="681" bundleSource="org.eclipse.ui.carbon;version=&quot;4.0.0.I20080610-1200&quot;;roots:=&quot;.&quot;" localization="fragment-carbon" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="678" bundleSource="org.eclipse.swt.motif.hpux.ia64_32;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="677" localization="launcher.gtk.linux.x86" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="676" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="675" localization="launcher.carbon.macosx" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="674" class="org.eclipse.jdt.internal.launching.macosx.MacOSXLaunchingPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="673" localization="plugin" name="%win32FragmentName" provider="%providerName"/>
+	<bundle bundleID="672" bundleSource="org.eclipse.swt.win32.win32.x86;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="671" localization="launcher.win32.win32.x86_64" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="679" bundleSource="org.eclipse.ui.win32;version=&quot;3.2.100.v20080408-0800&quot;;roots:=&quot;.&quot;" localization="fragment-win32" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="670" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="696" bundleSource="org.eclipse.equinox.security.macosx;version=&quot;1.0.0.v20080602-2000&quot;;roots:=&quot;.&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="695" bundleSource="org.eclipse.swt.gtk.solaris.sparc;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="694" localization="launcher.win32.win32.x86" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="693" bundleSource="org.eclipse.swt.carbon.macosx;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="699" localization="fragment-win32" name="%fragmentName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="698" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="697" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="691" localization="launcher.wpf.win32.x86" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="692" localization="fragment-carbon" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="690" localization="plugin" name="%fragmentNameWin" provider="%providerName"/>
+	<bundle bundleID="646" class="org.eclipse.core.internal.registry.osgi.Activator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="647" name="IBM IOPES SystemT Engine" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="648" name="OSGi Agent Accounts Plug-in" provider="IBM"/>
+	<bundle bundleID="649" class="com.voicerite.vc3.desktop.ui.DesktopUIPlugin" localization="plugin" name="%plugin.name" provider="%provider.name">
+		<library name="lib/VRLicense.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="642" class="org.eclipse.help.internal.HelpPlugin" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="195" localization="fragment" name="%fragment.name" provider="%provider.name"/>
+	<bundle bundleID="643" class="com.ibm.collaboration.realtime.telephony.sut.phonebook.PhoneBookActivator" localization="plugin" name="Sametime Unified Telephony Phone Book Plug-in" provider="IBM"/>
+	<bundle bundleID="194" localization="plugin" name="Messages Plug-in" provider="IBM"/>
+	<bundle bundleID="644" class="org.eclipse.update.internal.configurator.ConfigurationActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="197" class="com.ibm.collaboration.realtime.instantshare.InstantSharePlugin" localization="plugin" name="com.ibm.collaboration.realtime.instantshare" provider="IBM">
+		<library name="instantshare.jar"/>
+	</bundle>
+	<bundle bundleID="645" class="com.ibm.rcp.internal.security.auth.AuthPlugin" name="Java Authentication and Authorization Service (JAAS) Plugin" provider="IBM"/>
+	<bundle bundleID="196" name="XULRunner Language Pack" provider="IBM"/>
+	<bundle bundleID="191" name="Apache Commons Logging" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="190" class="com.ibm.rcp.platform.personality.internal.PlatformPersonalityPlugin" localization="plugin" name="Platform Personality" provider="IBM"/>
+	<bundle bundleID="640" class="com.ibm.collaboration.realtime.webapi.Activator" localization="plugin" name="Web API Plug-in" provider="IBM">
+		<library name="WEB-INF/lib/JSON4J.jar"/>
+		<library name="webapi.jar"/>
+	</bundle>
+	<bundle bundleID="193" name="Ui Plug-in" provider="IBM"/>
+	<bundle bundleID="641" class="com.ibm.rcp.ui.css.internal.Activator" localization="plugin" name="RCP UI CSS Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="192" localization="plugin" name="IBM Lotus Sametime Unified Telephony Lite Help Nl1 Fragment" provider="IBM"/>
+	<bundle bundleID="198" name="Feed Reader Code Plug-in Localization Pack" provider="IBM"/>
+	<bundle bundleID="199" class="com.ibm.collaboration.realtime.orgtree.ui.OrgTreeActivator" localization="plugin" name="com.ibm.collaboration.realtime.orgtree" provider="IBM"/>
+	<bundle bundleID="505" localization="plugin" name="Activity Monitor Linux GTK Fragment" provider="IBM">
+		<library name="os/gtk/x86/monitor.jar"/>
+	</bundle>
+	<bundle bundleID="506" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="639" class="com.ibm.collaboration.realtime.telephony.sti.blue.Activator" localization="plugin" name="Unified Telephony Blue Plug-in" provider="IBM"/>
+	<bundle bundleID="503" name="English(United Kingdom) Dictionary" provider="IBM"/>
+	<bundle bundleID="504" class="com.ibm.collaboration.realtime.bcs.application.skilltap.SkillTapActivator" localization="plugin" name="SkillTap" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="637" class="com.ibm.collaboration.realtime.telephony.sut.phonebook.PhoneBookActivator" localization="plugin" name="Sametime Unified Telephony Phone Book Plug-in" provider="IBM"/>
+	<bundle bundleID="509" name="RCP Browser Service Language Pack" provider="IBM"/>
+	<bundle bundleID="638" class="com.ibm.rtc.meetings.recording.Activator" localization="plugin" name="Recording Plug-in" provider="IBM">
+		<library name="meetingRecordings.jar"/>
+		<library name="lib/StreamingEngineJNI.jar"/>
+		<library name="lib/commons_io_1_4.jar"/>
+	</bundle>
+	<bundle bundleID="635" class="com.ibm.rtc.meetings.telephony.ui.Activator" localization="plugin" name="Sametime Audio/Visual Meetings Plug-in" provider="IBM"/>
+	<bundle bundleID="507" localization="plugin" name="Search Core Translations" provider="IBM"/>
+	<bundle bundleID="636" class="com.ibm.collaboration.realtime.spellchecker.SpellcheckerPlugin" localization="plugin" name="Spellchecker Plug-in" provider="IBM">
+		<library name="spellchecker.jar"/>
+	</bundle>
+	<bundle bundleID="508" name="Library" provider="VoiceRite">
+		<library name="lib/Twofish.jar"/>
+	</bundle>
+	<bundle bundleID="633" class="com.voicerite.vc3.mediaplayer.linux.LinuxMediaPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="634" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="631" class="com.ibm.rtc.meetings.library.LibraryPlugin" localization="plugin" name="Library Plug-in" provider="IBM"/>
+	<bundle bundleID="632" name="Platform Global Installhandler Language Pack" provider="IBM"/>
+	<bundle bundleID="501" name="RCP Annotation Localization" provider="IBM"/>
+	<bundle bundleID="502" name="Help Application Server Provider" provider="IBM"/>
+	<bundle bundleID="630" name="Text Language Pack" provider="IBM"/>
+	<bundle bundleID="500" name="Web Container / Channel Utilities" provider="IBM"/>
+	<bundle bundleID="668" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="669" bundleSource="org.eclipse.swt.wpf.win32.x86;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="660" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="661" localization="launcher.gtk.linux.ppc" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="662" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="663" bundleSource="org.eclipse.update.core.linux;version=&quot;3.2.1.R34x_v20081024&quot;" localization="plugin" name="%fragmentNameLinux" provider="%providerName"/>
+	<bundle bundleID="664" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="665" bundleSource="org.eclipse.swt.gtk.linux.x86;version=&quot;3.4.1.v3452b&quot;" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="666" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="667" bundleSource="org.eclipse.jdt.launching.macosx;version=&quot;3.1.100.v20080422&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="651" class="com.ibm.rcp.internal.osgiagent.scheduler.OSGiAgentSchedulerActivator" name="OSGi Agent Bundle Scheduler" provider="IBM"/>
+	<bundle bundleID="652" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="650" class="com.ibm.collaboration.realtime.telephony.softphone.Activator" localization="plugin" name="Softphone Plug-in" provider="IBM">
+		<library name="softphone.jar"/>
+		<library name="lib/jsip_api_v1.2.jar"/>
+		<library name="lib/sipstack.jar"/>
+		<library name="lib/siputil.jar"/>
+		<library name="lib/sipstackext.jar"/>
+	</bundle>
+	<bundle bundleID="655" class="com.ibm.collaboration.realtime.login.LoginActivator" localization="plugin" name="Login Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="653" name="Xulrunner Runtime GTK Plug-in" provider="IBM"/>
+	<bundle bundleID="654" name="Alternate Views Plug-in" provider="IBM"/>
+	<bundle bundleID="35" class="com.ibm.collaboration.realtime.annotate.EclipsePlugin" localization="plugin" name="AnnotatePlugin" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="36" name="SyncML4J Device Management" provider="IBM"/>
+	<bundle bundleID="33" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="34" name="SystemT Annotation Engine" provider="IBM">
+		<library name="iopes.jar"/>
+	</bundle>
+	<bundle bundleID="39" class="com.ibm.rcp.content.actions.internal.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="37" class="com.ibm.esupport.search.ibmtargets.IbmSearchTargetsPlugin" localization="plugin" name="%plugin.name" provider="IBM"/>
+	<bundle bundleID="38" class="com.ibm.rcp.os.internal.OS" name="Operating System Service" provider="IBM"/>
+	<bundle bundleID="43" name="Modeladapter Plug-in" provider="IBM"/>
+	<bundle bundleID="42" localization="plugin" name="Sametime Java toolkit Plug-in" provider="IBM">
+		<library name="stjavatk.jar"/>
+		<library name="stjavatk-plugin.jar"/>
+		<library name="sslite140-v3.16.jar"/>
+	</bundle>
+	<bundle bundleID="41" class="com.voicerite.vc3.backend.vcb.VcbPlugin" localization="plugin" name="%plugin.name" provider="%provider.name">
+		<library name="lib/vcbClientAPI-3.9.6.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="40" class="com.ibm.pvc.internal.webcontainer.WebContainerActivator" name="Web Container" provider="IBM">
+		<library name="webcontainer.jar"/>
+		<library name="wwcc/jasper-el.jar"/>
+		<library name="wwcc/web.jsplite.jar"/>
+		<library name="wwcc/web.session.core.jar"/>
+		<library name="wwcc/web.session.shell.jar"/>
+		<library name="wwcc/web.session.store.jar"/>
+		<library name="wwcc/web.webcontainer.jar"/>
+		<library name="wwcc/web.webcontainerspi.jar"/>
+		<library name="wwcc/web.utils.jar"/>
+		<library name="wwcc/web.jsp.jar"/>
+		<library name="wwcc/asm-3.1.jar"/>
+		<library name="wwcc/asm-commons-3.1.jar"/>
+		<library name="wwcc/geronimo-annotation_1.0_spec-1.1.1.jar"/>
+		<library name="wwcc/xbean-finder-3.5.jar"/>
+		<library name="wwcc/ibmcfw.jar"/>
+	</bundle>
+	<bundle bundleID="22" name="Autopd Plug-in" provider="IBM">
+		<library name="lib/autopd.jar"/>
+		<library name="lib/ant.jar"/>
+		<library name="lib/ant-launcher.jar"/>
+		<library name="lib/autopdutils.jar"/>
+		<library name="lib/esa.jar"/>
+		<library name="lib/collector.jar"/>
+		<library name="lib/RASUtils.jar"/>
+		<library name="cisa/lib/commonutils.jar"/>
+		<library name="cisa/lib/depcheck.jar"/>
+		<library name="cisa/lib/invtool.jar"/>
+		<library name="cisa/lib/ResourceCaching.jar"/>
+		<library name="cisa/lib/ResourceCollection.jar"/>
+		<library name="cisa/lib/ResourceCollectionClient.jar"/>
+		<library name="cisa/lib/ResourceCollectionService.jar"/>
+		<library name="cisa/lib/scheduler.jar"/>
+		<library name="cisa/lib/SysMgmtCore.jar"/>
+		<library name="cisa/lib/SystemContext.jar"/>
+		<library name="cisa/lib/uim.jar"/>
+		<library name="cisa/lib/uimengine.jar"/>
+		<library name="cisa/lib/uimfilerepository.jar"/>
+		<library name="cisa/lib/UIMPLRTProvider.jar"/>
+		<library name="cisa/lib/UIMProviderCore.jar"/>
+		<library name="cisa/lib/uimutil.jar"/>
+		<library name="cisa/lib/CITProvider.jar"/>
+		<library name="cisa/lib/xmlstream.jar"/>
+	</bundle>
+	<bundle bundleID="23" class="com.ibm.collaboration.realtime.chat.logging.internal.ChatLoggingPlugin" localization="plugin" name="Chat Storage Impl Plug-in" provider="IBM"/>
+	<bundle bundleID="24" name="RCP Toolbox Web Provider Localization" provider="IBM"/>
+	<bundle bundleID="25" class="com.ibm.collaboration.realtime.personality.Activator" localization="plugin" name="Personality Plug-in" provider="IBM"/>
+	<bundle bundleID="26" localization="plugin" name="Jakarta Oro Plug-in" provider="Apache.org">
+		<library name="lib/jakarta-oro-2.0.7.jar"/>
+	</bundle>
+	<bundle bundleID="27" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="28" class="com.ibm.collaboration.realtime.livetext.Activator" localization="plugin" name="LiveText Enabler Plug-in" provider="IBM"/>
+	<bundle bundleID="29" name="Greek(Greece) Dictionary" provider="IBM"/>
+	<bundle bundleID="30" class="com.ibm.pvc.internal.osgiagent.core.impl.OSGiAgentBundleActivator" name="Enterprise Management Agent" provider="IBM"/>
+	<bundle bundleID="32" class="com.ibm.collaboration.realtime.update.UpdatePluginActivator" localization="plugin" name="Update Plug-in" provider="IBM">
+		<library name="UpdatePlugin.jar"/>
+		<library name="lib/com.ibm.jse.util.jar"/>
+	</bundle>
+	<bundle bundleID="31" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="19" name="Help System UI Language Pack" provider="IBM"/>
+	<bundle bundleID="17" name="System Collector Translations" provider="IBM"/>
+	<bundle bundleID="18" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="15" name="Help Application Server Provider Language Pack" provider="IBM"/>
+	<bundle bundleID="16" class="com.ibm.rcp.csiviews.util.CSIUtilPlugin" localization="plugin" name="Util Plug-in" provider="IBM"/>
+	<bundle bundleID="13" class="com.ibm.rcp.osgiagent.servlet.notify.Activator" name="Enterprise Management Agent Notification Servlet" provider="IBM"/>
+	<bundle bundleID="14" name="Core Daemon Language Pack" provider="IBM"/>
+	<bundle bundleID="11" localization="plugin" name="Persistentchat UI Plug-in" provider="IBM"/>
+	<bundle bundleID="12" name="RCP Toolbox Admin Localization" provider="IBM"/>
+	<bundle bundleID="21" localization="plugin" name="CredentialStore" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="20" class="com.ibm.collaboration.realtime.bcs.BroadcastSuitePlugIn" localization="plugin" name="Broadcast Suite Plug-in" provider="IBM">
+		<library name="."/>
+		<library name="lib/com.ibm.jse.util.jar"/>
+	</bundle>
+	<bundle bundleID="10" localization="plugin" name="Core Plug-in" provider="IBM">
+		<library name="telephonycore.jar"/>
+		<library name="lib/packetswitchvideo.jar"/>
+	</bundle>
+	<bundle bundleID="79" name="SyncML4J Core" provider="IBM"/>
+	<bundle bundleID="78" name="Danish(Denmark) Dictionary" provider="IBM"/>
+	<bundle bundleID="77" class="com.ibm.rtc.meetings.application.personality.Activator" name="Personality Plug-in" provider="IBM"/>
+	<bundle bundleID="82" class="com.ibm.collaboration.realtime.chatwindow.ImChatPlugin" localization="plugin" name="IMChatWindow" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="83" class="com.ibm.rcp.internal.security.auth.ui.Activator" localization="plugin" name="Java Authentication and Authorization Service (JAAS) UI Plug-in" provider="IBM"/>
+	<bundle bundleID="80" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="81" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="86" class="com.ibm.collaboration.realtime.accessibility.Activator" localization="plugin" name="Accessibility Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="87" class="com.ibm.rcp.toolbox.feeds.Activator" localization="plugin" name="Widgets Plug-in Feeds Plug-in" provider="IBM"/>
+	<bundle bundleID="84" localization="plugin" name="IBM Internal Gateway Migration Utility People 7.5.1 Fragment" provider="IBM"/>
+	<bundle bundleID="85" name="Wedadapter Plug-in" provider="IBM"/>
+	<bundle bundleID="67" name="Dutch(Netherlands) Dictionary" provider="IBM"/>
+	<bundle bundleID="66" class="com.ibm.collaboration.realtime.telephony.sut.callhistory.CallHistoryActivator" name="Sametime Unified Telephony Call History Plug-in" provider="IBM"/>
+	<bundle bundleID="69" class="com.ibm.rcp.toolbox.management.Activator" localization="plugin" name="Widgets Management Plug-in" provider="IBM"/>
+	<bundle bundleID="68" class="com.ibm.rcp.os.ui.internal.OSUI" name="Operating System Service UI" provider="IBM"/>
+	<bundle bundleID="70" localization="plugin" name="Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="71" localization="plugin" name="Storage Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="72" name="Runtime Compatibility Language Pack" provider="IBM"/>
+	<bundle bundleID="73" class="com.voicerite.vc3.notes.NotesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name">
+		<library name="."/>
+		<library name="lib/NotesAccess.jar"/>
+	</bundle>
+	<bundle bundleID="74" localization="plugin" name="Branding Plug-in" provider="IBM"/>
+	<bundle bundleID="75" name="Apache Commons Discovery" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="76" class="com.ibm.rcp.lifecycle.internal.application.Activator" name="Application Lifecycle" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="59" name="ManagedSettings Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="58" class="org.eclipse.help.ui.internal.HelpUIPlugin" localization="plugin" name="%help_system_plugin_name" provider="%providerName"/>
+	<bundle bundleID="57" localization="plugin" name="Ext80 Plug-in" provider="IBM"/>
+	<bundle bundleID="56" class="com.ibm.rcp.accounts.internal.AccountsPlugin" localization="plugin" name="Accounts" provider="IBM"/>
+	<bundle bundleID="55" class="com.ibm.collaboration.realtime.annotate.EclipsePlugin" localization="plugin" name="AnnotatePlugin" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="64" name="Ant Core Language Pack" provider="IBM"/>
+	<bundle bundleID="65" localization="plugin" name="IBM Support Assistant Expeditor Integration" provider="IBM"/>
+	<bundle bundleID="62" class="com.ibm.collaboration.realtime.migration.MigrationPlugin" localization="plugin" name="Migration Plug-in" provider="IBM"/>
+	<bundle bundleID="63" class="com.ibm.rtc.meetings.participants.ui.Activator" localization="plugin" name="Meeting Participants UI plugin" provider="IBM"/>
+	<bundle bundleID="60" name="Help Web Application Language Pack" provider="IBM">
+		<library name="WEB-INF/classes/"/>
+	</bundle>
+	<bundle bundleID="61" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="49" class="com.ibm.rtc.meetings.projector.Activator" name="Projector Plug-in" provider="IBM"/>
+	<bundle bundleID="48" name="ArtifactManager" provider="IBM"/>
+	<bundle bundleID="45" name="Linux Recording Fragment" provider="IBM"/>
+	<bundle bundleID="44" localization="plugin" name="SHARED" provider="IBM">
+		<library name="."/>
+		<library name="lib/commons-net-1.4.1.jar"/>
+	</bundle>
+	<bundle bundleID="47" localization="plugin" name="Log Viewer" provider="IBM"/>
+	<bundle bundleID="46" name="Accounts Plugin Language Pack" provider="IBM"/>
+	<bundle bundleID="51" class="com.ibm.collaboration.realtime.jsthelper.Activator" name="JSThelper Base Plug-in" provider="IBM Research (Collaborative User Experience)"/>
+	<bundle bundleID="52" class="com.voicerite.vc3.mediaplayer.MediaplayerPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="53" name="Feed Reader Base Providers Plug-in" provider="IBM"/>
+	<bundle bundleID="54" name="IBM Tivoli Agent Ext Core Plug-in" provider="IBM"/>
+	<bundle bundleID="50" class="com.ibm.esupport.product.workbench.xpd.Activator" localization="plugin" name="XPD Plug-in" provider="IBM"/>
+	<bundle bundleID="281" name="Norwegian(Nynorsk) Dictionary" provider="IBM"/>
+	<bundle bundleID="487" class="com.ibm.collaboration.realtime.telephony.ui.TelephonyUIPlugin" localization="plugin" name="Sametime Connect Telephony UI Plug-in" provider="IBM">
+		<library name="telephony.ui.jar"/>
+	</bundle>
+	<bundle bundleID="280" class="com.ibm.rcp.toolbox.dashboard.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="486" class="com.ibm.pvc.osgiagent.ui.WctOsgiAgentUiActivator" localization="plugin" name="Enterprise Management Agent Preferences UI" provider="IBM"/>
+	<bundle bundleID="485" name="Core Variables Language Pack" provider="IBM"/>
+	<bundle bundleID="484" name="Platform Linux Fragment" provider="IBM">
+		<library name="linuxplatform.jar"/>
+	</bundle>
+	<bundle bundleID="285" class="com.ibm.rcp.security.internal.update.Activator" name="Security Update Policy Engine" provider="IBM"/>
+	<bundle bundleID="284" class="org.eclipse.equinox.log.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="283" localization="plugin" name="Magic Carpet" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="489" localization="plugin" name="IBM LanguageWare V5 Engine" provider="IBM"/>
+	<bundle bundleID="282" name="Provisioning Language Pack" provider="IBM"/>
+	<bundle bundleID="488" localization="plugin" name="Standalone Application Fragment" provider="IBM"/>
+	<bundle bundleID="288" name="Help System Core Language Pack" provider="IBM"/>
+	<bundle bundleID="289" class="org.eclipse.core.internal.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="286" name="Common Eclipse Runtime Language Pack" provider="IBM"/>
+	<bundle bundleID="287" name="Enterprise Management Agent Notify Servlet Language Pack" provider="IBM"/>
+	<bundle bundleID="482" name="Appshare Plug-in" provider="IBM">
+		<library name="lib/appshareclient.jar"/>
+	</bundle>
+	<bundle bundleID="483" class="com.ibm.collaboration.realtime.ui.UiPlugin" localization="plugin" name="Sametime UI" provider="IBM">
+		<library name="."/>
+		<library name="lib/acf-2.2.0-11.jar"/>
+		<library name="lib/html-parser-2.2.0-11.jar"/>
+	</bundle>
+	<bundle bundleID="480" class="org.eclipse.core.resources.ResourcesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="481" name="Equinox Application Container Translation Pack" provider="IBM"/>
+	<bundle bundleID="474" name="RCP Toolbox Management Localization" provider="IBM"/>
+	<bundle bundleID="473" class="org.eclipse.equinox.internal.security.auth.AuthPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="270" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="476" name="Enterprise Management Agent Language Pack" provider="IBM"/>
+	<bundle bundleID="475" name="RCP Feedreader Extended UI Localization" provider="IBM"/>
+	<bundle bundleID="272" name="ISSI Plug-in" provider="IBM"/>
+	<bundle bundleID="478" name="RCP Browser Service" provider="IBM"/>
+	<bundle bundleID="271" localization="plugin" name="Activity Monitor Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="477" name="JFace Text Language Pack" provider="IBM"/>
+	<bundle bundleID="274" localization="plugin" name="Service Core Translations" provider="IBM"/>
+	<bundle bundleID="273" class="com.ibm.sametime.orgtree.Activator" localization="plugin" name="Shelf Plug-in" provider="IBM"/>
+	<bundle bundleID="479" localization="plugin" name="Sametime Java toolkit Plug-in" provider="IBM">
+		<library name="stjavatk.jar"/>
+		<library name="stjavatk-plugin.jar"/>
+		<library name="sslite140-v3.16.jar"/>
+	</bundle>
+	<bundle bundleID="275" class="com.ibm.collaboration.realtime.community.sametime.SametimePlugin" localization="plugin" name="Sametime Community Provider" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="276" class="com.ibm.collaboration.realtime.rules.Activator" name="Prolog Rules Plug-in" provider="IBM">
+		<library name="rulesexec.jar"/>
+		<library name="lib/able.jar"/>
+		<library name="lib/ablerules.jar"/>
+		<library name="lib/JLog.jar"/>
+		<library name="lib/antlr.jar"/>
+		<library name="lib/xerces.jar"/>
+	</bundle>
+	<bundle bundleID="277" name="IBM Support Assistant Expeditor Integration Language Pack" provider="IBM"/>
+	<bundle bundleID="278" localization="plugin" name="%plugin.name" provider="IBM"/>
+	<bundle bundleID="279" class="com.ibm.tivoli.agentext.OSGiAgentExt.InventoryHelperBundleActivator" name="OSGiAgentExt" provider="IBM"/>
+	<bundle bundleID="470" name="Italian(Italy) Dictionary" provider="IBM"/>
+	<bundle bundleID="471" class="com.ibm.collaboration.realtime.contacts.storage.Activator" localization="plugin" name="Contact Storage Plug-in" provider="IBM"/>
+	<bundle bundleID="472" class="com.ibm.collaboration.realtime.login.LoginActivator" localization="plugin" name="Login Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="109" class="com.ibm.collaboration.realtime.prefmigrator.MigratorPlugin" localization="plugin" name="Pref Migration Plug-in" provider="IBM">
+		<library name="prefmigr.jar"/>
+	</bundle>
+	<bundle bundleID="108" name="Platform Help" provider="IBM"/>
+	<bundle bundleID="107" localization="plugin" name="Xulrunner Browser Implementation" provider="IBM"/>
+	<bundle bundleID="106" class="com.ibm.micro.utility.osgi.Activator" name="MicroBrokerUtilities" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="105" name="Eclipse Forms Language Pack" provider="IBM"/>
+	<bundle bundleID="104" localization="plugin" name="Product Core Translations" provider="IBM"/>
+	<bundle bundleID="103" class="com.ibm.collaboration.realtime.bcs.application.w3alert.w3alertPlugin" localization="plugin" name="Alert" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="99" name="Core Runtime Language Pack" provider="IBM"/>
+	<bundle bundleID="102" localization="plugin" name="Lotus Sametime Connect ISA Product Plugin" provider="IBM"/>
+	<bundle bundleID="101" class="com.ibm.micro.admin.osgi.AdminActivator" name="MicroBrokerAdminClient" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="100" class="com.voicerite.vc3.outlook.OutlookPlugin" localization="plugin" name="%plugin.name" provider="%provider.name">
+		<library name="."/>
+		<library name="lib/joc-v2.0.6.jar"/>
+		<library name="lib/moyocore.jar"/>
+	</bundle>
+	<bundle bundleID="98" localization="plugin" name="Core RTC API Plug-in" provider="IBM">
+		<library name="core.jar"/>
+		<library name="lib/rtcapi.jar"/>
+	</bundle>
+	<bundle bundleID="595" class="com.ibm.rtc.meetings.policy.Activator" name="Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="97" name="Polish(Poland) Dictionary" provider="IBM"/>
+	<bundle bundleID="594" name="Content Plug-in" provider="IBM"/>
+	<bundle bundleID="96" class="com.ibm.rcp.toolbox.web.admin.Activator" localization="plugin" name="Toolbox Web Admin Plug-in" provider="IBM"/>
+	<bundle bundleID="391" localization="fragment" name="%fragment.name" provider="%provider.name"/>
+	<bundle bundleID="597" class="com.ibm.collaboration.realtime.dms.agent.setup.DmsAgentSetupActivator" localization="plugin" name="Login Plug-in" provider="IBM"/>
+	<bundle bundleID="95" localization="plugin" name="Messages Plug-in" provider="IBM"/>
+	<bundle bundleID="390" name="Apache Commons JSP 2.0 Expression Language Interpreter" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="596" class="com.ibm.mqttclient.v3.internal.factory.bundle.MqttFactoryActivator" name="MqttClientFactory" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="94" class="com.voicerite.vc3.ibm.watson.preferences.IBMWatsonPlugin" localization="plugin" name="Preferences Plug-in" provider="VoiceRite"/>
+	<bundle bundleID="393" class="com.voicerite.vc3.nameresolution.NameResolutionPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="599" name="Swedish(Sweden) Dictionary" provider="IBM"/>
+	<bundle bundleID="93" class="com.ibm.rcp.offline.internal.offlinemanager.OfflineManagerPlugin" name="network offline manager" provider="IBM"/>
+	<bundle bundleID="392" name="TAP Plug-in" provider="IBM"/>
+	<bundle bundleID="598" name="Feed Parser" provider="IBM">
+		<library name="jdom.jar"/>
+		<library name="rss.jar"/>
+	</bundle>
+	<bundle bundleID="92" class="org.eclipse.core.internal.net.Activator" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="395" localization="plugin" name="Viewers Plug-in" provider="IBM"/>
+	<bundle bundleID="91" name="Properties File Management Plug-in Language Pack" provider="IBM"/>
+	<bundle bundleID="394" name="Notes Feed Reader ui Localization Pack" provider="IBM"/>
+	<bundle bundleID="294" name="RCP Base Files" provider="IBM">
+		<library name="launcher.jar"/>
+		<library name="startup.jar"/>
+		<library name="rcpbootcp.jar"/>
+	</bundle>
+	<bundle bundleID="90" name="Feed Reader Core Plug-in" provider="IBM"/>
+	<bundle bundleID="293" class="com.ibm.rtc.meetings.documents.DocumentActivator" localization="plugin" name="Documents Plug-in" provider="IBM">
+		<library name="documents.jar"/>
+		<library name="classes.jar"/>
+		<library name="common.jar"/>
+		<library name="docbook.jar"/>
+		<library name="htmlsoff.jar"/>
+		<library name="java_uno_accessbridge.jar"/>
+		<library name="java_uno.jar"/>
+		<library name="juh.jar"/>
+		<library name="jurt.jar"/>
+		<library name="jut.jar"/>
+		<library name="report.jar"/>
+		<library name="ridl.jar"/>
+		<library name="sandbox.jar"/>
+		<library name="unoil.jar"/>
+		<library name="XFlatXml.jar"/>
+		<library name="xmerge.jar"/>
+		<library name="XMergeBridge.jar"/>
+		<library name="XSLTValidate.jar"/>
+	</bundle>
+	<bundle bundleID="499" localization="plugin" name="Invitation Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="296" class="org.eclipse.ant.core.AntCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="295" class="com.ibm.rtc.meetings.summaries.Activator" localization="plugin" name="Meeting Report Summaries Plug-in" provider="IBM">
+		<library name="summaries.jar"/>
+	</bundle>
+	<bundle bundleID="290" class="com.ibm.rcp.provisioning.ui.internal.Activator" localization="plugin" name="Provisioning UI" provider="IBM"/>
+	<bundle bundleID="496" class="com.ibm.rcp.internal.security.SecurityPlugin" name="RCP Security Provider Plug-in" provider="IBM"/>
+	<bundle bundleID="495" class="org.eclipse.ui.internal.texteditor.TextEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="292" name="Sametime Telephony Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="498" name="Linux Fragment" provider="IBM"/>
+	<bundle bundleID="291" name="English(United States) Dictionary" provider="IBM"/>
+	<bundle bundleID="497" name="Russian(Russia) Dictionary" provider="IBM"/>
+	<bundle bundleID="491" localization="plugin" name="AutoPD UI Translations" provider="IBM"/>
+	<bundle bundleID="492" name="Core Logger User Interface Language Pack" provider="IBM"/>
+	<bundle bundleID="493" name="Apache Commons Codec Project" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="494" class="com.voicerite.vc3.mci.registrationProxy.MCIRegistrationProxyPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="297" class="com.ibm.rcp.provisioning.internal.requirements.RequirementsPlugin" localization="plugin" name="Provisioning" provider="IBM"/>
+	<bundle bundleID="298" class="com.ibm.rtc.meetings.participants.Activator" localization="plugin" name="Participants Plug-in" provider="IBM"/>
+	<bundle bundleID="299" class="com.ibm.pvc.osgiagent.extension.WctOsgiAgentExtensionBundleActivator" name="Enterprise Management Agent Configuration" provider="IBM"/>
+	<bundle bundleID="490" name="German(Germany Reform) Dictionary" provider="IBM"/>
+	<bundle bundleID="396" localization="plugin" name="Policy Plug-in" provider="IBM"/>
+	<bundle bundleID="397" name="Equinox Java Authentication and Authorization Service (JAAS) Language Pack" provider="IBM"/>
+	<bundle bundleID="398" name="Eclipse Preferences Mechanism Language Pack" provider="IBM"/>
+	<bundle bundleID="399" class="com.ibm.collaboration.realtime.calendar.notes.Activator" localization="plugin" name="Notes Calendar Service Plug-in" provider="IBM">
+		<library name="service.jar"/>
+	</bundle>
+	<bundle bundleID="590" name="Text Analyzer Language Pack" provider="IBM"/>
+	<bundle bundleID="591" class="com.voicerite.vc3.location.Activator" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="88" class="com.ibm.rcp.annotation.internal.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="592" class="com.ibm.rcp.toolbox.builder.Activator" localization="plugin" name="Widgets Builder Plug-in" provider="IBM"/>
+	<bundle bundleID="89" name="%plugin.name" provider="IBM"/>
+	<bundle bundleID="593" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="240" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="241" name="Update UI Language Pack" provider="IBM"/>
+	<bundle bundleID="383" localization="plugin" name="Help Plug-in" provider="IBM"/>
+	<bundle bundleID="384" name="MicroBrokerUtilitiesExtended" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="381" localization="plugin" name="IBM Lotus Sametime Connect Advanced help" provider="IBM"/>
+	<bundle bundleID="382" class="com.ibm.collaboration.realtime.prefs.Activator" localization="plugin" name="Prefs Plug-in" provider="IBM"/>
+	<bundle bundleID="380" class="com.ibm.collaboration.realtime.multimedia.phonegrid.PhonegridPlugin" name="Phonegrid Plug-in" provider="IBM">
+		<library name="PhoneGrid.jar"/>
+		<library name="lib/IBMToolkitForMpeg4AudioSDK.jar"/>
+		<library name="lib/IceSDK.jar"/>
+		<library name="lib/ICECommon.jar"/>
+	</bundle>
+	<bundle bundleID="389" name="Java Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="388" name="IBM LanguageWare V5 Engine Fragment" provider="IBM"/>
+	<bundle bundleID="387" class="com.voicerite.vc3.vzb.preferences.PreferencesPlugin" isBundle="false" localization="plugin" name="Preferences Plug-in" provider="VoiceRite">
+		<library name="preferences.jar"/>
+	</bundle>
+	<bundle bundleID="386" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="385" class="com.ibm.esupport.autopd.core.local.AutoPDLocalActivator" localization="plugin" name="%plugin.name" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="245" localization="plugin" name="com.ibm.collaboration.realtime.appsharetk">
+		<library name="AppshareToolkit.jar"/>
+		<library name="STMRCNativeLin-852_20110725.0756.jar"/>
+		<library name="STMRCNativeWin-852_20110725.0756.jar"/>
+	</bundle>
+	<bundle bundleID="244" localization="plugin" name="Content Store Registry Eclipse Services Plug-in" provider="IBM">
+		<library name="com.ibm.content.operations.eclipse_3.5.0.20080715-1445.jar"/>
+	</bundle>
+	<bundle bundleID="243" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="242" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="249" name="SWTEX Gtk Fragment" provider="IBM"/>
+	<bundle bundleID="248" class="org.eclipse.ui.internal.WorkbenchPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="247" name="IBM LanguageWare V5 Runtime Library Language Pack" provider="IBM"/>
+	<bundle bundleID="246" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="230" name="Web and eRCP application handler Language Pack" provider="IBM"/>
+	<bundle bundleID="370" name="Eclipse Preference Management Plugin Language Pack" provider="IBM"/>
+	<bundle bundleID="371" name="Portuguese(Portugal) Dictionary" provider="IBM"/>
+	<bundle bundleID="372" class="com.ibm.rcp.net.http.HttpPlugin" localization="plugin" name="Http and Https URL Handler" provider="IBM"/>
+	<bundle bundleID="373" class="com.ibm.rcp.personality.framework.internal.RCPPlatformPlugin" name="Personality Framework" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="379" class="com.voicerite.vc3.desktop.preferences.oem.DesktopPreferencesPlugin" localization="plugin" name="%plugin.name" provider="%provider.name"/>
+	<bundle bundleID="378" name="Im hub Sideshelf Plug-in" provider="IBM"/>
+	<bundle bundleID="239" class="com.ibm.rtc.meetings.documents.DocumentActivator" localization="plugin" name="Documents Plug-in" provider="IBM">
+		<library name="documents.jar"/>
+		<library name="classes.jar"/>
+		<library name="common.jar"/>
+		<library name="docbook.jar"/>
+		<library name="htmlsoff.jar"/>
+		<library name="java_uno_accessbridge.jar"/>
+		<library name="java_uno.jar"/>
+		<library name="juh.jar"/>
+		<library name="jurt.jar"/>
+		<library name="jut.jar"/>
+		<library name="report.jar"/>
+		<library name="ridl.jar"/>
+		<library name="sandbox.jar"/>
+		<library name="unoil.jar"/>
+		<library name="XFlatXml.jar"/>
+		<library name="xmerge.jar"/>
+		<library name="XMergeBridge.jar"/>
+		<library name="XSLTValidate.jar"/>
+	</bundle>
+	<bundle bundleID="375" name="Eclipse UI Language Pack" provider="IBM"/>
+	<bundle bundleID="374" localization="plugin" name="Privacy Plug-in" provider="IBM"/>
+	<bundle bundleID="377" name="Views Language Pack" provider="IBM"/>
+	<bundle bundleID="376" name="Rtc4web Core Plug-in" provider="IBM">
+		<library name="rtc4webcore.jar"/>
+	</bundle>
+	<bundle bundleID="232" class="org.osgi.service.webapplication.WebApplicationActivator" name="Samlprovider" provider="IBM">
+		<library name="WebContent/WEB-INF/classes/"/>
+	</bundle>
+	<bundle bundleID="231" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="234" localization="fragment-compatibility" name="%fragmentName" provider="%providerName">
+		<library name="compatibility.jar"/>
+	</bundle>
+	<bundle bundleID="233" name="OSGi Agent Bundle Scheduler Language Pack" provider="IBM"/>
+	<bundle bundleID="236" name="Admin Plug-in Localization" provider="IBM"/>
+	<bundle bundleID="235" localization="plugin" name="IBM Internal Gateway Migration Utility People 8.0x Fragment" provider="IBM"/>
+	<bundle bundleID="238" name="IBM LanguageWare V2.7 engine Language Pack" provider="IBM"/>
+	<bundle bundleID="237" localization="plugin" name="Persistentchat UI Plug-in" provider="IBM"/>
+	<bundle bundleID="262" name="Regex Annotation Plug-in" provider="IBM"/>
+	<bundle bundleID="263" class="com.ibm.rcp.csiactions.CsiactionsPlugin" localization="plugin" name="Csiactions Plug-in" provider="IBM"/>
+	<bundle bundleID="260" class="com.ibm.rcp.applauncher.plugin.NativeWindowServicePlugin" localization="plugin" name="GTK Native Application Launcher" provider="IBM"/>
+	<bundle bundleID="261" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="361" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="362" localization="fragment" name="%fragmentName" patch="true" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+	</bundle>
+	<bundle bundleID="360" name="Shared UI Packages" provider="IBM"/>
+	<bundle bundleID="366" name="Security Common Library"/>
+	<bundle bundleID="365" class="com.ibm.collaboration.realtime.status.ext.Activator" localization="plugin" name="Extended Status Plug-in" provider="IBM"/>
+	<bundle bundleID="364" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="363" name="Lotus Expeditor ISA Product Plugin Base Utilities Language Pack" provider="IBM"/>
+	<bundle bundleID="369" localization="plugin" name="Magic Carpet" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="368" hasExtensibleAPI="true" name="SWTEX Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="367" class="org.eclipse.core.variables.VariablesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="269" class="com.ibm.rtc.meetings.library.LibraryPlugin" localization="plugin" name="Library Plug-in" provider="IBM"/>
+	<bundle bundleID="268" localization="plugin" name="Workplace Widgets Plug-in" provider="IBM"/>
+	<bundle bundleID="267" name="Embedded Browser Language Pack" provider="IBM"/>
+	<bundle bundleID="266" name="Widgets Provisioning Localization" provider="IBM"/>
+	<bundle bundleID="265" class="org.eclipse.core.internal.content.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="264" class="com.ibm.collaboration.realtime.webapi.Activator" localization="plugin" name="Web API Plug-in" provider="IBM">
+		<library name="WEB-INF/lib/JSON4J.jar"/>
+		<library name="webapi.jar"/>
+	</bundle>
+	<bundle bundleID="250" name="Eclipse Preference Management Plugin" provider="IBM"/>
+	<bundle bundleID="251" name="OSGi System Bundle Language Pack" provider="IBM"/>
+	<bundle bundleID="252" class="com.ibm.collaboration.realtime.meetings.MeetingsPlugin" localization="plugin" name="Meetings Plug-in" provider="IBM">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="350" class="com.ibm.rtc.meetings.application.Activator" name="Core application plug-in" provider="IBM"/>
+	<bundle bundleID="351" class="com.ibm.rcp.csiviews.CSIViewsPlugin" localization="plugin" name="Csiviews Plug-in" provider="IBM"/>
+	<bundle bundleID="353" name="Automatic Updates Scheduler Language Pack" provider="IBM"/>
+	<bundle bundleID="352" class="org.eclipse.core.internal.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="355" name="Net Status Capabilities" provider="IBM"/>
+	<bundle bundleID="354" localization="plugin" name="Standalone Fragment" provider="IBM"/>
+	<bundle bundleID="357" localization="plugin" name="Nl Fragment for Product Information UI" provider="IBM"/>
+	<bundle bundleID="356" localization="plugin" name="IBM LanguageWare V2.7 Engine" provider="IBM"/>
+	<bundle bundleID="359" name="Catalan(Catalan) Dictionary" provider="IBM"/>
+	<bundle bundleID="358" name="Apache Commons Digester" provider="IBM"/>
+	<bundle bundleID="258" class="com.ibm.collaboration.realtime.browser.BrowserPlugin" localization="plugin" name="Collaboration Browser" provider="IBM"/>
+	<bundle bundleID="257" class="org.eclipse.equinox.internal.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="259" class="com.ibm.rtc.meetings.polling.PollingPlugin" localization="plugin" name="Polling Plug-in" provider="IBM"/>
+	<bundle bundleID="254" class="com.ibm.rtc.meetings.telephony.ui.Activator" localization="plugin" name="Sametime Audio/Visual Meetings Plug-in" provider="IBM"/>
+	<bundle bundleID="253" class="org.eclipse.jface.internal.JFaceActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="256" name="Context Plug-in" provider="IBM"/>
+	<bundle bundleID="255" class="com.ibm.collaboration.realtime.spellchecker.SpellcheckerPlugin" localization="plugin" name="Spellchecker Plug-in" provider="IBM">
+		<library name="spellchecker.jar"/>
+	</bundle>
+</map>

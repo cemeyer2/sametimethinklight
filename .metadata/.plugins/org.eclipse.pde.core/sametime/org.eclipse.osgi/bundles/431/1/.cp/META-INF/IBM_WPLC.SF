@@ -1,0 +1,517 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_05 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest-Main-Attributes: bYLqM+on37JJ4OlIPrbo/s2A/b8=
+SHA1-Digest-Manifest: migfDn40md/lLydMn4wqpYL+xOQ=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$2.cl
+ ass
+SHA1-Digest: Tmp0+C8bBcVzxkuUKN+FN96waYc=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$5.class
+SHA1-Digest: CX9PXnV8NEp3N2yhxI1BfBAGq+E=
+
+Name: plugin_pt.properties
+SHA1-Digest: rWh1I2H4Cho45Az4bUpQ1VSN1k8=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesMessageHandler.c
+ lass
+SHA1-Digest: M2p0RBMX+/cc0tNOae70GmBOeps=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$6.class
+SHA1-Digest: q+smAVKVrcuIjNd8gMzBIUn84tk=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_no.prop
+ erties
+SHA1-Digest: 9px1adbhcrRGtcCusSuTdyFzc2I=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$16.class
+SHA1-Digest: yhAz1s9ytwEkav/Jl9iJ9CHjLxY=
+
+Name: smileys/EmoticonEyebrow.gif
+SHA1-Digest: fvNBN460X0VyGW6MCD9/U8gw0xg=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_en.prop
+ erties
+SHA1-Digest: As9OxeAmGhvX6DTbyILfMcmtfGQ=
+
+Name: plugin_es.properties
+SHA1-Digest: aoS63RD6LyXPY5kMASqMPy0JdfQ=
+
+Name: smileys/EmoticonLaugh.gif
+SHA1-Digest: GvoXmkiVG4WWR1CTeMrTCD+wcpE=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_sv.prop
+ erties
+SHA1-Digest: 0vAD81fx5DthIqDcf8z/81USTAg=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog.clas
+ s
+SHA1-Digest: cUO3BBp/pR60SSPx+zxyoWehw0k=
+
+Name: plugin_ja.properties
+SHA1-Digest: Rc7mWwUMe3zu+SLEVwI7Y5L+TDU=
+
+Name: smileys/EmoticonTongue.gif
+SHA1-Digest: gC750rvF71nraa+HfurX51kUZEM=
+
+Name: com/ibm/collaboration/realtime/palettes/ExCommunityAdapter$1.cla
+ ss
+SHA1-Digest: y5eNSVPu8DJ6ROqCaPYJctZ2/30=
+
+Name: plugin_fi.properties
+SHA1-Digest: dayxtaMV9311pEAbKXaRPJn05vM=
+
+Name: plugin_da.properties
+SHA1-Digest: flKgXHmzpf4QiU1JhoNB/Ai8zvg=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$12.class
+SHA1-Digest: RKNB/Gf/A6fr5fuxpzsWG/mvUho=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_zh.prop
+ erties
+SHA1-Digest: p8wvkbAE0+2q0g1CkQ1/QMj79VY=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$14.class
+SHA1-Digest: 9mS4xsQYxWNwJ8l0Xy7NG+79s5s=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$3.cl
+ ass
+SHA1-Digest: dM45ytAT+Dj15iscwPrDibBhtqQ=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_kk.prop
+ erties
+SHA1-Digest: pfGdj+JSc5qbcKw1M9BsmdaCgGg=
+
+Name: plugin.xml
+SHA1-Digest: fri8k09feVxeYIR0ITkNUpuOusc=
+
+Name: plugin_sk.properties
+SHA1-Digest: 3bbYgvaPgJW6naR/chRr9ZIxat8=
+
+Name: com/ibm/collaboration/realtime/palettes/ExChatToolBarOnAction$1.
+ class
+SHA1-Digest: mx7rVHfTXmqbeBMyE+CGr5MdkNs=
+
+Name: com/ibm/collaboration/realtime/palettes/ExCommunityAdapter.class
+SHA1-Digest: qzVV4BzDS5EWJHrRQL8K3dQDpYk=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$1$1.
+ class
+SHA1-Digest: w2VqeebUejTO2V5XarK8HtPDcRU=
+
+Name: copyright.txt
+SHA1-Digest: uP29VWE3NBd20C3kyV70/OWPLSc=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$1.cl
+ ass
+SHA1-Digest: frnm6TpQ0uSa8jLbS0+NMwgw7x4=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteXMLHandler.class
+SHA1-Digest: EdbZdCqthv8lB5uZaIsmtVbCkpw=
+
+Name: plugin_ro.properties
+SHA1-Digest: retvxYsmFwzsLasZ76LYoJ30HVI=
+
+Name: plugin_de.properties
+SHA1-Digest: 738EJBusZN7uAwx8Px0qCnLub78=
+
+Name: com/ibm/collaboration/realtime/palettes/ExPalettesPlugin.class
+SHA1-Digest: MLOxIjG2yM8ds4Q6z2AFQ7umpXM=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$10.class
+SHA1-Digest: Ux21z2xuKTevxh+d/Tvqhw83yvM=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_iw.prop
+ erties
+SHA1-Digest: uQ3xYQERisLxYzcApskxt1bbf9o=
+
+Name: smileys/EmoticonHysterical.gif
+SHA1-Digest: YeNycBp9/1q5hqibLU8ceSFD30g=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_fi.prop
+ erties
+SHA1-Digest: zbcdY69LcagFQPG2Rf+jIDMBvDs=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesAnnotationProvid
+ er$1.class
+SHA1-Digest: V0Nk4G32ILQml1rhqu+q3uUuaGY=
+
+Name: com/ibm/collaboration/realtime/palettes/ExPalettesPlugin$1.class
+SHA1-Digest: QibEpJEdFqZe9hDs9WEwo9zsjbI=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_ro.prop
+ erties
+SHA1-Digest: URMNhyxx+or5rRi4iIP/Ppsxb8o=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$7.cl
+ ass
+SHA1-Digest: 3RStK5ImMY1yJ6oqtyS8ij32/88=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_ar.prop
+ erties
+SHA1-Digest: lPvH9TQfkNf9jLXRILwwEM/NPww=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$7.class
+SHA1-Digest: mC+yHSprWfm3YWSa4IiGZ+YCFT4=
+
+Name: plugin_kk.properties
+SHA1-Digest: YxCU3bEssWvJsZqNC+MawYqj1Qc=
+
+Name: plugin_nl.properties
+SHA1-Digest: hCLxczp65kECOtjSPLJaT5BsmKY=
+
+Name: plugin_ar.properties
+SHA1-Digest: ts7wwkRFKZ/OjP3Vq65pTKMGkPk=
+
+Name: com/ibm/collaboration/realtime/palettes/ExChatToolBarOnAction.cl
+ ass
+SHA1-Digest: +ZqkusmufczYm0mxFb2jLPqwWtM=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$10.c
+ lass
+SHA1-Digest: 2451b8LI8u0FTrGUpifoXutGWTM=
+
+Name: plugin.properties
+SHA1-Digest: 9I7eZhnXhG5UBjvgFRqZk2AQ14g=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesLifecycleManager
+ .class
+SHA1-Digest: QrNEd1vDgAou2prALhmxXlNbLBs=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$13.class
+SHA1-Digest: ldgYDJUGpskzh5lvUibcy11+4Bg=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesAnnotationProvid
+ er$2.class
+SHA1-Digest: XNOVh5AkYGFRvHvIgFwPz49zLw8=
+
+Name: plugin_el.properties
+SHA1-Digest: UHBCVwclqgyks+dSHusl4p3O/ig=
+
+Name: smileys/EmoticonBigSmile.gif
+SHA1-Digest: KlXkXS/B9TT6u1yLVTk8nAaQVw4=
+
+Name: about.html
+SHA1-Digest: f2FA2ZTJUALLtEAw2jT6QZO79LU=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteItem.class
+SHA1-Digest: 7b/u7awPiXXp6AvQoQwcUqZjvpk=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_cs.prop
+ erties
+SHA1-Digest: 43o2fIg0E2zyrhbBBzOKYSRiQzY=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_da.prop
+ erties
+SHA1-Digest: lbkHsB8MNNip8bOaCa/jmPh/0cw=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$23.class
+SHA1-Digest: MGIjSt3NEooawXIm1wR6HQ6R+WM=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$17.class
+SHA1-Digest: 55G5uHMuRSG4pE0vewANB0Mzkck=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$9.cl
+ ass
+SHA1-Digest: D/eVmV4wdSEdrxY/XJljwcYJT64=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesAnnotationProvid
+ er.class
+SHA1-Digest: +HjqBH4hemHhSts9mGyRoejVHYY=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$22.class
+SHA1-Digest: 4/eh2W3c8BAUyiDCy/Bg7uvNcZg=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_de.prop
+ erties
+SHA1-Digest: qwSxWAudqtdYWARU5tuwbzbR6UM=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_ko.prop
+ erties
+SHA1-Digest: zYchYJEjnvh4AenHp26wdsKPnxs=
+
+Name: plugin_hu.properties
+SHA1-Digest: iKFkhhOEu2sTlDdxVBHkVNVA3a8=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteImportExport.clas
+ s
+SHA1-Digest: WB18ZLrlI1A0wD2XShscQNdCjIU=
+
+Name: plugin_it.properties
+SHA1-Digest: s8RDNu1Rg2OcpV2QdDzVtabU57A=
+
+Name: plugin_fr.properties
+SHA1-Digest: t6IyLy7xxstZDFuAHzFu2/nZBvE=
+
+Name: smileys/EmoticonAngel.gif
+SHA1-Digest: oCCS4bWsmomz7IjJt/rqk+UpM/w=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_sk.prop
+ erties
+SHA1-Digest: a5jOemsDasqqlmOurp2C7hHX+LM=
+
+Name: smileys/EmoticonAngry.gif
+SHA1-Digest: QNxbbVdJPUz67lNy22iSsSW6U5U=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_sl.prop
+ erties
+SHA1-Digest: R753E50S8FqoN4BGQo8tG/CE4vM=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_pt.prop
+ erties
+SHA1-Digest: MxZGpexi32bKmpw7WYRPks+qFg4=
+
+Name: plugin_ru.properties
+SHA1-Digest: PEp96yw7C2pI3s6tMiVZWpOKA/4=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$4.class
+SHA1-Digest: Rdk9FIhS2pvalH16GOClgAIyhU4=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$11.class
+SHA1-Digest: nN5KuaDaRhr0aVHweJ4bh/j3G3k=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_el.prop
+ erties
+SHA1-Digest: d2Me0q+Mp4ycjPNEFt5PUr6zgNM=
+
+Name: smileys/Happy16x16.gif
+SHA1-Digest: AhQagVP9SkSvx8KeCK/s/bIHdX8=
+
+Name: smileys/EmoticonConfused.gif
+SHA1-Digest: egE6XTQBAJx8KYrOpaq8cRjcbRs=
+
+Name: plugin_no.properties
+SHA1-Digest: o+27p4DaFZPGMZ3hdsOcUHCbR7c=
+
+Name: plugin_tr.properties
+SHA1-Digest: +AQyrsIPkfZVc/UhudugHUG2hSg=
+
+Name: smileys/EmoticonLightbulb.gif
+SHA1-Digest: gdMAaIMnwwk168Y5beyyVsYp4+A=
+
+Name: smileys/EmoticonSurprised.gif
+SHA1-Digest: xMv6bH2I0f60jwyPDsoofRstjU4=
+
+Name: smileys/Emoticon.png
+SHA1-Digest: 3fXkIn4CG+PWzizrSBHGRKcvyXA=
+
+Name: plugin_zh_TW.properties
+SHA1-Digest: aIeTICVnlRbPb5eL1wKh+4RB/O8=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_it.prop
+ erties
+SHA1-Digest: 8Xbe8DmTidSK9lnW5HFY5n9oqZE=
+
+Name: smileys/EmoticonThumbsDown.gif
+SHA1-Digest: dFUSG+xtBm3wLea2Q9ntCQ4rtJs=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age.class
+SHA1-Digest: Vi3ZTDm6BE7u5F73laPGkkOUgAI=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesOfflineMessagePa
+ rser.class
+SHA1-Digest: diKQkeOOJx2iAdeEA0q+lllQ7sU=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$4.cl
+ ass
+SHA1-Digest: 5102Z7cQ34zeXSWLhRBOC9KMD5g=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_tr.prop
+ erties
+SHA1-Digest: S4VcbECVwj2RgxieyGqk3rjPqtQ=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$21.class
+SHA1-Digest: Zhcd+Zya6TcMXbTfFkdSMdEtWvY=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$18.class
+SHA1-Digest: rlxrShwcZ0xWbhB0XetSSAJk6lQ=
+
+Name: plugin_sl.properties
+SHA1-Digest: j853e+h0g5djIuNdEInDMoSuPJs=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_hu.prop
+ erties
+SHA1-Digest: ELeSaCIK14mx2hRtEy97QtKxfZE=
+
+Name: com/ibm/collaboration/realtime/palettes/ExCommunityAdapter$Messa
+ geEventMgr.class
+SHA1-Digest: HXGCAYrnMrtAg0WrDqI7A3ghmLo=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$19.class
+SHA1-Digest: CJHF5b+lUhGhg06krcuaGouJrLQ=
+
+Name: plugin_cs.properties
+SHA1-Digest: clRVM+s2LjEEAnssluIKc7jtHcY=
+
+Name: com/ibm/collaboration/realtime/palettes/ExCommunityAdapter$SetPr
+ efPageVisibilityJob.class
+SHA1-Digest: 9/23zOWN+zSgv15ts3WrQ6V+vk0=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_nl.prop
+ erties
+SHA1-Digest: /XJl5L8I4tdRvlrREWZQhlbFBoA=
+
+Name: plugin_ko.properties
+SHA1-Digest: C2XvlK0WA91J4UESSa7ND9V7Jx4=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_fr.prop
+ erties
+SHA1-Digest: 1g63xFRmVPA0DHCw2xl83NrwmEU=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$2.class
+SHA1-Digest: 6L9b/t2tEwNdBd45pTzUJR++ZXo=
+
+Name: plugin_pl.properties
+SHA1-Digest: Xzkj8/c/LIQvjaKoKiw5FRjZSYs=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$15.class
+SHA1-Digest: xQcErOebNUdAOLG3PkTj2wG6+lk=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$20.class
+SHA1-Digest: tBhVqL+3iLU1AjppBynsf8r1Sio=
+
+Name: smileys/EmoticonGoofy.gif
+SHA1-Digest: r/WaEg4LtPE2kLpmAgtq71b0Avg=
+
+Name: smileys/EmoticonCrying.gif
+SHA1-Digest: iS0dHMLqZQwkf9JAoeI3OBVdjUc=
+
+Name: smileys/EmoticonShy.gif
+SHA1-Digest: K5bP4Hb+IdggzAM5ndKFdaP4ILc=
+
+Name: com/ibm/collaboration/realtime/palettes/AddToPalette.class
+SHA1-Digest: vohZTFVgg3/35bDzvVCG2O0QNPc=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$8.cl
+ ass
+SHA1-Digest: 862W3kr0qzWFRx0nOQe+TmQ+xOY=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$3.class
+SHA1-Digest: HmpUdVqtrulVLbTOxHtNnFntRrE=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$5.cl
+ ass
+SHA1-Digest: Sh758nBvfX1LduYntHDD0XIp+i8=
+
+Name: smileys/EmoticonSad.gif
+SHA1-Digest: C7EmkdhF6JAc62XLEd5OgaHPw7w=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesModel.class
+SHA1-Digest: yfj2BYOecDx1vzjTCEX6R36qF6w=
+
+Name: com/ibm/collaboration/realtime/palettes/IPaletteView.class
+SHA1-Digest: Gn6+bKdb1vv5/ZoBLyNO06ZLEIQ=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$11.c
+ lass
+SHA1-Digest: KoJjXK23BOYs2rDoWlQwe7edp+0=
+
+Name: com/ibm/collaboration/realtime/palettes/PalettesMessageCallback.
+ class
+SHA1-Digest: dGyzEEfY7OKgquRfV+pUK3vqYoA=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_hr.prop
+ erties
+SHA1-Digest: waaG3QDWWR0FEKiFajhJi90ENdk=
+
+Name: plugin_sv.properties
+SHA1-Digest: o3vu3wb5QHUIdrPUi/7Gk/w49Vs=
+
+Name: smileys/EmoticonThumbsUp.gif
+SHA1-Digest: TKCQAR//GCMQY+Z909QULQyLh3k=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_ru.prop
+ erties
+SHA1-Digest: Lh1e02XKi3bIqEDBws0fl4OAGag=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_pl.prop
+ erties
+SHA1-Digest: j5JEuQ/pXgHiIrWXtWdqk2GEOdc=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_ja.prop
+ erties
+SHA1-Digest: UluxYl9Tw/ty0TA/pF+CVF/RgWA=
+
+Name: plugin_iw.properties
+SHA1-Digest: T/BX4buTswkjIt81a7U2za81TOo=
+
+Name: smileys/EmoticonCool.gif
+SHA1-Digest: 76Fd8cuBG8WEcaQ1r0tEvP+2Kts=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteViewerDialog$6.cl
+ ass
+SHA1-Digest: rA2OwbkJ2GTohTDCgTJAE4jcs0Q=
+
+Name: plugin_pt_BR.properties
+SHA1-Digest: XYhawtcR3bTPSWo8oa4tcOYsMAE=
+
+Name: com/ibm/collaboration/realtime/palettes/Palette.class
+SHA1-Digest: GV8kHIrtS8dRC0nHnZVRDOnDjPk=
+
+Name: smileys/EmoticonHappy.gif
+SHA1-Digest: c7Vu7CKStyY2X9iKugo3LBZf5b8=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$8.class
+SHA1-Digest: h35mUxSEIldNocnw6pb/cbcQKAE=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_es.prop
+ erties
+SHA1-Digest: jUoUXuU6Suv3YzlgeAz2ljyIrUY=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_pt_BR.p
+ roperties
+SHA1-Digest: kmZcfZM4smbK3XfwJe6NdQNZa3E=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$1.class
+SHA1-Digest: V9044adKU/oMWAYPR/VMeyvwXto=
+
+Name: plugin_zh.properties
+SHA1-Digest: peM+10ce/pw8dZQJ9CVqJQ7t0og=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/Messages.class
+SHA1-Digest: 4tf0IAyyMof7rPFS4UTHtLI6GUA=
+
+Name: com/ibm/collaboration/realtime/palettes/PaletteEditorPreferenceP
+ age$9.class
+SHA1-Digest: TkKANXS3sC7JdI23/aRw1SDmbrc=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages_zh_TW.p
+ roperties
+SHA1-Digest: PeNcHIZHFvZlkiz5mwHXYB7+Fe8=
+
+Name: plugin_hr.properties
+SHA1-Digest: 1hh/aNOY+veTZxdIetwk983fJfM=
+
+Name: com/ibm/collaboration/realtime/palettes/strings/messages.propert
+ ies
+SHA1-Digest: DI/vi677GM4oAECZGdrjL+UwdDg=
+
+Name: com/ibm/collaboration/realtime/palettes/AddToPalette$1.class
+SHA1-Digest: hSEmsIOhEFO5IinBZqzx8bJ+NWg=
+
+Name: smileys/EmoticonWink.gif
+SHA1-Digest: wysmke2ey3wCgSQiGsZPO5O+zoI=
+

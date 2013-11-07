@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="initLaunch"/>
+	<item value="0" key="org.eclipse.pde.ui.synchronizeVersions.mode"/>
+	<item value="true" key="generateActivator"/>
+	<item value="true" key="uiPlugin"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="false" key="osgiProject"/>
+	<item value="" key="targetName"/>
+	<section name="org.eclipse.pde.ui.PLUGIN_STATUS_DIALOG">
+		<item value="402" key="DIALOG_WIDTH"/>
+		<item value="282" key="DIALOG_Y_ORIGIN"/>
+		<item value="760" key="DIALOG_X_ORIGIN"/>
+		<item value="388" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="PluginExportWizard">
+	</section>
+	<section name="FeatureExportWizard">
+		<item value="linux (gtk/x86),linux (gtk/x86_64),win32 (win32/x86),win32 (win32/x86_64)" key="cross-platform"/>
+		<item value="true" key="exportUpdate"/>
+		<item value="false" key="saveAsAnt"/>
+		<item value="" key="alias"/>
+		<item value="true" key="p2metadata"/>
+		<item value="true" key="qualifier"/>
+		<item value="/home/cemeyer/Desktop/sttl.zip" key="zipFileName0"/>
+		<item value="" key="password"/>
+		<item value="/home/cemeyer/Desktop/sttl.zip" key="zipFileName1"/>
+		<item value="false" key="jnlp"/>
+		<item value="/home/cemeyer/Desktop/test.zip" key="zipFileName2"/>
+		<item value="false" key="exportSource"/>
+		<item value="" key="keystore"/>
+		<item value="" key="siteURL"/>
+		<item value="/home/cemeyer/Desktop/tno" key="destination3"/>
+		<item value="true" key="exportDirectory"/>
+		<item value="false" key="signJAR"/>
+		<item value="true" key="multiplatform"/>
+		<item value="/home/cemeyer/Desktop/tno.zip" key="destination2"/>
+		<item value="/home/cemeyer/Desktop/notifications" key="destination1"/>
+		<item value="" key="jre"/>
+		<item value="/home/cemeyer/Desktop/notifications" key="destination0"/>
+		<item value="201210101146" key="qualifierName"/>
+	</section>
+	<section name="pde-form-editor">
+		<item value="ex-points" key="org.eclipse.pde.ui.manifestEditor"/>
+	</section>
+</section>

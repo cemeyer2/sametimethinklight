@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1349818354056
+activated,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1349818359516
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818402858
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818403163
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818406492
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818406897
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.delete,1349818418261
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1349818434344
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.save,1349818436782
+activated,editor,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui.manifestEditor,1349818442481
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.copy,1349818452221
+activated,editor,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui.manifestEditor,1349818453335
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818459712
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.paste,1349818461749
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.undo,1349818462812
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818464017
+activated,editor,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui.manifestEditor,1349818465208
+activated,editor,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui.manifestEditor,1349818467554
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818469273
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1349818475845
+activated,editor,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui.manifestEditor,1349818479048
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.copy,1349818488613
+activated,editor,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui.manifestEditor,1349818489940
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.paste,1349818499539
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.save,1349818506157

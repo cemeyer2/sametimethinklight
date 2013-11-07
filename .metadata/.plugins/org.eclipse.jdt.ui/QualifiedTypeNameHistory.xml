@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="SametimeNotificationFrame"/>
+<fullyQualifiedTypeName name="java.awt.Dimension"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="com.ibm.lnja.sametimethinklight.message.notification.SametimeNotificationFrame"/>
+<fullyQualifiedTypeName name="net.sf.jcarrierpigeon.WindowPosition"/>
+<fullyQualifiedTypeName name="net.sf.jcarrierpigeon.Notification"/>
+<fullyQualifiedTypeName name="com.ibm.lnja.sametimenotifications.message.notification.BasicAlert"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.awt.Image"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Display"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Image"/>
+<fullyQualifiedTypeName name="com.ibm.collaboration.realtime.servicehub.ServiceHub"/>
+<fullyQualifiedTypeName name="com.ibm.collaboration.realtime.tools.chat.ChatEvent"/>
+<fullyQualifiedTypeName name="com.ibm.collaboration.realtime.people.Person"/>
+<fullyQualifiedTypeName name="com.ibm.lnja.sametimenotifications.activator.SametimeNotificationsPlugin"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.ibm.lnja.sametimethinklight.activator.SametimeThinklightPlugin"/>
+<fullyQualifiedTypeName name="com.ibm.collaboration.realtime.im.community.CommunityService"/>
+<fullyQualifiedTypeName name="com.ibm.lnja.sametimegooglevoice.gvoice.GoogleVoiceDaemon"/>
+<fullyQualifiedTypeName name="com.ibm.collaboration.realtime.chatwindow.ChatControllerService"/>
+<fullyQualifiedTypeName name="com.ibm.lnja.sametimegooglevoice.activator.SametimeGoogleVoicePlugin"/>
+<fullyQualifiedTypeName name="com.ibm.collaboration.realtime.messages.im.ImTextReceivedMessage"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="P2TargetProvisionerWizardSettings">
+		<item value="false" key="clearContents"/>
+		<item value="true" key="useDefault"/>
+	</section>
+</section>

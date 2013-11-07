@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"IBM Corporation",1349284130672
+java.version,sysinfo,,,"1.6.0",1349284130672
+java.vm.info,sysinfo,,,"JRE 1.6.0 IBM J9 2.4 Linux x86-32 jvmxi3260sr10fp1-20120202_101568 (JIT enabled, AOT enabled)\nJ9VM - 20120202_101568\nJIT  - r9_20111107_21307ifx1\nGC   - 20120202_AA",1349284130672
+java.vm.name,sysinfo,,,"IBM J9 VM",1349284130672
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1349284130672
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1349284130672
+java.vm.specification.version,sysinfo,,,"1.0",1349284130672
+java.vm.vendor,sysinfo,,,"IBM Corporation",1349284130672
+java.vm.version,sysinfo,,,"2.4",1349284130672
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1349284131682
+error,log,,,"Unhandled event loop exception",1349284132195
+started,bundle,org.eclipse.pde.build,3.5.0.v20090527-1800,"org.eclipse.pde.build",1349284132743
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1349284133087
+started,bundle,org.eclipse.ant.core,3.2.100.v20090520,"org.eclipse.ant.core",1349284133429
+started,bundle,org.eclipse.equinox.p2.metadata.generator,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.metadata.generator",1349284134811
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1349284134900
+started,bundle,org.eclipse.equinox.p2.repository.tools,1.0.0.v20090527-1812,"org.eclipse.equinox.p2.repository.tools",1349284134901
+started,bundle,org.eclipse.equinox.p2.director.app,1.0.100.v20090521-1912,"org.eclipse.equinox.p2.director.app",1349284134901
+started,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1349284134908
+started,bundle,org.eclipse.pde.api.tools,1.0.100.v20090526,"org.eclipse.pde.api.tools",1349284134922
+started,bundle,org.eclipse.equinox.p2.updatesite,1.0.100.v20090525,"org.eclipse.equinox.p2.updatesite",1349284138127
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1349284139868
+started,bundle,org.eclipse.jdt.apt.core,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.core",1349284140005
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.200.v20090526-2130,"org.eclipse.jdt.apt.pluggable.core",1349284140008
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1349284143927

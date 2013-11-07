@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="SametimeNotificationsFeatureLinux"
+      label="SametimeNotifications Feature For Linux"
+      version="1.1.5.qualifier"
+      provider-name="IBM"
+      os="linux">
+
+   <description>
+      Optionally makes an alert appear in the lower right corner of the screen when a message arrives
+   </description>
+
+   <copyright>
+      Copyright 2012 IBM
+   </copyright>
+
+   <license>
+      IBM Internal License
+   </license>
+
+   <url>
+      <update label="Austin GSA" url="http://ausgsa.ibm.com/~cemeyer/public/SametimeThinklight/"/>
+   </url>
+
+   <plugin
+         id="SametimeNotifications"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

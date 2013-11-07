@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SametimeThinklightFeatureLinux_1.2.2.jar" id="SametimeThinklightFeatureLinux" version="1.2.2" os="linux"/>
+   <feature url="features/SametimeThinklightFeatureWindows_1.2.2.jar" id="SametimeThinklightFeatureWindows" version="1.2.2" os="win32"/>
+   <feature url="features/SametimeNotificationsFeatureLinux_1.1.1.jar" id="SametimeNotificationsFeatureLinux" version="1.1.1" os="linux"/>
+   <feature url="features/SametimeNotificationsFeatureWindows_1.1.1.jar" id="SametimeNotificationsFeatureWindows" version="1.1.1" os="win32"/>
+   <feature url="features/SametimeThinklightFeatureLinux_1.2.3.jar" id="SametimeThinklightFeatureLinux" version="1.2.3" os="linux"/>
+   <feature url="features/SametimeThinklightFeatureWindows_1.2.3.jar" id="SametimeThinklightFeatureWindows" version="1.2.3" os="win32"/>
+</site>

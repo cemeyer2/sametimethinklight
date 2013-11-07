@@ -1,0 +1,6 @@
+#Tue Dec 11 18:26:12 CST 2012
+testenvTarget=/opt/ibm/lotus/Sametime/rcp/eclipse
+com.ibm.rcp.tools.bde.target.default=true
+CLIENT_WORKSPACE_LOCATION=//home/chuck/lotus/Sametime
+eclipse.preferences.version=1
+PREF\ DEFAULT\ TAREGT\ ID=com.ibm.collaboration.realtime.toolkit.targets.st85

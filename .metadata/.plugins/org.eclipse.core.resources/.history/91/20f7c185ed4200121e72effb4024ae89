@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SametimeNotificationsFeature_1.1.7.201210231254.jar" id="SametimeNotificationsFeature" version="1.1.7.201210231254" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.5.201210231254.jar" id="SametimeThinklightFeature" version="1.2.5.201210231254" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201210231336.jar" id="SametimeNotificationsFeature" version="1.1.8.201210231336" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.5.201210231336.jar" id="SametimeThinklightFeature" version="1.2.5.201210231336" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201211010909.jar" id="SametimeNotificationsFeature" version="1.1.8.201211010909" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.5.201211010909.jar" id="SametimeThinklightFeature" version="1.2.5.201211010909" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201211190951.jar" id="SametimeNotificationsFeature" version="1.1.8.201211190951" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.5.201211190951.jar" id="SametimeThinklightFeature" version="1.2.5.201211190951" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201211190959.jar" id="SametimeNotificationsFeature" version="1.1.8.201211190959" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.5.201211190959.jar" id="SametimeThinklightFeature" version="1.2.5.201211190959" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201211191004.jar" id="SametimeNotificationsFeature" version="1.1.8.201211191004" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.5.201211191004.jar" id="SametimeThinklightFeature" version="1.2.5.201211191004" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041051.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041051" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.6.201212041051.jar" id="SametimeThinklightFeature" version="1.2.6.201212041051" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041056.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041056" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.6.201212041056.jar" id="SametimeThinklightFeature" version="1.2.6.201212041056" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041059.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041059" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.6.201212041059.jar" id="SametimeThinklightFeature" version="1.2.6.201212041059" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041300.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041300" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.7.201212041300.jar" id="SametimeThinklightFeature" version="1.2.7.201212041300" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041611.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041611" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.7.201212041611.jar" id="SametimeThinklightFeature" version="1.2.7.201212041611" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041616.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041616" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.7.201212041616.jar" id="SametimeThinklightFeature" version="1.2.7.201212041616" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212041631.jar" id="SametimeNotificationsFeature" version="1.1.8.201212041631" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.7.201212041631.jar" id="SametimeThinklightFeature" version="1.2.7.201212041631" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212050910.jar" id="SametimeNotificationsFeature" version="1.1.8.201212050910" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.7.201212050910.jar" id="SametimeThinklightFeature" version="1.2.7.201212050910" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeature_1.1.8.201212101109.jar" id="SametimeNotificationsFeature" version="1.1.8.201212101109" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeature_1.2.7.201212101109.jar" id="SametimeThinklightFeature" version="1.2.7.201212101109" os="linux,win32">
+      <category name="Notifications"/>
+   </feature>
+   <category-def name="Notifications" label="Notifications"/>
+</site>

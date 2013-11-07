@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1349284130469
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1349284130469
+started,bundle,org.eclipse.ui.forms,3.4.0.v20090526,"org.eclipse.ui.forms",1349284130481
+started,bundle,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.ide",1349284130509
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1349284130529
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1349284130534
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.ui.views.log",1349284130542
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1349284130553
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1349284130559
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1349284130567
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1349284130586
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1349284130597
+started,bundle,org.eclipse.wst.sse.core,1.1.400.v200905141750,"org.eclipse.wst.sse.core",1349284130605
+started,bundle,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui",1349284130641
+started,bundle,org.eclipse.wst.xml.core,1.1.400.v200904300540,"org.eclipse.wst.xml.core",1349284130669
+os,sysinfo,,,"linux",1349284130671
+arch,sysinfo,,,"x86",1349284130672
+ws,sysinfo,,,"gtk",1349284130672
+locale,sysinfo,,,"en_US",1349284130672
+processors,sysinfo,,,"8",1349284130672
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1349284130672
+java.runtime.version,sysinfo,,,"pxi3260sr10fp1-20120321_01 (SR10 FP1)",1349284130672
+java.specification.name,sysinfo,,,"Java Platform API Specification",1349284130672
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1349284130672
+java.specification.version,sysinfo,,,"1.6",1349284130672

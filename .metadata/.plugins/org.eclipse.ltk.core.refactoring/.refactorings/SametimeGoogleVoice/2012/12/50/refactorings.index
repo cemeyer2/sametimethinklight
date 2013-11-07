@@ -1,0 +1,6 @@
+1355272658928	Rename type 'SametimeNotificationsPlugin'
+1355272684644	Rename type 'SametimeGoogleVoice'
+1355272780751	Rename package 'com.ibm.lnja.sametimenotifications.message'
+1355272789263	Rename package 'com.ibm.lnja.sametimenotifications.preferences'
+1355272811971	Rename type 'SametimeNotificationsPreferencesPage'
+1355275794517	Rename local variable 'service'

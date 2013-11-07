@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="com.ibm.collaboration.realtime.ui.preferenceListExtension">
+      <preferencesListExtension
+            class="com.ibm.collaboration.realtime.sample.alerts.NewOneToOneChat"
+            id="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension"
+            label="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension"
+            preferencePage="com.ibm.collaboration.realtime.alertmanager.notifications.preferences.NotificationsPreferences"/>
+      <preferencesListExtension
+            class="com.ibm.collaboration.realtime.sample.alerts.NewPrefBringFront"
+            id="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension1"
+            label="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension1"
+            preferencePage="com.ibm.collaboration.realtime.alertmanager.notifications.preferences.NotificationsPreferences"/>
+      <preferencesListExtension
+            class="com.ibm.collaboration.realtime.sample.alerts.NewPrefFlashWindow"
+            id="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension2"
+            label="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension2"
+            preferencePage="com.ibm.collaboration.realtime.alertmanager.notifications.preferences.NotificationsPreferences"/>
+      <preferencesListExtension
+            class="com.ibm.collaboration.realtime.sample.alerts.NewPrefSoundOnly"
+            id="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension3"
+            label="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension3"
+            preferencePage="com.ibm.collaboration.realtime.alertmanager.notifications.preferences.NotificationsPreferences"/>
+      <preferencesListExtension
+            class="com.ibm.collaboration.realtime.sample.alerts.NewPrefAll"
+            id="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension4"
+            label="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension4"
+            preferencePage="com.ibm.collaboration.realtime.alertmanager.notifications.preferences.NotificationsPreferences"/>
+      <preferencesListExtension
+            class="com.ibm.collaboration.realtime.sample.alerts.NewPrefAdditional"
+            id="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension5"
+            label="com.ibm.collaboration.realtime.sample.alerts.preferencesListExtension5"
+            preferencePage="com.ibm.collaboration.realtime.alertmanager.notifications.preferences.NotificationsPreferences"/>
+   </extension>
+   
+   <extension
+         point="com.ibm.collaboration.realtime.messages.MessageHandlerListener">
+      <messageHandler
+            class="com.ibm.collaboration.realtime.sample.alerts.TextConnectionOpenHandler"
+            id="com.ibm.collaboration.realtime.sample.alerts.TextConnectionOpenHandler"/>
+      <messageHandler class="com.ibm.collaboration.realtime.sample.alerts.AlertUserActionMessageHandlerAdapter"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.ibm.collaboration.realtime.sample.alerts.actionset"
+            label="STIG: Sample Alert Action Set">
+         <action
+               class="com.ibm.collaboration.realtime.sample.alerts.SampleContactListToolsAlertAction"
+               id="com.ibm.collaboration.realtime.sample.alerts.samplecontactlisttoolsalertaction"
+               label="STIG: Generate Sample Pop-up Alert (SampleContactListToolsAlertAction)"
+               menubarPath="tools/toolsEnd"
+               style="push"/>
+      </actionSet>
+   </extension>
+
+    <extension
+          point="org.eclipse.ui.actionSetPartAssociations">
+       <actionSetPartAssociation targetID="com.ibm.collaboration.realtime.sample.alerts.actionset">
+          <part id="com.ibm.collaboration.realtime.imhub"/>
+       </actionSetPartAssociation>
+    </extension>
+    
+<!-- set a custom windowClass for this alert -->
+    <extension
+          point="com.ibm.collaboration.realtime.alertmanager.alertSettings">
+       <alertSettings
+             id="com.ibm.collaboration.realtime.sample.alerts.ping"
+             key="/app/sample/alerts/ping"
+             windowClass="com.ibm.collaboration.realtime.sample.alerts.MyAlertWindow"/>
+    </extension>
+
+</plugin>

@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+
+
+public class Driver {
+	public static void main(String[] args){
+		JFrame frame = new SametimeNotificationFrame("<html><b>New message from<br>Charlie Meyer</b></html>", "<html>Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World!</html>");
+		frame.pack();
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

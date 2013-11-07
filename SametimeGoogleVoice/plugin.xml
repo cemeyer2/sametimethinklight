@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.ibm.lnja.sametimegooglevoice.preferences.SametimeGoogleVoicePreferencesPage"
+            id="com.ibm.lnja.sametimegooglevoice.preferences.SametimeGoogleVoicePreferencesPage"
+            name="Google Voice">
+      </page>
+   </extension>
+<extension point="com.ibm.collaboration.realtime.messages.MessageHandlerListener">
+
+  <messageHandler
+      class="com.ibm.lnja.sametimegooglevoice.message.ChatMessageHandlerAdapter"
+      id="com.ibm.lnja.sametimegooglevoice.message.messagehandleradapter"/> 
+</extension>
+
+</plugin>

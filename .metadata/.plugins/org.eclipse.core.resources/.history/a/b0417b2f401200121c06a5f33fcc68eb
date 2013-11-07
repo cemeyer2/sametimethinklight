@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+
+
+public class Driver {
+	public static void main(String args){
+		JFrame frame = new SametimeNotificationFrame();
+		frame.pack();
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

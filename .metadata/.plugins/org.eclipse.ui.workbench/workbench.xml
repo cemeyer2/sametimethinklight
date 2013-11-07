@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="23" version="2.0">
+<workbenchAdvisor/>
+<window height="1080" maximized="true" width="1904" x="225" y="185">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.pde.ui.featureEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.pde.ui.siteEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="138" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="96" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.pde.ui.productEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1346948062913" focus="true" label="Workspace - Plug-in Development">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandler.java" partName="ChatMessageHandler.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/message/ChatMessageHandler.java" title="ChatMessageHandler.java" tooltip="SametimeThinklight/src/com/ibm/lnja/sametimethinklight/message/ChatMessageHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/message/ChatMessageHandler.java"/>
+<editorState selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.pde.ui.featureEditor" name="feature.xml" partName="SametimeThinklightFeature" path="/home/cemeyer/workspaces/workspace-sametimethinklight/SametimeThinklightFeature/feature.xml" title="SametimeThinklightFeature" tooltip="SametimeThinklightFeature/feature.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeThinklightFeature/feature.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.pde.ui.siteEditor" name="site.xml" partName="site.xml" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeThinklightUpdateSite/site.xml" title="site.xml" tooltip="SametimeThinklightUpdateSite/site.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeThinklightUpdateSite/site.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeThinklightPreferencesPage.java" partName="SametimeThinklightPreferencesPage.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/preferences/SametimeThinklightPreferencesPage.java" title="SametimeThinklightPreferencesPage.java" tooltip="SametimeThinklight/src/com/ibm/lnja/sametimethinklight/preferences/SametimeThinklightPreferencesPage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/preferences/SametimeThinklightPreferencesPage.java"/>
+<editorState selectionLength="0" selectionOffset="8767"/>
+</editor>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="SametimeThinklight" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeThinklight/plugin.xml" title="SametimeThinklight" tooltip="SametimeThinklight/plugin.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeThinklight/plugin.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeThinklightPlugin.java" partName="SametimeThinklightPlugin.java" path="/home/cemeyer/workspaces/workspace-sametimethinklight/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/activator/SametimeThinklightPlugin.java" title="SametimeThinklightPlugin.java" tooltip="SametimeThinklight/src/com/ibm/lnja/sametimethinklight/activator/SametimeThinklightPlugin.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/activator/SametimeThinklightPlugin.java"/>
+<editorState selectionLength="0" selectionOffset="2870"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandler.java" partName="ChatMessageHandler.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeNotifications/src/com/ibm/lnja/sametimenotifications/message/ChatMessageHandler.java" title="ChatMessageHandler.java" tooltip="SametimeNotifications/src/com/ibm/lnja/sametimenotifications/message/ChatMessageHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeNotifications/src/com/ibm/lnja/sametimenotifications/message/ChatMessageHandler.java"/>
+<editorState selectionLength="27" selectionOffset="1500"/>
+</editor>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="SametimeNotifications" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeNotifications/plugin.xml" title="SametimeNotifications" tooltip="SametimeNotifications/plugin.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeNotifications/plugin.xml"/>
+</editor>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" partName="SametimeGoogleVoice" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeGoogleVoice/META-INF/MANIFEST.MF" title="SametimeGoogleVoice" tooltip="SametimeGoogleVoice/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeGoogleVoice/META-INF/MANIFEST.MF"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeGoogleVoicePlugin.java" partName="SametimeGoogleVoicePlugin.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/activator/SametimeGoogleVoicePlugin.java" title="SametimeGoogleVoicePlugin.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/activator/SametimeGoogleVoicePlugin.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/activator/SametimeGoogleVoicePlugin.java"/>
+<editorState selectionLength="0" selectionOffset="919"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandlerAdapter.java" partName="ChatMessageHandlerAdapter.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandlerAdapter.java" title="ChatMessageHandlerAdapter.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandlerAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandlerAdapter.java"/>
+<editorState selectionLength="0" selectionOffset="826"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandler.java" partName="ChatMessageHandler.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandler.java" title="ChatMessageHandler.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandler.java"/>
+<editorState selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeGoogleVoicePreferencesPage.java" partName="SametimeGoogleVoicePreferencesPage.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/preferences/SametimeGoogleVoicePreferencesPage.java" title="SametimeGoogleVoicePreferencesPage.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/preferences/SametimeGoogleVoicePreferencesPage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/preferences/SametimeGoogleVoicePreferencesPage.java"/>
+<editorState selectionLength="0" selectionOffset="918"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GoogleVoiceDaemon.java" partName="GoogleVoiceDaemon.java" path="/home/chuck/workspaces/workspace-sametimethinklight/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/gvoice/GoogleVoiceDaemon.java" title="GoogleVoiceDaemon.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/gvoice/GoogleVoiceDaemon.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/gvoice/GoogleVoiceDaemon.java"/>
+<editorState selectionLength="0" selectionOffset="3296"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TextConnectionOpenHandler.java" partName="TextConnectionOpenHandler.java" path="/home/chuck/workspaces/workspace-sametimethinklight/alerts/src/com/ibm/collaboration/realtime/sample/alerts/TextConnectionOpenHandler.java" title="TextConnectionOpenHandler.java" tooltip="alerts/src/com/ibm/collaboration/realtime/sample/alerts/TextConnectionOpenHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/alerts/src/com/ibm/collaboration/realtime/sample/alerts/TextConnectionOpenHandler.java"/>
+<editorState selectionLength="0" selectionOffset="3704"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="536" column3="150" column4="959" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="org.eclipse.pde.ui.PluginsView" partName="Plug-ins"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>&#x0A;<filter element=".*" isEnabled="false"/>
+<filter element="*.class" isEnabled="false"/>
+<filter element="wsddbuild.xml" isEnabled="false"/>
+<filter element="*.class" isEnabled="false"/>
+</filters>
+<expanded>&#x0A;<element path="/SametimeThinklight"/>
+<element path="/SametimeThinklight/src"/>
+<element path="/SametimeThinklight/src/com"/>
+<element path="/SametimeThinklight/src/com/ibm"/>
+<element path="/SametimeThinklightFeatureWindows"/>
+</expanded>
+<selection>&#x0A;<element path="/SametimeThinklight/src"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" isWindowWorkingSet="true" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_wsddbuild.xml" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<org.eclipse.mylyn.tasklist.ui.views.tasklist.sortIndex>&#x0A;<sorter sortDirection="1" sortIndex="0"/>
+<sorter2 sortDirection="1" sortIndex="2"/>
+</org.eclipse.mylyn.tasklist.ui.views.tasklist.sortIndex>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+</views>
+<perspectives activePart="org.eclipse.pde.ui.siteEditor" activePerspective="org.eclipse.pde.ui.PDEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_in_time id="org.eclipse.ui.views.ResourceNavigator" time="1350059923802"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2dc72dc7" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6069295" ratioLeft="508" ratioRight="329" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b191b19" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.5" ratioLeft="240" ratioRight="240" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1b191b19">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.jsdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="654" ratioRight="218" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44954127" ratioLeft="294" ratioRight="360" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.pde.internal.ui.PDEPerspective" id="org.eclipse.pde.ui.PDEPerspective" label="Plug-in Development"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.pde.ui.PluginsView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProductConfigurationWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProfileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.pde.ui.PluginsView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.pde.ui.PluginsView" label="Plug-ins"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@20ad20ad" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/SametimeGoogleVoice/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/activator/SametimeGoogleVoicePlugin.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandlerAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/preferences/SametimeGoogleVoicePreferencesPage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SametimeGoogleVoice/plugin.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/gvoice/GoogleVoiceDaemon.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/alerts/src/com/ibm/collaboration/realtime/sample/alerts/TextConnectionOpenHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeNotifications/src/com/ibm/lnja/sametimenotifications/message/ChatMessageHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/message/ChatMessageHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/SametimeThinklight/plugin.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/SametimeNotifications/plugin.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.siteEditor" path="/SametimeThinklightUpdateSite/site.xml"/>
+</editors>
+<item historyLabel="SametimeGoogleVoicePlugin.java" index="1">
+<position/>
+</item>
+<item historyLabel="SametimeGoogleVoice" index="0"/>
+<item historyLabel="ChatMessageHandlerAdapter.java" index="2">
+<position/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position/>
+</item>
+<item historyLabel="SametimeGoogleVoicePreferencesPage.java" index="4">
+<position/>
+</item>
+<item historyLabel="SametimeGoogleVoice" index="0"/>
+<item historyLabel="SametimeGoogleVoice" index="5">
+<position/>
+</item>
+<item historyLabel="SametimeGoogleVoicePreferencesPage.java" index="4">
+<position info="not_deleted" x="781" y="34"/>
+</item>
+<item historyLabel="plugin.xml" index="5">
+<position info="not_deleted" x="200" y="0"/>
+</item>
+<item historyLabel="SametimeGoogleVoicePreferencesPage.java" index="4">
+<position info="not_deleted" x="918" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position info="not_deleted" x="1771" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="123" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="1767" y="0"/>
+</item>
+<item historyLabel="SametimeGoogleVoice" index="0"/>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="1767" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="1545" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="2519" y="0"/>
+</item>
+<item historyLabel="TextConnectionOpenHandler.java" index="7">
+<position/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position info="not_deleted" x="1771" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3948" y="0"/>
+</item>
+<item historyLabel="TextConnectionOpenHandler.java" index="7">
+<position info="not_deleted" x="4018" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3948" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="8">
+<position info="not_deleted" x="2214" y="114"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3948" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3210" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3117" y="16"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3210" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="2776" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="8">
+<position info="not_deleted" x="1500" y="27"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3447" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3449" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3000" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3014" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="2741" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position info="not_deleted" x="1771" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position info="not_deleted" x="1575" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position info="not_deleted" x="1593" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="2741" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3948" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3933" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3578" y="0"/>
+</item>
+<item historyLabel="TextConnectionOpenHandler.java" index="7">
+<position info="not_deleted" x="4018" y="0"/>
+</item>
+<item historyLabel="TextConnectionOpenHandler.java" index="7">
+<position info="not_deleted" x="3704" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3578" y="0"/>
+</item>
+<item historyLabel="GoogleVoiceDaemon.java" index="6">
+<position info="not_deleted" x="3296" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="3">
+<position info="not_deleted" x="1593" y="0"/>
+</item>
+<item historyLabel="ChatMessageHandler.java" index="9">
+<position/>
+</item>
+<item historyLabel="SametimeThinklight" index="10"/>
+<item historyLabel="SametimeNotifications" index="11"/>
+<item active="true" historyLabel="site.xml" index="12">
+<position/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TextConnectionOpenHandler.java" tooltip="alerts/src/com/ibm/collaboration/realtime/sample/alerts/TextConnectionOpenHandler.java">
+<persistable path="/alerts/src/com/ibm/collaboration/realtime/sample/alerts/TextConnectionOpenHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GoogleVoiceDaemon.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/gvoice/GoogleVoiceDaemon.java">
+<persistable path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/gvoice/GoogleVoiceDaemon.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="plugin.xml" tooltip="SametimeGoogleVoice/plugin.xml">
+<persistable path="/SametimeGoogleVoice/plugin.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeGoogleVoicePreferencesPage.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/preferences/SametimeGoogleVoicePreferencesPage.java">
+<persistable path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/preferences/SametimeGoogleVoicePreferencesPage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandler.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandler.java">
+<persistable path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandlerAdapter.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandlerAdapter.java">
+<persistable path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/message/ChatMessageHandlerAdapter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeGoogleVoicePlugin.java" tooltip="SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/activator/SametimeGoogleVoicePlugin.java">
+<persistable path="/SametimeGoogleVoice/src/com/ibm/lnja/sametimegooglevoice/activator/SametimeGoogleVoicePlugin.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" tooltip="SametimeGoogleVoice/META-INF/MANIFEST.MF">
+<persistable path="/SametimeGoogleVoice/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="SametimeNotifications/plugin.xml">
+<persistable path="/SametimeNotifications/plugin.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatMessageHandler.java" tooltip="SametimeNotifications/src/com/ibm/lnja/sametimenotifications/message/ChatMessageHandler.java">
+<persistable path="/SametimeNotifications/src/com/ibm/lnja/sametimenotifications/message/ChatMessageHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeThinklightPlugin.java" tooltip="SametimeThinklight/src/com/ibm/lnja/sametimethinklight/activator/SametimeThinklightPlugin.java">
+<persistable path="/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/activator/SametimeThinklightPlugin.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="SametimeThinklight/plugin.xml">
+<persistable path="/SametimeThinklight/plugin.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SametimeThinklightPreferencesPage.java" tooltip="SametimeThinklight/src/com/ibm/lnja/sametimethinklight/preferences/SametimeThinklightPreferencesPage.java">
+<persistable path="/SametimeThinklight/src/com/ibm/lnja/sametimethinklight/preferences/SametimeThinklightPreferencesPage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.siteEditor" name="site.xml" tooltip="SametimeThinklightUpdateSite/site.xml">
+<persistable path="/SametimeThinklightUpdateSite/site.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.featureEditor" name="feature.xml" tooltip="SametimeThinklightFeature/feature.xml">
+<persistable path="/SametimeThinklightFeature/feature.xml"/>
+</file>
+</mruList>
+</workbench>

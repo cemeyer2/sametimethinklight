@@ -1,0 +1,235 @@
+package com.ibm.lnja.sametimenotifications.activator;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+import java.util.Properties;
+
+import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.osgi.framework.BundleContext;
+
+/**
+ * The activator class controls the plug-in life cycle
+ * @author Charlie Meyer <cemeyer@us.ibm.com>
+ * @version 2012.10.09
+ */
+public class SametimeNotificationsPlugin extends AbstractUIPlugin {
+
+	// The plug-in ID
+	public static final String PLUGIN_ID = "SametimeNotifications";
+
+	// The shared instance
+	private static SametimeNotificationsPlugin plugin;
+	
+	//name of the file that will store the preference values
+	private static final String PROPERTIES_FILE_NAME = "SametimeNotifications.properties";
+
+	//building blocks
+	private static final String PREFIX = "com.ibm.lnja.SametimeNotifications";
+	
+
+	private static final String NOTIFICATIONS = "notifications";
+	
+	private static final String ENABLED = "enabled";
+	private static final String SPEED = "speed";
+
+	private static final String DEFAULT_NOTIFICATION_SPEED = "2500";
+	private static final String DEFAULT_ENABLED = "1";
+
+	
+	//public constants
+	
+	public static final String GLOBAL_ENABLED = PREFIX + "." + ENABLED;
+	public static final String NOTIFICATIONS_ENABLED = PREFIX + "." + NOTIFICATIONS + "." + ENABLED;
+	public static final String NOTIFICATIONS_SPEED = PREFIX + "." + NOTIFICATIONS + "." + SPEED;
+	
+	
+	
+	public static final boolean DEBUG = true;
+	
+	public static final String PREFERENCES_PAGE_ID = "com.ibm.lnja.sametimenotifications.preferences.page1";
+	
+	public static int OS;
+	
+	
+	//the object that holds the preferences
+	private Properties properties;
+	
+	//logging
+	private File logFile;
+	private PrintWriter logWriter;
+	
+	/**
+	 * The constructor
+	 */
+	public SametimeNotificationsPlugin() {
+//		debug("Activator instantiated");
+	}
+	
+	private void initDebug(){
+		if(DEBUG){
+			try{
+				//String path = getStateLocation()+File.separator+"SametimeThinklightLog.txt";
+				String path = "";
+				if(OS == OperatingSystem.WINDOWS){
+					path = "c:\\SametimeNotificationsLog.txt";
+				} else {
+					path = System.getProperty("user.home")+File.separator+"SametimeNotificationsLog.txt";
+				}
+				System.out.println("Debugging file path: "+path);
+				logFile = new File(path);
+				logWriter = new PrintWriter(new FileWriter(logFile,true));
+				debug("Starting new debugging session");
+			} catch(IOException ioe){
+				ioe.printStackTrace();
+			}
+		}
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see org.eclipse.core.runtime.Plugins#start(org.osgi.framework.BundleContext)
+	 */
+	public void start(BundleContext context) throws Exception {
+		super.start(context);
+		String os = System.getProperty("os.name").toLowerCase();
+		if(os.contains("win")){
+			OS = OperatingSystem.WINDOWS;
+		} else if(os.contains("linux") || os.contains("unix")){
+			OS = OperatingSystem.LINUX;
+		} else {
+			OS = OperatingSystem.UNSUPPORTED;
+		}
+		initDebug();
+		plugin = this;
+		loadProperties();
+		debug("OS String: "+os);
+		debug("Detected OS: "+OS);	
+		debug("Activator started");
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see org.eclipse.core.runtime.Plugin#stop(org.osgi.framework.BundleContext)
+	 */
+	public void stop(BundleContext context) throws Exception {
+		debug("stopping");
+		plugin = null;
+		writeProperties();
+		properties = null;
+		super.stop(context);
+		debug("stopped");
+	}
+
+	/**
+	 * Returns the shared instance
+	 *
+	 * @return the shared instance
+	 */
+	public static SametimeNotificationsPlugin getDefault() {
+		return plugin;
+	}
+	
+	public int get(String key){
+		int val = Integer.parseInt(properties.getProperty(key, "-1"));
+		if(val >= 0) {
+			return val;
+		} else {
+			if(key.contains(SPEED)){
+				if(key.contains(NOTIFICATIONS)){
+					set(key, Integer.parseInt(DEFAULT_NOTIFICATION_SPEED));
+				} 
+				return get(key);
+			}else if(key.contains(ENABLED)){
+				set(key, Integer.parseInt(DEFAULT_ENABLED));
+				return get(key);
+			}
+			return get(key);
+		}
+	}
+	
+	public void set(String key, int value){
+		properties.setProperty(key, String.valueOf(value));
+	}
+	
+	private void loadProperties(){
+		properties = new Properties();
+		try {
+			File f = new File(getFilePath());
+			if(!f.exists()){
+				f.createNewFile();
+			}
+			FileReader in = new FileReader(f);
+			properties.load(in);
+			in.close();
+		}
+		catch(IOException e){
+			if(DEBUG){
+				e.printStackTrace();
+				debug(e);
+			}
+		}
+	}
+	
+	public void writeProperties(){
+		debug("writing to file: "+getFilePath());
+		try {
+			File f = new File(getFilePath());
+			if(!f.exists()){
+				f.createNewFile();
+			}
+			FileWriter out = new FileWriter(f);
+			properties.store(out, "");
+			out.close();
+			debug("wrote to file");
+		}
+		catch(IOException e){
+			debug("exception writing to file");
+			if(DEBUG){
+				e.printStackTrace();
+			}
+		} catch(NullPointerException e){
+			debug("exception writing to file");
+			if(DEBUG){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	private String getFilePath() {
+	 	return getStateLocation() + File.separator + PROPERTIES_FILE_NAME;
+	}
+	
+	public void debug(String message){
+		if(DEBUG){
+			try{
+				System.out.println("SametimeNotifications DEBUG: "+ message);
+				logWriter.println(new Date()+" DEBUG: "+ message);
+				logWriter.flush();
+			} catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void debug(Throwable t){
+		if(DEBUG){
+			try{
+				logWriter.println(new Date()+" Exception: "+t.getMessage());
+				t.printStackTrace(logWriter);
+				logWriter.flush();
+			} catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public class OperatingSystem {
+		public static final int LINUX = 1;
+		public static final int WINDOWS = 2;
+		public static final int UNSUPPORTED = 3;
+	}
+}

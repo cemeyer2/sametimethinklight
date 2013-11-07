@@ -1,0 +1,4 @@
+#Thu Sep 06 11:21:33 CDT 2012
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8"?><runtimes>\n  <runtime id\="Extension-Services-runtime-com.ibm.collaboration.realtime.toolkit.targets.st85" id-set\="true" name\="Client Services v6.2 (com.ibm.collaboration.realtime.toolkit.targets.st85)" runtime-type-id\="com.ibm.pvc.tools.j2ee.server.wctme.runtime.62" target-id\="com.ibm.collaboration.realtime.toolkit.targets.st85" timestamp\="0"/>\n</runtimes>
+eclipse.preferences.version=1

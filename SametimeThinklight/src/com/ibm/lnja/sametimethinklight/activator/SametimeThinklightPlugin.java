@@ -1,0 +1,275 @@
+package com.ibm.lnja.sametimethinklight.activator;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+import java.util.Properties;
+
+import org.eclipse.core.runtime.Plugin;
+import org.osgi.framework.BundleContext;
+
+/**
+ * The activator class controls the plug-in life cycle
+ * @author Charlie Meyer <cemeyer@us.ibm.com>
+ * @version 2012.08.29
+ */
+public class SametimeThinklightPlugin extends Plugin {
+
+	// The plug-in ID
+	public static final String PLUGIN_ID = "SametimeThinklight";
+
+	// The shared instance
+	private static SametimeThinklightPlugin plugin;
+	
+	//name of the file that will store the preference values
+	private static final String PROPERTIES_FILE_NAME = "SametimeThinklight.properties";
+
+	//building blocks
+	private static final String PREFIX = "com.ibm.lnja.sametimethinklight";
+	
+	private static final String IM_TEXT = "imtext";
+	private static final String FILE = "file";
+	private static final String MANY_TEXT = "manytext";
+	private static final String NOTIFICATIONS = "notifications";
+	private static final String KEYWORDS = "keywords";
+	
+	private static final String ENABLED = "enabled";
+	private static final String COUNT = "count";
+	private static final String SPEED = "speed";
+
+	private static final String DEFAULT_COUNT = "2";
+	private static final String DEFAULT_SPEED = "3";
+	private static final String DEFAULT_ENABLED = "1";
+	private static final String DEFAULT_DISABLED = "0";
+	private static final String DEFAULT_NOTIFICATION_SPEED = "2500";
+	
+	//public constants
+	
+	public static final String GLOBAL_ENABLED = PREFIX + "." + ENABLED;
+	public static final String IM_TEXT_ENABLED = PREFIX + "." + IM_TEXT + "." + ENABLED;
+	public static final String FILE_ENABLED = PREFIX + "." + FILE + "." + ENABLED;
+	public static final String MANY_TEXT_ENABLED = PREFIX + "." + MANY_TEXT + "." + ENABLED;
+	public static final String NOTIFICATIONS_ENABLED = PREFIX + "." + NOTIFICATIONS + "." + ENABLED;
+	public static final String KEYWORDS_ENABLED = PREFIX + "." + KEYWORDS + "." + ENABLED;
+	
+	public static final String IM_TEXT_COUNT = PREFIX + "." + IM_TEXT + "." + COUNT;
+	public static final String MANY_TEXT_COUNT = PREFIX + "." + MANY_TEXT + "." + COUNT;
+	public static final String FILE_COUNT = PREFIX + "." + FILE + "." + COUNT;
+	
+	public static final String IM_TEXT_SPEED = PREFIX + "." + IM_TEXT + "." + SPEED;
+	public static final String MANY_TEXT_SPEED = PREFIX + "." + MANY_TEXT + "." + SPEED;
+	public static final String FILE_SPEED = PREFIX + "." + FILE + "." + SPEED;
+	public static final String NOTIFICATIONS_SPEED = PREFIX + "." + NOTIFICATIONS + "." + SPEED;
+	
+	public static final String KEYWORDS_KEYWORDS = PREFIX + "." + KEYWORDS + "." + KEYWORDS;
+	
+	
+	public static final String KEYWORDS_DELIMITER = ";;;;;;";
+	public static final boolean DEBUG = true;
+	
+	public static final String PREFERENCES_PAGE_ID = "com.ibm.lnja.sametimethinklight.preferences.page1";
+	
+	public static int OS;
+	
+	
+	//the object that holds the preferences
+	private Properties properties;
+	
+	//logging
+	private File logFile;
+	private PrintWriter logWriter;
+	
+	/**
+	 * The constructor
+	 */
+	public SametimeThinklightPlugin() {
+//		debug("Activator instantiated");
+	}
+	
+	private void initDebug(){
+		if(DEBUG){
+			try{
+				//String path = getStateLocation()+File.separator+"SametimeThinklightLog.txt";
+				String path = "";
+				if(OS == OperatingSystem.WINDOWS){
+					path = "c:\\SametimeThinklightLog.txt";
+				} else {
+					path = System.getProperty("user.home")+File.separator+"SametimeThinklightLog.txt";
+				}
+				System.out.println("Debugging file path: "+path);
+				logFile = new File(path);
+				if(logFile.exists()){
+					if(logFile.length() > 1024*1024*10){ //10mb
+						logFile.delete();
+						logFile.createNewFile();
+					}
+				}
+				logWriter = new PrintWriter(new FileWriter(logFile,true));
+				debug("Starting new debugging session");
+			} catch(IOException ioe){
+				ioe.printStackTrace();
+			}
+		}
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see org.eclipse.core.runtime.Plugins#start(org.osgi.framework.BundleContext)
+	 */
+	public void start(BundleContext context) throws Exception {
+		super.start(context);
+		String os = System.getProperty("os.name").toLowerCase();
+		if(os.contains("win")){
+			OS = OperatingSystem.WINDOWS;
+		} else if(os.contains("linux") || os.contains("unix")){
+			OS = OperatingSystem.LINUX;
+		} else {
+			OS = OperatingSystem.UNSUPPORTED;
+		}
+		initDebug();
+		plugin = this;
+		loadProperties();
+		debug("OS String: "+os);
+		SametimeThinklightPlugin.getDefault().debug("Detected OS: "+OS);	
+		debug("Activator started");
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see org.eclipse.core.runtime.Plugin#stop(org.osgi.framework.BundleContext)
+	 */
+	public void stop(BundleContext context) throws Exception {
+		debug("stopping");
+		plugin = null;
+		writeProperties();
+		properties = null;
+		super.stop(context);
+		debug("stopped");
+	}
+
+	/**
+	 * Returns the shared instance
+	 *
+	 * @return the shared instance
+	 */
+	public static SametimeThinklightPlugin getDefault() {
+		return plugin;
+	}
+	
+	public int get(String key){
+		int val = Integer.parseInt(properties.getProperty(key, "-1"));
+		if(val >= 0) {
+			return val;
+		} else {
+			if(key.contains(COUNT)){
+				set(key, Integer.parseInt(DEFAULT_COUNT));
+				return get(key);
+			} else if(key.contains(ENABLED)){
+				set(key, Integer.parseInt(DEFAULT_ENABLED));
+				if(key.contains(KEYWORDS)){
+					set(key, Integer.parseInt(DEFAULT_DISABLED));
+				}
+				return get(key);
+			} else {
+				set(key, Integer.parseInt(DEFAULT_SPEED));
+				if(key.contains(NOTIFICATIONS)){
+					set(key, Integer.parseInt(DEFAULT_NOTIFICATION_SPEED));
+				}
+				return get(key);
+			}
+		}
+	}
+	
+	public String getRaw(String key){
+		return properties.getProperty(key, "");
+	}
+	
+	public void set(String key, int value){
+		set(key, String.valueOf(value));
+	}
+	
+	public void set(String key, String value){
+		properties.setProperty(key, value);
+	}
+	
+	private void loadProperties(){
+		properties = new Properties();
+		try {
+			File f = new File(getFilePath());
+			if(!f.exists()){
+				f.createNewFile();
+			}
+			FileReader in = new FileReader(f);
+			properties.load(in);
+			in.close();
+		}
+		catch(IOException e){
+			if(DEBUG){
+				e.printStackTrace();
+				debug(e);
+			}
+		}
+	}
+	
+	public void writeProperties(){
+		debug("writing to file: "+getFilePath());
+		try {
+			File f = new File(getFilePath());
+			if(!f.exists()){
+				f.createNewFile();
+			}
+			FileWriter out = new FileWriter(f);
+			properties.store(out, "");
+			out.close();
+			debug("wrote to file");
+		}
+		catch(IOException e){
+			debug("exception writing to file");
+			if(DEBUG){
+				e.printStackTrace();
+			}
+		} catch(NullPointerException e){
+			debug("exception writing to file");
+			if(DEBUG){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	private String getFilePath() {
+	 	return getStateLocation() + File.separator + PROPERTIES_FILE_NAME;
+	}
+	
+	public void debug(String message){
+		if(DEBUG){
+			try{
+				System.out.println("SametimeThinklight DEBUG: "+ message);
+				logWriter.println(new Date()+" DEBUG: "+ message);
+				logWriter.flush();
+			} catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void debug(Throwable t){
+		if(DEBUG){
+			try{
+				logWriter.println(new Date()+" Exception: "+t.getMessage());
+				t.printStackTrace(logWriter);
+				logWriter.flush();
+			} catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public class OperatingSystem {
+		public static final int LINUX = 1;
+		public static final int WINDOWS = 2;
+		public static final int UNSUPPORTED = 3;
+	}
+}

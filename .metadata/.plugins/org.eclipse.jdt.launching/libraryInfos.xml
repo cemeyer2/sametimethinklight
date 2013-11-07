@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="/usr/lib/j2re1.6-ibm" version="1.6.0">
+<bootpath>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/vm.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/annotation.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/beans.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/java.util.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/jndi.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/logging.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/security.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/sql.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmorb.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmorbapi.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmcfw.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/rt.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/charsets.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/resources.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmpkcs.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmcertpathfw.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmjgssfw.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmjssefw.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmsaslfw.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmjcefw.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmjgssprovider.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmjsseprovider2.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmcertpathprovider.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ibmxmlcrypto.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/management-agent.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/xml.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/jlm.jar"/>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/j2re1.6-ibm/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/opt/ibm/lotus/notes/jvm" version="1.6.0">
+<bootpath>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/vm.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/annotation.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/beans.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/java.util.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/jndi.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/logging.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/security.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/sql.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmorb.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmorbapi.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmcfw.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/rt.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/charsets.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/resources.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmpkcs.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmcertpathfw.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmjgssfw.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmjssefw.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmsaslfw.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmjcefw.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmjgssprovider.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmjsseprovider2.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmcertpathprovider.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ibmxmlcrypto.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/management-agent.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/xml.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/jlm.jar"/>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/opt/ibm/lotus/notes/jvm/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

@@ -1,0 +1,5 @@
+package com.ibm.lnja.sametimegooglevoice.gvoice;
+
+public class GoogleVoiceDaemon {
+
+}

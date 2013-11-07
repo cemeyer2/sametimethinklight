@@ -1,0 +1,83 @@
+package com.ibm.lnja.sametimenotifications.message;
+
+import net.sf.jcarrierpigeon.Notification;
+import net.sf.jcarrierpigeon.NotificationQueue;
+import net.sf.jcarrierpigeon.WindowPosition;
+
+import com.ibm.collaboration.realtime.messages.DefaultMessageHandler;
+import com.ibm.collaboration.realtime.messages.FileReceivedMessage;
+import com.ibm.collaboration.realtime.messages.Message;
+import com.ibm.collaboration.realtime.messages.im.ImTextReceivedMessage;
+import com.ibm.collaboration.realtime.messages.im.ManyToManyTextReceivedMessage;
+import com.ibm.lnja.sametimenotifications.activator.SametimeNotificationsPlugin;
+import com.ibm.lnja.sametimenotifications.message.notification.SametimeNotificationFrame;
+
+/**
+ * Handler that actually does the notifications
+ * @author Charlie Meyer <cemeyer@us.ibm.com>
+ * @version 2012.10.09
+ */
+public class ChatMessageHandler extends DefaultMessageHandler {
+
+	private static NotificationQueue queue;
+	
+	public ChatMessageHandler(){
+		SametimeNotificationsPlugin.getDefault().debug("Handler Created");
+		
+	}
+	
+
+	private static synchronized void notify(final String from, final String text, final boolean isFile){
+		SametimeNotificationsPlugin.getDefault().debug(text);
+		if(queue == null){
+			SametimeNotificationsPlugin.getDefault().debug("initializing message queue");
+			queue = new NotificationQueue();
+		}
+		Thread th = new Thread(new Runnable(){
+			public void run(){
+				if(SametimeNotificationsPlugin.getDefault().get(SametimeNotificationsPlugin.NOTIFICATIONS_ENABLED) > 0){
+					SametimeNotificationsPlugin.getDefault().debug("initializing message");
+					String fileReceived = "File received from";
+					String messageReceived = "New message from";
+					String title = "<html><b>"+((isFile)?fileReceived:messageReceived)+" "+from+"</b></html>";
+					SametimeNotificationFrame frame = new SametimeNotificationFrame(title, "<html>"+text+"</html>");
+					frame.pack();
+					Notification note = new Notification(frame, WindowPosition.BOTTOMRIGHT, 25, 25, SametimeNotificationsPlugin.getDefault().get(SametimeNotificationsPlugin.NOTIFICATIONS_SPEED));
+					SametimeNotificationsPlugin.getDefault().debug("adding message to queue");
+					queue.add(note);
+				}
+			}
+		});
+		th.start();
+
+	}
+	
+	
+
+	public void handleMessage(FileReceivedMessage arg0) {
+		SametimeNotificationsPlugin.getDefault().debug("FileReceivedMessage");
+		notify(arg0.getPartnerAlias(), "File "+arg0.getFileName()+" has been received", true);
+		super.handleMessage(arg0);
+	}
+
+	public void handleMessage(ImTextReceivedMessage arg0) {
+		SametimeNotificationsPlugin.getDefault().debug("ImTextReceivedMessage");
+		notify(arg0.getPartnerDisplayName(), arg0.getText(), false);
+		super.handleMessage(arg0);
+	}
+
+	public void handleMessage(ManyToManyTextReceivedMessage arg0) {
+		SametimeNotificationsPlugin.getDefault().debug("ManyToManyTextReceivedMessage");
+		notify(arg0.getPartnerDisplayName(), arg0.getText(), false);
+		super.handleMessage(arg0);
+	}
+
+	@Override
+	public void handleDefaultMessage(Message arg0) {
+		//dont do anything special
+	}
+
+	public static void testNotification(){
+		notify("test", "Hello, World!", false);
+	}
+}

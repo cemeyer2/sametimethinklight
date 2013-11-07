@@ -1,0 +1,12 @@
+import javax.management.Notification;
+
+
+public class Driver {
+	public static void main(String[] args){
+		NotificationQueue queue = new NotificationQueue();
+		SametimeNotificationFrame frame = new SametimeNotificationFrame("<html><b>New message from<br>Charlie Meyer</b></html>", "<html>Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World!</html>");
+		frame.pack();
+		Notification note = new Notification(frame, WindowPosition.BOTTOMRIGHT, 25, 25, 2500);
+		queue.add(note);
+	}
+}

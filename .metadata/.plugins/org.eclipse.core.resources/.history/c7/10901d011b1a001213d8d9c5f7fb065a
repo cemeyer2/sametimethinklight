@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SametimeNotificationsFeatureLinux_1.1.5.201210191328.jar" id="SametimeNotificationsFeatureLinux" version="1.1.5.201210191328" os="linux">
+      <category name="ThinkLight"/>
+   </feature>
+   <feature url="features/SametimeNotificationsFeatureWindows_1.1.5.qualifier.jar" id="SametimeNotificationsFeatureWindows" version="1.1.5.qualifier" os="win32">
+      <category name="ThinkLight"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeatureLinux_1.2.3.201210191328.jar" id="SametimeThinklightFeatureLinux" version="1.2.3.201210191328" os="linux">
+      <category name="ThinkLight"/>
+   </feature>
+   <feature url="features/SametimeThinklightFeatureWindows_1.2.3.qualifier.jar" id="SametimeThinklightFeatureWindows" version="1.2.3.qualifier" os="win32">
+      <category name="ThinkLight"/>
+   </feature>
+   <category-def name="ThinkLight" label="ThinkLight"/>
+</site>

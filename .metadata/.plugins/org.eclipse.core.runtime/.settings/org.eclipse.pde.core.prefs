@@ -1,0 +1,13 @@
+#Wed Dec 12 23:12:05 CST 2012
+target_mode=useOther
+xpdt_target_path=/opt/ibm/lotus/Sametime/rcp/eclipse
+group_plugins=true
+workspace_target_handle=local\:1349284130459.target
+last_location=/home/chuck/opt/eclipse-ganymede-delta/eclipse
+environment_configuration_name=Lotus Sametime 8.5
+saved_platform2=/home/cemeyer/opt/eclipse/eclipse-ganymede
+saved_platform1=/opt/ibm/lotus/notes/framework/rcp/eclipse
+platform_path=/opt/ibm/lotus/Sametime/rcp/eclipse
+saved_platform0=/opt/ibm/lotus/Sametime/rcp/eclipse
+eclipse.preferences.version=1
+additional_locations=/home/chuck/opt/eclipse-ganymede-delta/eclipse

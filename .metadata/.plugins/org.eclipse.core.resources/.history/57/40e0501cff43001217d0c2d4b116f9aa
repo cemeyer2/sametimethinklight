@@ -1,0 +1,111 @@
+package com.ibm.lnja.sametimegooglevoice.gvoice;
+
+import java.io.IOException;
+import java.util.Collection;
+
+import com.ibm.collaboration.realtime.chatwindow.ChatControllerService;
+import com.ibm.collaboration.realtime.chatwindow.ChatWindowHandler;
+import com.ibm.collaboration.realtime.im.community.Community;
+import com.ibm.collaboration.realtime.im.community.CommunityService;
+import com.ibm.collaboration.realtime.messages.im.ImTextSendMessage;
+import com.ibm.collaboration.realtime.people.PeopleUtil;
+import com.ibm.collaboration.realtime.servicehub.ServiceException;
+import com.ibm.collaboration.realtime.servicehub.ServiceHub;
+import com.ibm.lnja.sametimegooglevoice.activator.SametimeGoogleVoicePlugin;
+import com.techventus.server.voice.Voice;
+import com.techventus.server.voice.datatypes.Contact;
+import com.techventus.server.voice.datatypes.records.SMS;
+import com.techventus.server.voice.datatypes.records.SMSThread;
+import com.techventus.server.voice.util.SMSParser;
+
+public class GoogleVoiceDaemon implements Runnable{
+	
+	private static GoogleVoiceDaemon instance;
+	private static Thread runningInstance;
+	
+	String username, password;
+	
+	private GoogleVoiceDaemon(String username, String password){
+		this.username= username;
+		this.password = password;
+	}
+	
+	public void run(){
+		SametimeGoogleVoicePlugin.getDefault().debug("Daemon Running");
+		try {
+			Thread.sleep(20*1000);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		SametimeGoogleVoicePlugin.getDefault().debug("Daemon done initial sleep");
+		while(true){
+			try{
+				daemonCron();
+			} catch (Throwable t){
+				SametimeGoogleVoicePlugin.getDefault().debug(t);
+			}
+			try {
+				Thread.sleep(60*1000);
+			} catch (InterruptedException e) {
+				SametimeGoogleVoicePlugin.getDefault().debug(e);
+			}
+		}
+	}
+	
+	private void daemonCron() throws IOException, ServiceException{
+		Voice voice = new Voice(this.username, this.password);
+		String unreadSMS = voice.getUnreadSMS();
+        String myNumber = voice.getPhoneNumber();
+        SMSParser parser = new SMSParser(unreadSMS, myNumber);
+        Collection<SMSThread> threads = parser.getSMSThreads();
+        for(SMSThread thread : threads){
+                if(thread.getRead() == false){
+                        Collection<SMS> messages = thread.getAllSMS();
+                        for(SMS sms : messages){
+                                String text = sms.getContent();
+                                Contact from = sms.getFrom();
+                                if(from.getNumber().equals(myNumber)){
+                                        continue;
+                                }
+                                String fromName = from.getName();
+                                postST(1,fromName,from.getNumber(),text);
+                                break;
+                        }
+                }
+        }
+	}
+	
+	private void postST(int contactId, String fromName, String fromNumber, String text) throws ServiceException{
+		
+		String messageText = contactId+": SMS from "+fromName+" ("+fromNumber+"): "+text;
+		SametimeGoogleVoicePlugin.getDefault().debug("posting: "+messageText);
+		
+		CommunityService communityService = (CommunityService) ServiceHub.getService(CommunityService.SERVICE_TYPE);
+		Community defaultCommunity = communityService.getDefaultCommunity();
+		ImTextSendMessage msg = new ImTextSendMessage();
+		msg.setCommunityId(defaultCommunity.getId());
+		msg.setConversationId(null);
+		msg.setPartnerContactId(PeopleUtil.getLocalPerson().getContactId());
+//		msg.setText(messageText);
+//		msg.post();
+		msg.post(true);
+		ChatControllerService chatControllerService = (ChatControllerService) ServiceHub.getService(ChatControllerService.SERVICE_TYPE);
+		ChatWindowHandler handler = chatControllerService.getChatWindowHandler(msg.getConversationId());
+		handler.sendText(messageText, messageText);
+	}
+	
+	
+	public static GoogleVoiceDaemon getDaemon(String username, String password){
+		if(instance == null){
+			instance = new GoogleVoiceDaemon(username, password);
+			runningInstance = new Thread(instance);
+			runningInstance.start();
+		}
+		return instance;
+	}
+	
+	public static Thread getThread(){
+		return runningInstance;
+	}
+}
